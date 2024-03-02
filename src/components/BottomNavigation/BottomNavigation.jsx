@@ -21,7 +21,7 @@ export const BottomNavigation = ({
   to,
 }) => {
   return (
-    <Link className={`bottom-navigation label-${label} state-0-${state} active-${active} ${className}`} to={to}>
+    <Link className={`bottom-navigation label-${label} state-${state} active-${active} ${className}`} to={to}>
       {!label && <>{override}</>}
 
       {label && (

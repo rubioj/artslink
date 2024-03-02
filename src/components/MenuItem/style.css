@@ -27,11 +27,11 @@
   width: fit-content;
 }
 
-.menu-item.state-0-selected {
+.menu-item.state-selected {
   background-color: var(--palette-primary-states-hover);
 }
 
-.menu-item.state-0-hovered {
+.menu-item.state-hovered {
   background-color: var(--palette-action-hover-duplicate);
 }
 

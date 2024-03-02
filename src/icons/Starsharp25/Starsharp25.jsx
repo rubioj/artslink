@@ -6,10 +6,10 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 
-export const Starsharp30 = ({ color = "#D32F2F", opacity = "unset", className }) => {
+export const Starsharp25 = ({ color = "#D32F2F", opacity = "unset", className }) => {
   return (
     <svg
-      className={`starsharp-30 ${className}`}
+      className={`starsharp-25 ${className}`}
       fill="none"
       height="35"
       viewBox="0 0 35 35"
@@ -26,7 +26,7 @@ export const Starsharp30 = ({ color = "#D32F2F", opacity = "unset", className })
   );
 };
 
-Starsharp30.propTypes = {
+Starsharp25.propTypes = {
   color: PropTypes.string,
   opacity: PropTypes.string,
 };

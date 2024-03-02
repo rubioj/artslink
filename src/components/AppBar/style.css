@@ -23,7 +23,7 @@
   width: 100% !important;
 }
 
-.app-bar .instance-node {
+.app-bar .icon-button-instance {
   flex: 0 0 auto !important;
 }
 
@@ -33,22 +33,22 @@
   width: 24px !important;
 }
 
-.app-bar .secondary {
+.app-bar .color-25-secondary {
   background-color: var(--palette-secondary-main);
 }
 
-.app-bar .primary {
+.app-bar .color-25-primary {
   background-color: var(--palette-primary-main);
 }
 
-.app-bar .inherit-white {
+.app-bar .color-25-inherit-white {
   background-color: var(--palette-background-paper-elevation-4);
 }
 
-.app-bar .transparent {
+.app-bar .color-25-transparent {
   background-color: #ffffff00;
 }
 
-.app-bar .default {
+.app-bar .color-25-default {
   background-color: var(--palette-components-appbar-defaultfill);
 }

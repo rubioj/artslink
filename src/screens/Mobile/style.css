@@ -11,7 +11,7 @@
   height: 4039px;
   overflow: hidden;
   position: relative;
-  width: 430px;
+  width: 420px;
 }
 
 .mobile .overlap-6 {
@@ -19,7 +19,7 @@
   left: 0;
   position: absolute;
   top: 3230px;
-  width: 430px;
+  width: 420px;
 }
 
 .mobile .custom-forms-email-password-instance {
@@ -41,18 +41,24 @@
   object-fit: cover;
   position: absolute;
   top: 202px;
-  width: 430px;
+  width: 420px;
 }
 
-.mobile .main-tagline-wrapper {
-  background-image: url(../../../static/img/brush-brown-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 359px;
+.mobile .overlap-7 {
+  height: 437px;
   left: 0;
   position: absolute;
-  top: 444px;
-  width: 430px;
+  top: 366px;
+  width: 420px;
+}
+
+.mobile .brush-brown-2 {
+  height: 359px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 78px;
+  width: 420px;
 }
 
 .mobile .main-tagline {
@@ -61,16 +67,16 @@
   font-size: 60px;
   font-weight: 400;
   height: 280px;
-  left: 19px;
+  left: 18px;
   letter-spacing: -0.5px;
   line-height: 72px;
   position: absolute;
   text-align: center;
-  top: 13px;
+  top: 0;
   width: 391px;
 }
 
-.mobile .overlap-group-5 {
+.mobile .overlap-group-4 {
   height: 969px;
   left: 0;
   position: absolute;
@@ -84,7 +90,7 @@
   object-fit: cover;
   position: absolute;
   top: 408px;
-  width: 430px;
+  width: 420px;
 }
 
 .mobile .here-every-piece {
@@ -103,10 +109,10 @@
 .mobile .logo-instagram {
   background-image: url(../../../static/img/logo-instagram-2.svg) !important;
   height: 22px !important;
-  left: 332px !important;
+  left: 324px !important;
   position: absolute !important;
   top: 593px !important;
-  width: 23px !important;
+  width: 22px !important;
 }
 
 .mobile .text-wrapper-7 {
@@ -166,7 +172,7 @@
   width: 376px;
 }
 
-.mobile .overlap-7 {
+.mobile .overlap-8 {
   height: 31px;
   left: 10px;
   position: absolute;
@@ -177,10 +183,10 @@
 .mobile .logo-instagram-instance {
   background-image: url(../../../static/img/logo-instagram-2.svg) !important;
   height: 22px !important;
-  left: 322px !important;
+  left: 314px !important;
   position: absolute !important;
   top: 1px !important;
-  width: 23px !important;
+  width: 22px !important;
 }
 
 .mobile .text-wrapper-10 {
@@ -196,12 +202,12 @@
   width: 425px;
 }
 
-.mobile .logo-instance {
-  height: 318px !important;
-  left: 76px !important;
+.mobile .logo {
+  height: 236px !important;
+  left: 116px !important;
   position: absolute !important;
-  top: 117px !important;
-  width: 262px !important;
+  top: 113px !important;
+  width: 194px !important;
 }
 
 .mobile .app-bar-4 {
@@ -217,14 +223,11 @@
   margin-bottom: -2px !important;
 }
 
-.mobile .instance-3 {
-  flex: 0 0 auto !important;
-}
-
-.mobile .starsharp-126 {
-  height: 24px !important;
-  position: relative !important;
-  width: 24px !important;
+.mobile .app-bar-6 {
+  color: var(--palette-primary-contrast) !important;
+  text-align: center !important;
+  white-space: unset !important;
+  width: 179px !important;
 }
 
 .mobile .menufilled-2 {
@@ -233,24 +236,16 @@
   width: 35px !important;
 }
 
-.mobile .app-bar-6 {
-  color: var(--palette-primary-contrast) !important;
-  text-align: center !important;
-  white-space: unset !important;
-  width: 179px !important;
-}
-
 .mobile .nav-bar-fixed {
   align-items: center;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 10px;
   left: 0;
   padding: 10px;
   position: fixed;
-  bottom: 0; /* Position it at the bottom of the viewport */
-  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
+  top: 799px;
+  width: 430px;
 }
 
 .mobile .bottom-navigation-3 {
@@ -262,7 +257,7 @@
   width: 430px !important;
 }
 
-.mobile .icon-instance-node-4 {
+.mobile .icon-instance-node-3 {
   height: 24px !important;
   object-fit: cover !important;
   position: relative !important;

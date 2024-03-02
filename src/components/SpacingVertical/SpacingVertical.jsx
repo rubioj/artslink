@@ -9,8 +9,8 @@ import "./style.css";
 
 export const SpacingVertical = ({ spacing, visibility, className }) => {
   return (
-    <div className={`spacing-vertical visibility-${visibility} spacing-${spacing} ${className}`}>
-      <div className="min-height-4" />
+    <div className={`spacing-vertical visibility-${visibility} ${spacing} ${className}`}>
+      <div className="min-height-3" />
     </div>
   );
 };

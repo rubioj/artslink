@@ -32,58 +32,58 @@
   width: 20px !important;
 }
 
-.checkbox .state-focused.color-21-success {
+.checkbox .focused.color-19-success {
   background-color: var(--palette-success-focusvisible);
 }
 
-.checkbox .color-21-primary.state-hovered {
+.checkbox .color-19-primary.hovered {
   background-color: var(--palette-primary-hover);
 }
 
-.checkbox .state-focused.color-21-secondary {
+.checkbox .focused.color-19-secondary {
   background-color: var(--palette-secondary-focusvisible);
 }
 
-.checkbox .state-focused.color-21-info {
+.checkbox .focused.color-19-info {
   background-color: var(--palette-info-focusvisible);
 }
 
-.checkbox .color-21-error.state-focused {
+.checkbox .color-19-error.focused {
   background-color: var(--palette-error-focusvisible);
 }
 
-.checkbox .state-hovered.color-21-info {
+.checkbox .hovered.color-19-info {
   background-color: var(--palette-info-hover);
 }
 
-.checkbox .state-hovered.color-21-default {
+.checkbox .hovered.color-19-default {
   background-color: var(--palette-action-hover);
 }
 
-.checkbox .color-21-error.state-hovered {
+.checkbox .color-19-error.hovered {
   background-color: var(--palette-error-hover);
 }
 
-.checkbox .state-focused.color-21-warning {
+.checkbox .focused.color-19-warning {
   background-color: var(--palette-warning-focusvisible);
 }
 
-.checkbox .state-focused.color-21-default {
+.checkbox .focused.color-19-default {
   background-color: var(--palette-text-focus);
 }
 
-.checkbox .color-21-success.state-hovered {
+.checkbox .color-19-success.hovered {
   background-color: var(--palette-success-hover);
 }
 
-.checkbox .state-focused.color-21-primary {
+.checkbox .focused.color-19-primary {
   background-color: var(--palette-primary-focusvisible);
 }
 
-.checkbox .color-21-secondary.state-hovered {
+.checkbox .color-19-secondary.hovered {
   background-color: var(--palette-secondary-hover);
 }
 
-.checkbox .state-hovered.color-21-warning {
+.checkbox .hovered.color-19-warning {
   background-color: var(--palette-warning-hover);
 }

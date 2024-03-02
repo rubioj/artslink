@@ -8,7 +8,7 @@ import React from "react";
 import "./style.css";
 
 export const SliderTrack = ({ size, color, disabled, orientation, className }) => {
-  return <div className={`slider-track color-1-${color} orientation-${orientation} size-1-${size} ${className}`} />;
+  return <div className={`slider-track color-${color} orientation-${orientation} size-${size} ${className}`} />;
 };
 
 SliderTrack.propTypes = {

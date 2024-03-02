@@ -6,7 +6,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import { Menufilled9 } from "../../icons/Menufilled9";
-import { Starsharp30 } from "../../icons/Starsharp30";
+import { Starsharp25 } from "../../icons/Starsharp25";
 import { IconButton } from "../IconButton";
 import { Toolbar } from "../Toolbar";
 import "./style.css";
@@ -15,26 +15,28 @@ export const AppBar = ({
   color,
   className,
   paperClassName,
-  toolbarStack,
-  toolbarSmallScreen = false,
-  toolbarTypographyVariant = "body-1",
-  toolbarIconButtonIconSize = "medium",
-  toolbarIconButtonIconIcon = <Menufilled9 className="menu-filled" color="white" />,
-  toolbarTypographyContent = "Website",
   toolbarTypographyBodyClassName,
+  toolbarHasMinHeight,
+  toolbarTypographyContent = "Website",
+  toolbarSmallScreen = false,
+  toolbarIconButtonIconIcon = <Menufilled9 className="menu-filled" color="white" />,
+  toolbarIconButtonIconSize = "medium",
+  toolbarTypographyVariant = "body-1",
   to,
 }) => {
   return (
     <div className={`app-bar ${className}`}>
-      <div className={`paper ${color} ${paperClassName}`}>
+      <div className={`paper color-25-${color} ${paperClassName}`}>
         <Toolbar
           className="toolbar-instance"
+          hasMinHeight={toolbarHasMinHeight}
           iconButtonColor={["default", "inherit-white", "transparent"].includes(color) ? "inherit" : undefined}
           iconButtonIconIcon={toolbarIconButtonIconIcon}
           iconButtonIconSize={toolbarIconButtonIconSize}
-          override={
+          smallScreen={toolbarSmallScreen}
+          stack={
             <IconButton
-              className="instance-node"
+              className="icon-button-instance"
               color={
                 ["primary", "secondary"].includes(color)
                   ? "inherit-white"
@@ -43,7 +45,7 @@ export const AppBar = ({
                   : undefined
               }
               iconIcon={
-                <Starsharp30
+                <Starsharp25
                   className="menu-filled"
                   color={
                     ["primary", "secondary"].includes(color)
@@ -60,8 +62,6 @@ export const AppBar = ({
               stateProp="enabled"
             />
           }
-          smallScreen={toolbarSmallScreen}
-          stack={toolbarStack}
           to={to}
           typographyBodyClassName={toolbarTypographyBodyClassName}
           typographyContent={toolbarTypographyContent}
@@ -75,9 +75,10 @@ export const AppBar = ({
 
 AppBar.propTypes = {
   color: PropTypes.oneOf(["default", "secondary", "primary", "inherit-white", "transparent"]),
-  toolbarSmallScreen: PropTypes.bool,
-  toolbarTypographyVariant: PropTypes.string,
-  toolbarIconButtonIconSize: PropTypes.string,
+  toolbarHasMinHeight: PropTypes.bool,
   toolbarTypographyContent: PropTypes.string,
+  toolbarSmallScreen: PropTypes.bool,
+  toolbarIconButtonIconSize: PropTypes.string,
+  toolbarTypographyVariant: PropTypes.string,
   to: PropTypes.string,
 };

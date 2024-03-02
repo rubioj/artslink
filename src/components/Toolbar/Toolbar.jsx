@@ -6,7 +6,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import { Menufilled9 } from "../../icons/Menufilled9";
-import { Starsharp30 } from "../../icons/Starsharp30";
+import { Starsharp25 } from "../../icons/Starsharp25";
 import { IconButton } from "../IconButton";
 import { Stack } from "../Stack";
 import { Typography } from "../Typography";
@@ -17,26 +17,17 @@ export const Toolbar = ({
   variant,
   smallScreen,
   className,
+  iconButtonIconIcon = <Menufilled9 className="starsharp-122" color="white" />,
   iconButtonIconSize = "medium",
-  iconButtonIconIcon = <Menufilled9 className="icon-instance-node" color="white" />,
   typographyVariant = "body-1",
-  typographyContent = "Website",
   typographyBodyClassName,
+  typographyContent = "Website",
+  hasMinHeight = true,
   stack = (
     <IconButton
-      className="icon-button-instance"
+      className="instance-node-3"
       color="inherit-white"
-      iconIcon={<Starsharp30 className="icon-instance-node" color="white" />}
-      iconSize="medium"
-      size="medium"
-      stateProp="enabled"
-    />
-  ),
-  override = (
-    <IconButton
-      className="icon-button-instance"
-      color="inherit-white"
-      iconIcon={<Starsharp30 className="icon-instance-node" color="white" />}
+      iconIcon={<Starsharp25 className="starsharp-122" color="white" />}
       iconSize="medium"
       size="medium"
       stateProp="enabled"
@@ -50,7 +41,7 @@ export const Toolbar = ({
       <div className="left-side">
         {menu && (
           <IconButton
-            className="icon-button-instance"
+            className="instance-node-3"
             color={iconButtonColor}
             iconIcon={iconButtonIconIcon}
             iconSize={iconButtonIconSize}
@@ -62,22 +53,44 @@ export const Toolbar = ({
 
         <Typography
           bodyClassName={typographyBodyClassName}
-          className="icon-button-instance"
+          className="instance-node-3"
           content={typographyContent}
           gutterBottom={false}
           variant={typographyVariant}
         />
       </div>
-      {variant === "regular" && !smallScreen && <div className="min-height" />}
+      {hasMinHeight && (
+        <>
+          <>
+            {variant === "regular" && !smallScreen && <div className="min-height-4" />}
 
-      <Stack
-        className="icon-button-instance"
-        direction="row"
-        instances="one"
-        override={variant === "regular" && !smallScreen ? override : stack}
-        spacing="zero"
-      />
-      {(smallScreen || variant === "dense") && <div className={`div ${variant}`} />}
+            {(smallScreen || variant === "dense") && (
+              <Stack
+                className="instance-node-3"
+                direction="row"
+                instances="one"
+                override={
+                  <IconButton
+                    className="instance-node-3"
+                    color="inherit-white"
+                    iconIcon={<Starsharp25 className="starsharp-122" color="white" />}
+                    iconSize="medium"
+                    size="medium"
+                    stateProp="enabled"
+                  />
+                }
+                spacing="zero"
+              />
+            )}
+          </>
+        </>
+      )}
+
+      {variant === "regular" && !smallScreen && (
+        <Stack className="instance-node-3" direction="row" instances="one" override={stack} spacing="zero" />
+      )}
+
+      {(smallScreen || variant === "dense") && <div className={`min-height-5 ${variant}`} />}
     </div>
   );
 };
@@ -89,6 +102,7 @@ Toolbar.propTypes = {
   iconButtonIconSize: PropTypes.string,
   typographyVariant: PropTypes.string,
   typographyContent: PropTypes.string,
+  hasMinHeight: PropTypes.bool,
   iconButtonColor: PropTypes.string,
   to: PropTypes.string,
 };

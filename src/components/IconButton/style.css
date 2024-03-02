@@ -12,136 +12,136 @@
   flex: 0 0 auto !important;
 }
 
-.icon-button .starsharp-30 {
+.icon-button .starsharp-25 {
   height: 24px !important;
   position: relative !important;
   width: 24px !important;
 }
 
-.icon-button.size-small {
+.icon-button.size-34-small {
   padding: 5px;
 }
 
-.icon-button.size-medium {
+.icon-button.size-34-medium {
   padding: 8px;
 }
 
-.icon-button.color-inherit.size-large {
+.icon-button.color-24-inherit.size-34-large {
   padding: 12px;
 }
 
-.icon-button.focused.color-inherit {
+.icon-button.state-23-focused.color-24-inherit {
   background-color: var(--palette-action-focus);
 }
 
-.icon-button.focused.color-success {
+.icon-button.state-23-focused.color-24-success {
   background-color: var(--palette-success-focusvisible);
 }
 
-.icon-button.color-primary.hovered {
+.icon-button.color-24-primary.state-23-hovered {
   background-color: var(--palette-primary-hover);
 }
 
-.icon-button.focused.color-secondary {
+.icon-button.state-23-focused.color-24-secondary {
   background-color: var(--palette-secondary-focusvisible);
 }
 
-.icon-button.color-secondary.size-large {
+.icon-button.color-24-secondary.size-34-large {
   padding: 12px;
 }
 
-.icon-button.size-large.color-warning {
+.icon-button.size-34-large.color-24-warning {
   padding: 12px;
 }
 
-.icon-button.size-large.disabled {
+.icon-button.size-34-large.state-23-disabled {
   padding: 12px;
 }
 
-.icon-button.hovered.color-inherit {
+.icon-button.state-23-hovered.color-24-inherit {
   background-color: var(--palette-action-hover);
 }
 
-.icon-button.size-large.color-info {
+.icon-button.size-34-large.color-24-info {
   padding: 12px;
 }
 
-.icon-button.hovered.size-large {
+.icon-button.state-23-hovered.size-34-large {
   padding: 12px;
 }
 
-.icon-button.color-default.size-large {
+.icon-button.color-24-default.size-34-large {
   padding: 12px;
 }
 
-.icon-button.focused.color-info {
+.icon-button.state-23-focused.color-24-info {
   background-color: var(--palette-info-focusvisible);
 }
 
-.icon-button.focused.color-inherit-white {
+.icon-button.state-23-focused.color-24-inherit-white {
   background-color: var(--palette-common-white-focus);
 }
 
-.icon-button.color-error.size-large {
+.icon-button.color-24-error.size-34-large {
   padding: 12px;
 }
 
-.icon-button.color-error.focused {
+.icon-button.color-24-error.state-23-focused {
   background-color: var(--palette-error-focusvisible);
 }
 
-.icon-button.enabled.size-large {
+.icon-button.state-23-enabled.size-34-large {
   padding: 12px;
 }
 
-.icon-button.hovered.color-info {
+.icon-button.state-23-hovered.color-24-info {
   background-color: var(--palette-info-hover);
 }
 
-.icon-button.hovered.color-inherit-white {
+.icon-button.state-23-hovered.color-24-inherit-white {
   background-color: var(--palette-common-white-hover);
 }
 
-.icon-button.hovered.color-default {
+.icon-button.state-23-hovered.color-24-default {
   background-color: var(--palette-action-hover);
 }
 
-.icon-button.color-success.size-large {
+.icon-button.color-24-success.size-34-large {
   padding: 12px;
 }
 
-.icon-button.color-error.hovered {
+.icon-button.color-24-error.state-23-hovered {
   background-color: var(--palette-error-hover);
 }
 
-.icon-button.focused.color-warning {
+.icon-button.state-23-focused.color-24-warning {
   background-color: var(--palette-warning-focusvisible);
 }
 
-.icon-button.focused.color-default {
+.icon-button.state-23-focused.color-24-default {
   background-color: var(--palette-action-focus);
 }
 
-.icon-button.color-primary.size-large {
+.icon-button.color-24-primary.size-34-large {
   padding: 12px;
 }
 
-.icon-button.color-success.hovered {
+.icon-button.color-24-success.state-23-hovered {
   background-color: var(--palette-success-hover);
 }
 
-.icon-button.focused.color-primary {
+.icon-button.state-23-focused.color-24-primary {
   background-color: var(--palette-primary-focusvisible);
 }
 
-.icon-button.color-secondary.hovered {
+.icon-button.color-24-secondary.state-23-hovered {
   background-color: var(--palette-secondary-hover);
 }
 
-.icon-button.hovered.color-warning {
+.icon-button.state-23-hovered.color-24-warning {
   background-color: var(--palette-warning-hover);
 }
 
-.icon-button.focused.size-large.color-inherit-white {
+.icon-button.state-23-focused.size-34-large.color-24-inherit-white {
   padding: 8px;
 }

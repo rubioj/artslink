@@ -19,8 +19,9 @@ export const Default = {
     className: {},
     iconButtonIconSize: "medium",
     typographyVariant: "body-1",
-    typographyContent: "Website",
     typographyBodyClassName: {},
+    typographyContent: "Website",
+    hasMinHeight: true,
     iconButtonColor: "inherit-white",
   },
 };

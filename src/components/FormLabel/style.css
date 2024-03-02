@@ -17,58 +17,58 @@
   width: fit-content;
 }
 
-.form-label .color-22-error {
+.form-label .color-20-error {
   color: var(--palette-error-main);
 }
 
-.form-label .state-21-error {
+.form-label .state-20-error {
   color: var(--palette-error-main);
 }
 
-.form-label .state-21-enabled.color-22-info {
+.form-label .state-20-enabled.color-20-info {
   color: var(--palette-info-main);
 }
 
-.form-label .color-22-success.state-21-enabled {
+.form-label .color-20-success.state-20-enabled {
   color: var(--palette-success-main);
 }
 
-.form-label .color-22-one.state-21-disabled {
+.form-label .color-20-one.state-20-disabled {
   color: var(--palette-text-disabled);
 }
 
-.form-label .color-22-primary.state-21-enabled {
+.form-label .color-20-primary.state-20-enabled {
   color: var(--palette-primary-main);
 }
 
-.form-label .color-22-secondary.state-21-enabled {
+.form-label .color-20-secondary.state-20-enabled {
   color: var(--palette-secondary-main);
 }
 
-.form-label .state-21-disabled.color-22-warning {
+.form-label .state-20-disabled.color-20-warning {
   color: var(--palette-warning-main);
 }
 
-.form-label .color-22-secondary.state-21-disabled {
+.form-label .color-20-secondary.state-20-disabled {
   color: var(--palette-secondary-main);
 }
 
-.form-label .color-22-primary.state-21-disabled {
+.form-label .color-20-primary.state-20-disabled {
   color: var(--palette-primary-main);
 }
 
-.form-label .color-22-one.state-21-enabled {
+.form-label .color-20-one.state-20-enabled {
   color: var(--palette-text-primary);
 }
 
-.form-label .color-22-success.state-21-disabled {
+.form-label .color-20-success.state-20-disabled {
   color: var(--palette-success-main);
 }
 
-.form-label .state-21-disabled.color-22-info {
+.form-label .state-20-disabled.color-20-info {
   color: var(--palette-info-main);
 }
 
-.form-label .state-21-enabled.color-22-warning {
+.form-label .state-20-enabled.color-20-warning {
   color: var(--palette-warning-main);
 }

@@ -13,11 +13,11 @@ import "./style.css";
 export const ConcreteComponentNode = ({ style }) => {
   return (
     <>
-      {style === "outline" && <StyleOutline className="instance-node-3" />}
+      {style === "outline" && <StyleOutline className="instance-node-2" />}
 
-      {style === "fill" && <ArrowRedo className="instance-node-3" color="black" />}
+      {style === "fill" && <ArrowRedo className="instance-node-2" color="black" />}
 
-      {style === "sharp" && <StyleSharp className="instance-node-3" />}
+      {style === "sharp" && <StyleSharp className="instance-node-2" />}
     </>
   );
 };

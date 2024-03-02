@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.spacing-vertical .min-height-4 {
+.spacing-vertical .min-height-3 {
   position: relative;
   width: 1px;
 }
@@ -19,98 +19,98 @@
   border-top-width: 1px;
 }
 
-.spacing-vertical.visibility-false.spacing-six {
+.spacing-vertical.visibility-false.six {
   width: 24px;
 }
 
-.spacing-vertical.visibility-false.spacing-one {
+.spacing-vertical.visibility-false.one {
   width: 4px;
 }
 
-.spacing-vertical.visibility-true.spacing-one {
+.spacing-vertical.visibility-true.one {
   width: 6px;
 }
 
-.spacing-vertical.spacing-five.visibility-false {
+.spacing-vertical.five.visibility-false {
   width: 20px;
 }
 
-.spacing-vertical.spacing-five.visibility-true {
+.spacing-vertical.five.visibility-true {
   width: 22px;
 }
 
-.spacing-vertical.visibility-false.spacing-three {
+.spacing-vertical.visibility-false.three {
   width: 12px;
 }
 
-.spacing-vertical.visibility-true.spacing-seven {
+.spacing-vertical.visibility-true.seven {
   width: 30px;
 }
 
-.spacing-vertical.visibility-false.spacing-seven {
+.spacing-vertical.visibility-false.seven {
   width: 28px;
 }
 
-.spacing-vertical.visibility-true.spacing-three {
+.spacing-vertical.visibility-true.three {
   width: 14px;
 }
 
-.spacing-vertical.visibility-true.spacing-eight {
+.spacing-vertical.visibility-true.eight {
   width: 34px;
 }
 
-.spacing-vertical.spacing-four.visibility-true {
+.spacing-vertical.four.visibility-true {
   width: 18px;
 }
 
-.spacing-vertical.visibility-true.spacing-six {
+.spacing-vertical.visibility-true.six {
   width: 26px;
 }
 
-.spacing-vertical.visibility-true.spacing-two {
+.spacing-vertical.visibility-true.two {
   width: 10px;
 }
 
-.spacing-vertical.visibility-false.spacing-two {
+.spacing-vertical.visibility-false.two {
   width: 8px;
 }
 
-.spacing-vertical.visibility-false.spacing-eight {
+.spacing-vertical.visibility-false.eight {
   width: 32px;
 }
 
-.spacing-vertical.visibility-false.spacing-four {
+.spacing-vertical.visibility-false.four {
   width: 16px;
 }
 
-.spacing-vertical.spacing-one .min-height-4 {
+.spacing-vertical.one .min-height-3 {
   height: 8px;
 }
 
-.spacing-vertical.spacing-seven .min-height-4 {
+.spacing-vertical.seven .min-height-3 {
   height: 56px;
 }
 
-.spacing-vertical.spacing-six .min-height-4 {
+.spacing-vertical.six .min-height-3 {
   height: 48px;
 }
 
-.spacing-vertical.spacing-eight .min-height-4 {
+.spacing-vertical.eight .min-height-3 {
   height: 64px;
 }
 
-.spacing-vertical.spacing-three .min-height-4 {
+.spacing-vertical.three .min-height-3 {
   height: 24px;
 }
 
-.spacing-vertical.spacing-four .min-height-4 {
+.spacing-vertical.four .min-height-3 {
   height: 32px;
 }
 
-.spacing-vertical.spacing-five .min-height-4 {
+.spacing-vertical.five .min-height-3 {
   height: 40px;
 }
 
-.spacing-vertical.spacing-two .min-height-4 {
+.spacing-vertical.two .min-height-3 {
   height: 16px;
 }

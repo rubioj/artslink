@@ -9,7 +9,7 @@ import "./style.css";
 
 export const SliderThumb = ({ size, color, disabled, className }) => {
   return (
-    <div className={`slider-thumb color-2-${color} size-2-${size} ${className}`}>
+    <div className={`slider-thumb color-0-${color} size-0-${size} ${className}`}>
       {!disabled && <div className="color" />}
     </div>
   );

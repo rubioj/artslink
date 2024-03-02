@@ -13,7 +13,7 @@ export default {
       control: { type: "select" },
     },
     spacing: {
-      options: ["seven", "zero", "two", "three", "four", "one", "five_1", "eight", "six"],
+      options: ["seven", "zero", "five-1", "two", "three", "four", "one", "eight", "six"],
       control: { type: "select" },
     },
   },

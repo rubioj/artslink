@@ -13,26 +13,26 @@
   position: relative;
 }
 
-.toolbar .icon-button-instance {
+.toolbar .instance-node-3 {
   flex: 0 0 auto !important;
 }
 
-.toolbar .min-height {
+.toolbar .min-height-4 {
   height: 64px;
   position: relative;
   width: 1px;
 }
 
-.toolbar .div {
-  margin-right: -1px;
-  position: relative;
-  width: 1px;
-}
-
-.toolbar .icon-instance-node {
+.toolbar .starsharp-122 {
   height: 24px !important;
   position: relative !important;
   width: 24px !important;
+}
+
+.toolbar .min-height-5 {
+  margin-right: -1px;
+  position: relative;
+  width: 1px;
 }
 
 .toolbar.small-screen-false {

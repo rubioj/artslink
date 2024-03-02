@@ -35,7 +35,7 @@ export const Checkbox = ({ checked, indeterminate, size, color, stateProp, class
         dispatch("click");
       }}
     >
-      <div className={`padding state-${state.state} color-21-${state.color}`}>
+      <div className={`padding ${state.state} color-19-${state.color}`}>
         {!state.checked && !state.indeterminate && (
           <Hidden2
             className={`${state.size === "large" ? "hidden" : state.size === "medium" ? "hidden-106" : "hidden-86"}`}

@@ -14,113 +14,6 @@
   width: 430px;
 }
 
-.search .overlap-2 {
-  height: 626px;
-  left: 0;
-  position: absolute;
-  top: 159px;
-  width: 430px;
-}
-
-.search .app-bar-instance {
-  box-shadow: 0px 4px 4px #00000040 !important;
-  height: 54px !important;
-  left: 2px !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 427px !important;
-}
-
-.search .app-bar-2 {
-  margin-bottom: -2px !important;
-}
-
-.search .instance-2 {
-  flex: 0 0 auto !important;
-}
-
-.search .starsharp-124 {
-  height: 24px !important;
-  position: relative !important;
-  width: 24px !important;
-}
-
-.search .menufilled-9 {
-  height: 35px !important;
-  position: relative !important;
-  width: 35px !important;
-}
-
-.search .app-bar-3 {
-  color: var(--palette-primary-contrast) !important;
-  text-align: center !important;
-  white-space: unset !important;
-  width: 179px !important;
-}
-
-.search .brush-brown {
-  height: 561px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 27px;
-  width: 430px;
-}
-
-.search .slider-instance {
-  height: 64px !important;
-  left: 2px !important;
-  position: absolute !important;
-  top: 374px !important;
-  width: 95px !important;
-}
-
-.search .slider-2 {
-  width: 95px !important;
-}
-
-.search .slider-3 {
-  left: 0 !important;
-  position: absolute !important;
-  top: 5px !important;
-  width: 95px !important;
-}
-
-.search .rooster-color {
-  height: 224px;
-  left: 9px;
-  object-fit: cover;
-  position: absolute;
-  top: 133px;
-  width: 184px;
-}
-
-.search .hpim {
-  height: 228px;
-  left: 235px;
-  object-fit: cover;
-  position: absolute;
-  top: 133px;
-  width: 169px;
-}
-
-.search .slider-4 {
-  height: 64px !important;
-  left: 284px !important;
-  position: absolute !important;
-  top: 374px !important;
-  width: 95px !important;
-}
-
-.search .snoqualmie {
-  height: 208px;
-  left: 2px;
-  object-fit: cover;
-  position: absolute;
-  top: 418px;
-  width: 427px;
-}
-
 .search .links-logo {
   height: 80px;
   left: 183px;
@@ -129,7 +22,7 @@
   width: 66px;
 }
 
-.search .overlap-3 {
+.search .overlap-2 {
   height: 817px;
   left: -2px;
   position: absolute;
@@ -159,7 +52,7 @@
   width: 376px;
 }
 
-.search .snoqualmie-2 {
+.search .snoqualmie {
   height: 274px;
   left: 0;
   object-fit: cover;
@@ -168,20 +61,82 @@
   width: 430px;
 }
 
-.search .overlap-4 {
-  height: 774px;
+.search .overlap-3 {
+  height: 599px;
   left: 0;
   position: absolute;
-  top: 2259px;
+  top: 186px;
   width: 430px;
 }
 
-.search .brush-brown-2 {
+.search .brush-brown {
   height: 561px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
+  width: 430px;
+}
+
+.search .slider-instance {
+  height: 64px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 347px !important;
+  width: 95px !important;
+}
+
+.search .slider-2 {
+  width: 95px !important;
+}
+
+.search .slider-3 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 95px !important;
+}
+
+.search .rooster-color {
+  height: 224px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 106px;
+  width: 184px;
+}
+
+.search .hpim {
+  height: 228px;
+  left: 235px;
+  object-fit: cover;
+  position: absolute;
+  top: 106px;
+  width: 169px;
+}
+
+.search .slider-4 {
+  height: 64px !important;
+  left: 284px !important;
+  position: absolute !important;
+  top: 347px !important;
+  width: 95px !important;
+}
+
+.search .snoqualmie-2 {
+  height: 208px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 391px;
+  width: 427px;
+}
+
+.search .overlap-4 {
+  height: 774px;
+  left: 0;
+  position: absolute;
+  top: 2259px;
   width: 430px;
 }
 
@@ -258,6 +213,32 @@
   width: 350px;
 }
 
+.search .app-bar-instance {
+  box-shadow: 0px 4px 4px #00000040 !important;
+  height: 54px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 427px !important;
+}
+
+.search .app-bar-2 {
+  margin-bottom: -2px !important;
+}
+
+.search .app-bar-3 {
+  color: var(--palette-primary-contrast) !important;
+  text-align: center !important;
+  white-space: unset !important;
+  width: 179px !important;
+}
+
+.search .menufilled-9 {
+  height: 35px !important;
+  position: relative !important;
+  width: 35px !important;
+}
+
 .search .bottom-navigation-2 {
   background-color: #ffffff !important;
   left: -1px !important;
@@ -265,7 +246,7 @@
   top: 800px !important;
 }
 
-.search .icon-instance-node-3 {
+.search .icon-instance-node-2 {
   height: 24px !important;
   object-fit: cover !important;
   position: relative !important;

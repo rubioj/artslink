@@ -8,7 +8,7 @@ import React from "react";
 import "./style.css";
 
 export const SliderRail = ({ size, color, disabled, orientation, className }) => {
-  return <div className={`slider-rail color-0-${color} ${orientation} size-0-${size} ${className}`} />;
+  return <div className={`slider-rail ${color} ${orientation} ${size} ${className}`} />;
 };
 
 SliderRail.propTypes = {

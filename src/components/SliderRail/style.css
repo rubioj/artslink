@@ -3,11 +3,11 @@
   opacity: 0.38;
 }
 
-.slider-rail.color-0-secondary {
+.slider-rail.secondary {
   background-color: var(--palette-secondary-main);
 }
 
-.slider-rail.color-0-primary {
+.slider-rail.primary {
   background-color: var(--palette-primary-main);
 }
 
@@ -15,24 +15,24 @@
   width: 40px;
 }
 
-.slider-rail.color-0-none {
+.slider-rail.none {
   background-color: var(--material-colors-grey-400);
 }
 
-.slider-rail.size-0-medium.vertical {
+.slider-rail.medium.vertical {
   height: 40px;
   width: 6px;
 }
 
-.slider-rail.horizontal.size-0-small {
+.slider-rail.horizontal.small {
   height: 2px;
 }
 
-.slider-rail.size-0-small.vertical {
+.slider-rail.small.vertical {
   height: 49px;
   width: 2px;
 }
 
-.slider-rail.horizontal.size-0-medium {
+.slider-rail.horizontal.medium {
   height: 6px;
 }

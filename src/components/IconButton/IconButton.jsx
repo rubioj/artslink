@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
 import { Link } from "react-router-dom";
-import { Starsharp30 } from "../../icons/Starsharp30";
+import { Starsharp25 } from "../../icons/Starsharp25";
 import { Icon } from "../Icon";
 import "./style.css";
 
@@ -17,7 +17,7 @@ export const IconButton = ({
   stateProp,
   className,
   iconSize = "medium",
-  iconIcon = <Starsharp30 className="starsharp-30" color="white" />,
+  iconIcon = <Starsharp25 className="starsharp-25" color="white" />,
   to,
 }) => {
   const [state, dispatch] = useReducer(reducer, {
@@ -28,7 +28,7 @@ export const IconButton = ({
 
   return (
     <Link
-      className={`icon-button size-${state.size} color-${state.color} ${state.state} ${className}`}
+      className={`icon-button size-34-${state.size} color-24-${state.color} state-23-${state.state} ${className}`}
       to={to}
       onMouseLeave={() => {
         dispatch("mouse_leave");

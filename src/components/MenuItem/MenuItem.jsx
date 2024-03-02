@@ -31,7 +31,7 @@ export const MenuItem = ({
 
   return (
     <Link
-      className={`menu-item state-0-${state.state} ${className}`}
+      className={`menu-item state-${state.state} ${className}`}
       to={to}
       onMouseLeave={() => {
         dispatch("mouse_leave");

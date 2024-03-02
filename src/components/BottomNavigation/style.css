@@ -44,11 +44,11 @@
   padding: 6px 12px 8px;
 }
 
-.bottom-navigation.state-0-focused.active-true {
+.bottom-navigation.state-focused.active-true {
   background-color: var(--palette-primary-focusvisible);
 }
 
-.bottom-navigation.state-0-focused.active-false {
+.bottom-navigation.state-focused.active-false {
   background-color: var(--palette-text-focusvisible);
 }
 
@@ -72,14 +72,14 @@
   margin-bottom: -6px;
 }
 
-.bottom-navigation.active-false.state-0-disabled .tab-one {
+.bottom-navigation.active-false.state-disabled .tab-one {
   color: var(--palette-text-disabled);
 }
 
-.bottom-navigation.state-0-focused.active-false .tab-one {
+.bottom-navigation.state-focused.active-false .tab-one {
   color: var(--palette-text-secondary);
 }
 
-.bottom-navigation.state-0-enabled.active-false .tab-one {
+.bottom-navigation.state-enabled.active-false .tab-one {
   color: var(--palette-text-secondary);
 }

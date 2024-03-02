@@ -5,15 +5,15 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
-import { Starsharp30 } from "../../icons/Starsharp30";
+import { Starsharp25 } from "../../icons/Starsharp25";
 import "./style.css";
 
 export const Icon = ({
   size,
   className,
-  icon = <Starsharp30 className="star-sharp" color="black" opacity="0.56" />,
+  icon = <Starsharp25 className="star-sharp" color="black" opacity="0.56" />,
 }) => {
-  return <div className={`icon ${size} ${className}`}>{icon}</div>;
+  return <div className={`icon size-33-${size} ${className}`}>{icon}</div>;
 };
 
 Icon.propTypes = {

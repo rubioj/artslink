@@ -13,9 +13,9 @@ import "./style.css";
 
 export const BottomNavigationWrapper = ({
   className,
-  iconOnlyFalseWrapperBottomNavigationIcon = <Searchfilled className="icon-instance-node-2" color="#173F56" />,
-  override = <Homefilled className="icon-instance-node-2" />,
-  iconOnlyFalseWrapperBottomNavigationIcon1 = <Peoplefilled className="icon-instance-node-2" color="#173F56" />,
+  iconOnlyFalseWrapperBottomNavigationIcon = <Searchfilled className="icon-instance-node" color="#173F56" />,
+  override = <Homefilled className="icon-instance-node" />,
+  iconOnlyFalseWrapperBottomNavigationIcon1 = <Peoplefilled className="icon-instance-node" color="#173F56" />,
   to,
   to1,
 }) => {
