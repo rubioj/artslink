@@ -2602,7 +2602,7 @@
 }
 
 .mobile .nav-bar-fixed {
-  background-color: #f0f;
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -4103,7 +4103,7 @@
 }
 
 .search .bottom-navigation-2 {
-  background-color: #fff !important;
+  background-color: #f0f !important;
   position: fixed !important;
   top: 800px !important;
   left: -1px !important;
