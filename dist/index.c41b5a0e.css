@@ -2364,7 +2364,7 @@
 }
 
 .mobile {
-  background-color: #fcf;
+  background-color: #fff;
   flex-direction: row;
   justify-content: center;
   width: 100%;
@@ -2606,7 +2606,7 @@
 }
 
 .mobile .nav-bar-fixed {
-  background-color: #f0f;
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
   gap: 10px;
