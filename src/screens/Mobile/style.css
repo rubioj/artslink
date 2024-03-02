@@ -1,5 +1,5 @@
 .mobile {
-  background-color: #ffccff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -242,7 +242,7 @@
 
 .mobile .nav-bar-fixed {
   align-items: center;
-  background-color: #ff00ff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 10px;
