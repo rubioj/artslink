@@ -1,5 +1,5 @@
 .mobile {
-  background-color: #ff00ff;
+  background-color: #ffccff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -242,14 +242,15 @@
 
 .mobile .nav-bar-fixed {
   align-items: center;
+  background-color: #ff00ff;
   display: flex;
   flex-direction: column;
   gap: 10px;
   left: 0;
   padding: 10px;
   position: fixed;
-  top: 793px;
-  width: 430px;
+  bottom: 0; /* Position it at the bottom of the viewport */
+  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
 }
 
 .mobile .bottom-navigation-3 {

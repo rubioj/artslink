@@ -2364,7 +2364,7 @@
 }
 
 .mobile {
-  background-color: #f0f;
+  background-color: #fcf;
   flex-direction: row;
   justify-content: center;
   width: 100%;
@@ -2606,14 +2606,15 @@
 }
 
 .mobile .nav-bar-fixed {
+  background-color: #f0f;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  width: 430px;
+  width: 100%;
   padding: 10px;
   display: flex;
   position: fixed;
-  top: 793px;
+  bottom: 0;
   left: 0;
 }
 
@@ -4223,7 +4224,7 @@
 }
 
 .menu {
-  background-color: #f0f;
+  background-color: #fff;
   flex-direction: row;
   justify-content: center;
   width: 100%;
