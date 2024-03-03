@@ -9,7 +9,13 @@ import { Checkbox } from "../Checkbox";
 import { FormLabel } from "../FormLabel";
 import "./style.css";
 
-export const Formcontrollabel = ({ labelPlacement, disabled, className, formLabelValue = "Label" }) => {
+export const Formcontrollabel = ({
+  labelPlacement,
+  disabled,
+  className,
+  formLabelDivClassName,
+  formLabelValue = "Label",
+}) => {
   return (
     <div className={`formcontrollabel ${labelPlacement} ${className}`}>
       {["start", "top"].includes(labelPlacement) && (
@@ -28,6 +34,7 @@ export const Formcontrollabel = ({ labelPlacement, disabled, className, formLabe
         <FormLabel
           className="instance-node"
           color="one"
+          divClassName={formLabelDivClassName}
           state={disabled ? "disabled" : "enabled"}
           value={formLabelValue}
         />

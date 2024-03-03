@@ -8,80 +8,42 @@
 
 .mobile .mobile-home {
   background-color: #ffffff;
-  height: 4039px;
+  height: 3440px;
   overflow: hidden;
   position: relative;
-  width: 420px;
+  width: 393px;
 }
 
-.mobile .overlap-6 {
-  height: 809px;
+.mobile .overlap-group-4 {
+  height: 1630px;
   left: 0;
   position: absolute;
-  top: 3230px;
-  width: 420px;
+  top: 1810px;
+  width: 429px;
 }
 
 .mobile .custom-forms-email-password-instance {
   height: 260px !important;
-  left: 38px !important;
+  left: 27px !important;
   position: absolute !important;
-  top: 0 !important;
+  top: 1295px !important;
   width: 352px !important;
 }
 
 .mobile .custom-forms-email-2 {
-  flex: 0 0 auto !important;
-  margin-right: -62px !important;
+  font-family: "Roboto", Helvetica !important;
+  font-size: 14px !important;
+  letter-spacing: 0.17px !important;
+  line-height: 20px !important;
 }
 
 .mobile .blue-brush-2 {
-  height: 607px;
+  height: 614px;
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 202px;
-  width: 420px;
-}
-
-.mobile .overlap-7 {
-  height: 437px;
-  left: 0;
-  position: absolute;
-  top: 366px;
-  width: 420px;
-}
-
-.mobile .brush-brown-2 {
-  height: 359px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 78px;
-  width: 420px;
-}
-
-.mobile .main-tagline {
-  color: var(--palette-primary-main);
-  font-family: "Ofelia Text-Semibold", Helvetica;
-  font-size: 60px;
-  font-weight: 400;
-  height: 280px;
-  left: 18px;
-  letter-spacing: -0.5px;
-  line-height: 72px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 391px;
-}
-
-.mobile .overlap-group-4 {
-  height: 969px;
-  left: 0;
-  position: absolute;
-  top: 1874px;
-  width: 435px;
+  top: 1016px;
+  width: 393px;
 }
 
 .mobile .brush-brown-3 {
@@ -89,8 +51,8 @@
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 408px;
-  width: 420px;
+  top: 472px;
+  width: 393px;
 }
 
 .mobile .here-every-piece {
@@ -98,21 +60,12 @@
   font-family: "Ofelia Text-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 27px;
+  left: 43px;
   letter-spacing: 0.15px;
   line-height: 30px;
   position: absolute;
-  top: 652px;
-  width: 376px;
-}
-
-.mobile .logo-instagram {
-  background-image: url(../../../static/img/logo-instagram-2.svg) !important;
-  height: 22px !important;
-  left: 324px !important;
-  position: absolute !important;
-  top: 593px !important;
-  width: 22px !important;
+  top: 651px;
+  width: 306px;
 }
 
 .mobile .text-wrapper-7 {
@@ -120,17 +73,17 @@
   font-family: "Roboto", Helvetica;
   font-size: 12px;
   font-weight: 400;
-  left: 10px;
+  left: 14px;
   letter-spacing: 0.4px;
   line-height: 19.9px;
   position: absolute;
-  top: 595px;
-  width: 425px;
+  top: 586px;
+  width: 320px;
 }
 
 .mobile .couple {
-  height: 578px;
-  left: 1px;
+  height: 572px;
+  left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -139,54 +92,69 @@
 
 .mobile .text-wrapper-8 {
   color: #000000;
-  font-family: "Ofelia Text-Regular", Helvetica;
-  font-size: 20px;
+  font-family: "Roboto", Helvetica;
+  font-size: 48px;
   font-weight: 400;
-  left: 26px;
-  letter-spacing: 0.15px;
-  line-height: 30px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 56px;
   position: absolute;
-  top: 1568px;
-  width: 376px;
+  top: 1072px;
+  width: 330px;
 }
 
-.mobile .NY-city-girl {
-  height: 572px;
+.mobile .overlap-5 {
+  height: 436px;
+  left: 0;
+  position: absolute;
+  top: 367px;
+  width: 393px;
+}
+
+.mobile .brush-brown-4 {
+  height: 359px;
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 880px;
-  width: 430px;
+  top: 77px;
+  width: 393px;
+}
+
+.mobile .main-tagline {
+  color: var(--palette-primary-main);
+  font-family: "Ofelia Text-Semibold", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  height: 328px;
+  left: 7px;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 381px;
 }
 
 .mobile .text-wrapper-9 {
   color: #000000;
-  font-family: "Roboto", Helvetica;
-  font-size: 48px;
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
   font-weight: 400;
-  left: 27px;
-  letter-spacing: 0;
-  line-height: 56px;
+  left: 43px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
   position: absolute;
-  top: 2870px;
-  width: 376px;
+  top: 1453px;
+  width: 306px;
 }
 
-.mobile .overlap-8 {
-  height: 31px;
-  left: 10px;
+.mobile .NY-city-girl {
+  height: 487px;
+  left: -72px;
+  object-fit: cover;
   position: absolute;
-  top: 1516px;
-  width: 425px;
-}
-
-.mobile .logo-instagram-instance {
-  background-image: url(../../../static/img/logo-instagram-2.svg) !important;
-  height: 22px !important;
-  left: 314px !important;
-  position: absolute !important;
-  top: 1px !important;
-  width: 22px !important;
+  top: 867px;
+  width: 523px;
 }
 
 .mobile .text-wrapper-10 {
@@ -194,29 +162,20 @@
   font-family: "Roboto", Helvetica;
   font-size: 12px;
   font-weight: 400;
-  left: 0;
+  left: 11px;
   letter-spacing: 0.4px;
   line-height: 19.9px;
   position: absolute;
-  top: 0;
+  top: 1375px;
   width: 425px;
 }
 
 .mobile .logo {
-  height: 236px !important;
-  left: 116px !important;
+  height: 172px !important;
+  left: 125px !important;
   position: absolute !important;
-  top: 113px !important;
-  width: 194px !important;
-}
-
-.mobile .app-bar-4 {
-  box-shadow: 0px 4px 4px #00000040 !important;
-  height: 54px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 427px !important;
+  top: 163px !important;
+  width: 142px !important;
 }
 
 .mobile .app-bar-5 {
@@ -224,38 +183,51 @@
 }
 
 .mobile .app-bar-6 {
+  box-shadow: 0px 4px 4px #00000040 !important;
+  height: 54px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 393px !important;
+}
+
+.mobile .app-bar-7 {
   color: var(--palette-primary-contrast) !important;
   text-align: center !important;
   white-space: unset !important;
   width: 179px !important;
 }
 
-.mobile .menufilled-2 {
+.mobile .menufilled-9 {
   height: 35px !important;
   position: relative !important;
   width: 35px !important;
 }
 
+.mobile .app-bar-8 {
+  flex: 0 0 auto !important;
+  padding: 0px 11px !important;
+}
+
 .mobile .nav-bar-fixed {
   align-items: center;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 10px;
   left: 0;
   padding: 10px;
   position: fixed;
-  bottom: 0; /* Position it at the bottom of the viewport */
-  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
+  top: 789px;
+  width: 392px;
 }
 
-.mobile .bottom-navigation-3 {
+.mobile .bottom-navigation-4 {
   background-color: #ffffff !important;
   display: flex !important;
   flex: 0 0 auto !important;
-  margin-left: -10px !important;
-  margin-right: -10px !important;
-  width: 430px !important;
+  margin-left: -23.5px !important;
+  margin-right: -23.5px !important;
+  width: 419px !important;
 }
 
 .mobile .icon-instance-node-3 {
@@ -263,4 +235,11 @@
   object-fit: cover !important;
   position: relative !important;
   width: 24px !important;
+}
+
+.mobile .bottom-navigation-5 {
+  box-shadow: var(--elevation-1) !important;
+  height: 54px !important;
+  margin-right: -10px !important;
+  width: 429px !important;
 }

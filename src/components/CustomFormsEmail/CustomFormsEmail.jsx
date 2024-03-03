@@ -10,7 +10,7 @@ import { SpacingVertical } from "../SpacingVertical";
 import { TextField } from "../TextField";
 import "./style.css";
 
-export const CustomFormsEmail = ({ className, formcontrollabelLabelPlacementEndClassName }) => {
+export const CustomFormsEmail = ({ className, formcontrollabelFormLabelDivClassName }) => {
   return (
     <div className={`custom-forms-email ${className}`}>
       <TextField
@@ -22,7 +22,7 @@ export const CustomFormsEmail = ({ className, formcontrollabelLabelPlacementEndC
         value="john@gmail.com"
         variant="outlined"
       />
-      <SpacingVertical className="spacing-vertical-instance" spacing="two" visibility={false} />
+      <SpacingVertical className="design-component-instance-node" spacing="two" visibility={false} />
       <TextField
         className="text-field-instance"
         hasValue
@@ -32,14 +32,15 @@ export const CustomFormsEmail = ({ className, formcontrollabelLabelPlacementEndC
         value="**********"
         variant="outlined"
       />
-      <SpacingVertical className="spacing-vertical-instance" spacing="two" visibility={false} />
+      <SpacingVertical className="design-component-instance-node" spacing="two" visibility={false} />
       <Formcontrollabel
-        className={formcontrollabelLabelPlacementEndClassName}
+        className="design-component-instance-node"
         disabled={false}
+        formLabelDivClassName={formcontrollabelFormLabelDivClassName}
         formLabelValue="I accept the Terms and Conditions"
         labelPlacement="end"
       />
-      <SpacingVertical className="spacing-vertical-instance" spacing="two" visibility={false} />
+      <SpacingVertical className="design-component-instance-node" spacing="two" visibility={false} />
       <Button
         className="button-instance"
         color="primary"

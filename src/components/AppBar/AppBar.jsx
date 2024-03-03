@@ -5,7 +5,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
-import { Menufilled9 } from "../../icons/Menufilled9";
+import { Menufilled2 } from "../../icons/Menufilled2";
 import { Starsharp25 } from "../../icons/Starsharp25";
 import { IconButton } from "../IconButton";
 import { Toolbar } from "../Toolbar";
@@ -14,14 +14,18 @@ import "./style.css";
 export const AppBar = ({
   color,
   className,
-  paperClassName,
+  toolbarIconButtonSize = "medium",
   toolbarTypographyBodyClassName,
   toolbarHasMinHeight,
-  toolbarTypographyContent = "Website",
-  toolbarSmallScreen = false,
-  toolbarIconButtonIconIcon = <Menufilled9 className="menu-filled" color="white" />,
-  toolbarIconButtonIconSize = "medium",
   toolbarTypographyVariant = "body-1",
+  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
+  toolbarTypographyVariantGutterClassName,
+  toolbarMinHeightClassName,
+  toolbarIconButtonIconSize = "medium",
+  toolbarTypographyContent = "Website",
+  paperClassName,
+  toolbarSmallScreen = false,
+  toolbarHasDiv,
   to,
 }) => {
   return (
@@ -29,10 +33,13 @@ export const AppBar = ({
       <div className={`paper color-25-${color} ${paperClassName}`}>
         <Toolbar
           className="toolbar-instance"
+          hasDiv={toolbarHasDiv}
           hasMinHeight={toolbarHasMinHeight}
           iconButtonColor={["default", "inherit-white", "transparent"].includes(color) ? "inherit" : undefined}
           iconButtonIconIcon={toolbarIconButtonIconIcon}
           iconButtonIconSize={toolbarIconButtonIconSize}
+          iconButtonSize={toolbarIconButtonSize}
+          minHeightClassName={toolbarMinHeightClassName}
           smallScreen={toolbarSmallScreen}
           stack={
             <IconButton
@@ -66,6 +73,7 @@ export const AppBar = ({
           typographyBodyClassName={toolbarTypographyBodyClassName}
           typographyContent={toolbarTypographyContent}
           typographyVariant={toolbarTypographyVariant}
+          typographyVariantGutterClassName={toolbarTypographyVariantGutterClassName}
           variant="regular"
         />
       </div>
@@ -75,10 +83,12 @@ export const AppBar = ({
 
 AppBar.propTypes = {
   color: PropTypes.oneOf(["default", "secondary", "primary", "inherit-white", "transparent"]),
+  toolbarIconButtonSize: PropTypes.string,
   toolbarHasMinHeight: PropTypes.bool,
+  toolbarTypographyVariant: PropTypes.string,
+  toolbarIconButtonIconSize: PropTypes.string,
   toolbarTypographyContent: PropTypes.string,
   toolbarSmallScreen: PropTypes.bool,
-  toolbarIconButtonIconSize: PropTypes.string,
-  toolbarTypographyVariant: PropTypes.string,
+  toolbarHasDiv: PropTypes.bool,
   to: PropTypes.string,
 };

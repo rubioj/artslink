@@ -11,23 +11,23 @@
   height: 1225px;
   overflow: hidden;
   position: relative;
-  width: 430px;
+  width: 393px;
 }
 
 .menu .links-logo-2 {
   height: 80px;
-  left: 183px;
+  left: 163px;
   position: absolute;
-  top: 67px;
+  top: 70px;
   width: 66px;
 }
 
-.menu .overlap-9 {
+.menu .overlap-6 {
   height: 1039px;
   left: 0;
   position: absolute;
   top: 186px;
-  width: 430px;
+  width: 393px;
 }
 
 .menu .blue-brush-3 {
@@ -36,16 +36,16 @@
   object-fit: cover;
   position: absolute;
   top: 434px;
-  width: 430px;
+  width: 393px;
 }
 
-.menu .brush-brown-4 {
+.menu .brush-brown-5 {
   height: 561px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 430px;
+  width: 393px;
 }
 
 .menu .text-wrapper-11 {
@@ -53,7 +53,7 @@
   font-family: "Tisa Sans Pro-Light", Helvetica;
   font-size: 48px;
   font-weight: 300;
-  left: 39px;
+  left: 16px;
   letter-spacing: 0;
   line-height: 56px;
   position: absolute;
@@ -66,20 +66,20 @@
   font-family: "Ofelia Text-Light", Helvetica;
   font-size: 60px;
   font-weight: 300;
-  height: 215px;
-  left: 27px;
+  height: 217px;
+  left: 1px;
   letter-spacing: -0.5px;
   line-height: 72px;
   position: absolute;
   text-align: center;
-  top: 392px;
-  width: 391px;
+  top: 395px;
+  width: 392px;
 }
 
 .menu .menu-item-instance {
-  left: 96px !important;
+  left: 90px !important;
   position: absolute !important;
-  top: 0 !important;
+  top: 19px !important;
 }
 
 .menu .menu-item-2 {
@@ -93,15 +93,16 @@
 }
 
 .menu .menu-item-3 {
-  left: 96px !important;
+  height: 84px !important;
+  left: 90px !important;
   position: absolute !important;
-  top: 93px !important;
+  top: 109px !important;
 }
 
 .menu .menu-item-4 {
-  left: 96px !important;
+  left: 90px !important;
   position: absolute !important;
-  top: 200px !important;
+  top: 207px !important;
 }
 
 .menu .button-subscribe-2 {

@@ -5,12 +5,6 @@
 }
 
 .bottom-navigation-wrapper .bottom-navigation-instance {
-  box-shadow: var(--elevation-1) !important;
-  height: 54px !important;
-  width: 429px !important;
-}
-
-.bottom-navigation-wrapper .design-component-instance-node {
   display: flex !important;
   flex: 1 !important;
   flex-grow: 1 !important;

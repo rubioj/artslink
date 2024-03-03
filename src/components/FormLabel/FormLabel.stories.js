@@ -21,5 +21,6 @@ export const Default = {
     color: "warning",
     state: "disabled",
     className: {},
+    divClassName: {},
   },
 };

@@ -8,9 +8,9 @@ export const Menu = () => {
     <div className="menu">
       <div className="div-3" data-palette-mode="light">
         <img className="links-logo-2" alt="Links logo" src="/img/links-logo-1.svg" />
-        <div className="overlap-9">
+        <div className="overlap-6">
           <img className="blue-brush-3" alt="Blue brush" src="/img/blue-brush-1-2.png" />
-          <img className="brush-brown-4" alt="Brush brown" src="/img/brush-brown-2.png" />
+          <img className="brush-brown-5" alt="Brush brown" src="/img/brush-brown-2.png" />
           <p className="text-wrapper-11">Find the art work to put a smile in your life</p>
           <div className="creativity-meets"> Creativity Meets Community</div>
           <MenuItem

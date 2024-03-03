@@ -16,6 +16,7 @@ export const Default = {
     labelPlacement: "start",
     disabled: true,
     className: {},
+    formLabelDivClassName: {},
     formLabelValue: "Label",
   },
 };

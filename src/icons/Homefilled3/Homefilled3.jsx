@@ -11,13 +11,13 @@ export const Homefilled3 = ({ className }) => {
       className={`homefilled-3 ${className}`}
       fill="none"
       height="24"
-      viewBox="0 0 25 24"
-      width="25"
+      viewBox="0 0 24 24"
+      width="24"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g className="g" clipPath="url(#clip0_493_328)">
-        <g className="g" filter="url(#filter0_d_493_328)">
-          <path className="path" d="M10.5 20V14H14.5V20H19.5V12H22.5L12.5 3L2.5 12H5.5V20H10.5Z" fill="#173F56" />
+      <g className="g" clipPath="url(#clip0_514_298)">
+        <g className="g" filter="url(#filter0_d_514_298)">
+          <path className="path" d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z" fill="#173F56" />
         </g>
       </g>
       <defs className="defs">
@@ -26,9 +26,9 @@ export const Homefilled3 = ({ className }) => {
           colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="25"
-          id="filter0_d_493_328"
+          id="filter0_d_514_298"
           width="28"
-          x="-1.5"
+          x="-2"
           y="3"
         >
           <feFlood className="fe-flood" floodOpacity="0" result="BackgroundImageFix" />
@@ -47,17 +47,17 @@ export const Homefilled3 = ({ className }) => {
             type="matrix"
             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
           />
-          <feBlend className="fe-blend" in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_493_328" />
+          <feBlend className="fe-blend" in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_514_298" />
           <feBlend
             className="fe-blend"
             in="SourceGraphic"
-            in2="effect1_dropShadow_493_328"
+            in2="effect1_dropShadow_514_298"
             mode="normal"
             result="shape"
           />
         </filter>
-        <clipPath className="clip-path" id="clip0_493_328">
-          <rect className="rect" fill="white" height="24" transform="translate(0.5)" width="24" />
+        <clipPath className="clip-path" id="clip0_514_298">
+          <rect className="rect" fill="white" height="24" width="24" />
         </clipPath>
       </defs>
     </svg>

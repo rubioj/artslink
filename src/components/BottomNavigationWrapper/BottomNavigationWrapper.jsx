@@ -14,23 +14,24 @@ import "./style.css";
 export const BottomNavigationWrapper = ({
   className,
   iconOnlyFalseWrapperBottomNavigationIcon = <Searchfilled className="icon-instance-node" color="#173F56" />,
-  override = <Homefilled className="icon-instance-node" />,
-  iconOnlyFalseWrapperBottomNavigationIcon1 = <Peoplefilled className="icon-instance-node" color="#173F56" />,
+  override = <Peoplefilled className="icon-instance-node" color="#173F56" />,
+  iconOnlyFalseWrapperBottomNavigationIcon1 = <Homefilled className="icon-instance-node" />,
+  iconOnlyFalseWrapperIconOnlyFalseClassName,
   to,
   to1,
 }) => {
   return (
     <div className={`bottom-navigation-wrapper ${className}`}>
       <IconOnlyFalseWrapper
-        bottomNavigationActiveFalseLabelClassName="design-component-instance-node"
-        bottomNavigationActiveTrueLabelClassName="design-component-instance-node"
-        bottomNavigationActiveTrueLabelClassNameOverride="design-component-instance-node"
-        bottomNavigationIcon={override}
-        bottomNavigationIcon1={iconOnlyFalseWrapperBottomNavigationIcon1}
+        bottomNavigationActiveFalseLabelClassName="bottom-navigation-instance"
+        bottomNavigationActiveTrueLabelClassName="bottom-navigation-instance"
+        bottomNavigationActiveTrueLabelClassNameOverride="bottom-navigation-instance"
+        bottomNavigationIcon={iconOnlyFalseWrapperBottomNavigationIcon1}
+        bottomNavigationIcon1={override}
         bottomNavigationLabelContent="home"
         bottomNavigationLabelContent1="browse"
         bottomNavigationLabelContent2="join"
-        className="bottom-navigation-instance"
+        className={iconOnlyFalseWrapperIconOnlyFalseClassName}
         iconOnly={false}
         items="three"
         override={iconOnlyFalseWrapperBottomNavigationIcon}

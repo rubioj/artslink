@@ -5,7 +5,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
-import { Menufilled9 } from "../../icons/Menufilled9";
+import { Menufilled2 } from "../../icons/Menufilled2";
 import { Starsharp25 } from "../../icons/Starsharp25";
 import { IconButton } from "../IconButton";
 import { Stack } from "../Stack";
@@ -17,12 +17,16 @@ export const Toolbar = ({
   variant,
   smallScreen,
   className,
-  iconButtonIconIcon = <Menufilled9 className="starsharp-122" color="white" />,
+  iconButtonSize = "medium",
+  iconButtonIconIcon = <Menufilled2 className="starsharp-122" color="white" />,
   iconButtonIconSize = "medium",
   typographyVariant = "body-1",
-  typographyBodyClassName,
+  typographyVariantGutterClassName,
   typographyContent = "Website",
+  typographyBodyClassName,
+  minHeightClassName,
   hasMinHeight = true,
+  hasDiv = true,
   stack = (
     <IconButton
       className="instance-node-3"
@@ -45,7 +49,7 @@ export const Toolbar = ({
             color={iconButtonColor}
             iconIcon={iconButtonIconIcon}
             iconSize={iconButtonIconSize}
-            size="medium"
+            size={iconButtonSize}
             stateProp="enabled"
             to={to}
           />
@@ -53,16 +57,16 @@ export const Toolbar = ({
 
         <Typography
           bodyClassName={typographyBodyClassName}
-          className="instance-node-3"
+          className={typographyVariantGutterClassName}
           content={typographyContent}
           gutterBottom={false}
           variant={typographyVariant}
         />
       </div>
-      {hasMinHeight && (
+      {hasDiv && (
         <>
           <>
-            {variant === "regular" && !smallScreen && <div className="min-height-4" />}
+            {variant === "regular" && !smallScreen && <div className={`min-height-4 ${minHeightClassName}`} />}
 
             {(smallScreen || variant === "dense") && (
               <Stack
@@ -86,11 +90,17 @@ export const Toolbar = ({
         </>
       )}
 
-      {variant === "regular" && !smallScreen && (
-        <Stack className="instance-node-3" direction="row" instances="one" override={stack} spacing="zero" />
-      )}
+      {hasMinHeight && (
+        <>
+          <>
+            {variant === "regular" && !smallScreen && (
+              <Stack className="instance-node-3" direction="row" instances="one" override={stack} spacing="zero" />
+            )}
 
-      {(smallScreen || variant === "dense") && <div className={`min-height-5 ${variant}`} />}
+            {(smallScreen || variant === "dense") && <div className={`min-height-5 ${variant}`} />}
+          </>
+        </>
+      )}
     </div>
   );
 };
@@ -99,10 +109,12 @@ Toolbar.propTypes = {
   menu: PropTypes.bool,
   variant: PropTypes.oneOf(["regular", "dense"]),
   smallScreen: PropTypes.bool,
+  iconButtonSize: PropTypes.string,
   iconButtonIconSize: PropTypes.string,
   typographyVariant: PropTypes.string,
   typographyContent: PropTypes.string,
   hasMinHeight: PropTypes.bool,
+  hasDiv: PropTypes.bool,
   iconButtonColor: PropTypes.string,
   to: PropTypes.string,
 };

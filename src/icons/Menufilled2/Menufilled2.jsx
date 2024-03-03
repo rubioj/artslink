@@ -6,10 +6,10 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 
-export const Menufilled9 = ({ color = "white", opacity = "unset", className }) => {
+export const Menufilled2 = ({ color = "black", opacity = "unset", className }) => {
   return (
     <svg
-      className={`menufilled-9 ${className}`}
+      className={`menufilled-2 ${className}`}
       fill="none"
       height="24"
       viewBox="0 0 24 24"
@@ -21,7 +21,7 @@ export const Menufilled9 = ({ color = "white", opacity = "unset", className }) =
   );
 };
 
-Menufilled9.propTypes = {
+Menufilled2.propTypes = {
   color: PropTypes.string,
   opacity: PropTypes.string,
 };

@@ -1,1 +1,0 @@
-export { LogoInstagramWrapper } from "./LogoInstagramWrapper";
