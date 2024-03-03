@@ -56,10 +56,13 @@
 }
 
 .mobile .here-every-piece {
-  color: #000000;
-  font-family: "Ofelia Text-Regular", Helvetica;
+  color: var(--palette-primary-main);
+  font-family: var(--typography-body1-font-family) !important;
   font-size: 20px;
-  font-weight: 400;
+  font-style: var(--typography-body1-font-style) !important;
+  font-weight: var(--typography-body1-font-weight) !important;
+  letter-spacing: var(--typography-body1-letter-spacing) !important;
+  line-height: var(--typography-body1-line-height) !important;
   left: 43px;
   letter-spacing: 0.15px;
   line-height: 30px;
@@ -122,24 +125,26 @@
 
 .mobile .main-tagline {
   color: var(--palette-primary-main);
-  font-family: "Ofelia Text-Semibold", Helvetica;
-  font-size: 45px;
+  font-family: "Ofelia Text-Bold", Helvetica;
+  font-size: 50px;
   font-weight: 400;
-  height: 328px;
-  left: 7px;
+  height: 350px;
   letter-spacing: -0.5px;
-  line-height: 54px;
+  line-height: 80px;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 381px;
+  width: 360px;
 }
 
 .mobile .text-wrapper-9 {
-  color: #000000;
-  font-family: "Ofelia Text-Regular", Helvetica;
+  color: var(--palette-primary-main);
+  font-family: var(--typography-body1-font-family) !important;
   font-size: 20px;
-  font-weight: 400;
+  font-style: var(--typography-body1-font-style) !important;
+  font-weight: var(--typography-body1-font-weight) !important;
+  letter-spacing: var(--typography-body1-letter-spacing) !important;
+  line-height: var(--typography-body1-line-height) !important;
   left: 43px;
   letter-spacing: 0.15px;
   line-height: 30px;
@@ -206,23 +211,24 @@
 
 .mobile .nav-bar-fixed {
   align-items: center;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 10px;
   left: 0;
   padding: 10px;
   position: fixed;
-  top: 789px;
-  width: 392px;
+  bottom: 0; /* Position it at the bottom of the viewport */
+  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
 }
 
 .mobile .bottom-navigation-4 {
   background-color: #ffffff !important;
   display: flex !important;
   flex: 0 0 auto !important;
-  margin-left: -23.5px !important;
+  margin-left: -30px !important;
   margin-right: -23.5px !important;
-  width: 419px !important;
+  width: 383px !important;
 }
 
 .mobile .icon-instance-node-3 {

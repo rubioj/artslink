@@ -120,13 +120,14 @@
 }
 
 .search .we-are-a-passionate {
-  color: #000000;
-  font-family: "Ofelia Text-Regular", Helvetica;
+  color: var(--palette-primary-main);
+  font-family: var(--typography-body1-font-family) !important;
   font-size: 20px;
-  font-weight: 400;
+  font-style: var(--typography-body1-font-style) !important;
+  font-weight: var(--typography-body1-font-weight) !important;
+  letter-spacing: var(--typography-body1-letter-spacing) !important;
+  line-height: var(--typography-body1-line-height) !important;
   left: 45px;
-  letter-spacing: 0;
-  line-height: normal;
   position: absolute;
   top: 60px;
   width: 306px;
@@ -244,13 +245,18 @@
 }
 
 .search .bottom-navigation-2 {
-  background-color: #ffffff !important;
-  display: flex !important;
-  left: -2px !important;
-  position: fixed !important;
-  top: 798px !important;
-  width: 393px !important;
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  bottom: 0; /* Position it at the bottom of the viewport */
+  width: 100%; /*/* You might want to use 100% if you want it to be responsive across different device widths */
 }
+
 
 .search .icon-instance-node-2 {
   height: 24px !important;
