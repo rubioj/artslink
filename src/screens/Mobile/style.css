@@ -58,14 +58,12 @@
 .mobile .here-every-piece {
   color: var(--palette-primary-main);
   font-family: var(--typography-body1-font-family) !important;
-  font-size: 20px;
+  font-size: 20px; 
   font-style: var(--typography-body1-font-style) !important;
   font-weight: var(--typography-body1-font-weight) !important;
   letter-spacing: var(--typography-body1-letter-spacing) !important;
   line-height: var(--typography-body1-line-height) !important;
   left: 43px;
-  letter-spacing: 0.15px;
-  line-height: 30px;
   position: absolute;
   top: 651px;
   width: 306px;
@@ -107,10 +105,10 @@
 }
 
 .mobile .overlap-5 {
-  height: 436px;
+  height: 661px;
   left: 0;
   position: absolute;
-  top: 367px;
+  top: 142px;
   width: 393px;
 }
 
@@ -119,35 +117,42 @@
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 77px;
+  top: 302px;
   width: 393px;
 }
 
 .mobile .main-tagline {
   color: var(--palette-primary-main);
-  font-family: "Ofelia Text-Bold", Helvetica;
-  font-size: 50px;
+  font-family: "Ofelia Text-Semibold", Helvetica;
+  font-size: 45px;
   font-weight: 400;
-  height: 350px;
+  height: 328px;
+  left: 7px;
   letter-spacing: -0.5px;
-  line-height: 80px;
+  line-height: 54px;
   position: absolute;
   text-align: center;
-  top: 0;
-  width: 360px;
+  top: 159px;
+  width: 381px;
+}
+
+.mobile .logo {
+  height: 172px !important;
+  left: 126px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 142px !important;
 }
 
 .mobile .text-wrapper-9 {
   color: var(--palette-primary-main);
   font-family: var(--typography-body1-font-family) !important;
-  font-size: 20px;
+  font-size: 20px; 
   font-style: var(--typography-body1-font-style) !important;
   font-weight: var(--typography-body1-font-weight) !important;
   letter-spacing: var(--typography-body1-letter-spacing) !important;
   line-height: var(--typography-body1-line-height) !important;
   left: 43px;
-  letter-spacing: 0.15px;
-  line-height: 30px;
   position: absolute;
   top: 1453px;
   width: 306px;
@@ -175,14 +180,6 @@
   width: 425px;
 }
 
-.mobile .logo {
-  height: 172px !important;
-  left: 125px !important;
-  position: absolute !important;
-  top: 163px !important;
-  width: 142px !important;
-}
-
 .mobile .app-bar-5 {
   left: 0 !important;
   position: absolute !important;
@@ -191,6 +188,11 @@
 }
 
 .mobile .app-bar-6 {
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
+}
+
+.mobile .app-bar-7 {
   margin-right: -1px !important;
 }
 
@@ -200,13 +202,8 @@
   width: 35px !important;
 }
 
-.mobile .app-bar-7 {
-  color: var(--palette-primary-contrast) !important;
-}
-
 .mobile .app-bar-8 {
-  flex: 0 0 auto !important;
-  padding: 0px 30px !important;
+  color: var(--palette-primary-contrast) !important;
 }
 
 .mobile .nav-bar-fixed {
@@ -231,16 +228,15 @@
   width: 383px !important;
 }
 
+.mobile .bottom-navigation-5 {
+  height: 54px !important;
+  margin-right: -10px !important;
+  width: 429px !important;
+}
+
 .mobile .icon-instance-node-3 {
   height: 24px !important;
   object-fit: cover !important;
   position: relative !important;
   width: 24px !important;
-}
-
-.mobile .bottom-navigation-5 {
-  box-shadow: var(--elevation-1) !important;
-  height: 54px !important;
-  margin-right: -10px !important;
-  width: 429px !important;
 }

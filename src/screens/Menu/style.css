@@ -53,11 +53,11 @@
   font-family: "Tisa Sans Pro-Light", Helvetica;
   font-size: 36px;
   font-weight: 300;
-  left: 60px;
+  left: 71px;
   letter-spacing: 0;
   line-height: 42px;
   position: absolute;
-  top: 704px;
+  top: 780px;
   width: 263px;
 }
 
@@ -67,19 +67,19 @@
   font-size: 50px;
   font-weight: 300;
   height: 203px;
-  left: 30px;
+  left: 29px;
   letter-spacing: -0.5px;
   line-height: 60px;
   position: absolute;
   text-align: center;
-  top: 393px;
+  top: 499px;
   width: 334px;
 }
 
 .menu .menu-item-instance {
   left: 90px !important;
   position: absolute !important;
-  top: 19px !important;
+  top: 9px !important;
 }
 
 .menu .menu-item-2 {
@@ -94,15 +94,21 @@
 
 .menu .menu-item-3 {
   height: 84px !important;
-  left: 90px !important;
+  left: 89px !important;
   position: absolute !important;
-  top: 109px !important;
+  top: 113px !important;
 }
 
 .menu .menu-item-4 {
   left: 90px !important;
   position: absolute !important;
-  top: 207px !important;
+  top: 205px !important;
+}
+
+.menu .menu-item-5 {
+  left: 91px !important;
+  position: absolute !important;
+  top: 297px !important;
 }
 
 .menu .button-subscribe-2 {

@@ -27172,21 +27172,21 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _mobile = require("./screens/Mobile");
-var _search = require("./screens/Search");
 var _menu = require("./screens/Menu");
+var _search = require("./screens/Search");
+var _mobile = require("./screens/Mobile");
 const router = (0, _reactRouterDom.createBrowserRouter)([
     {
         path: "/*",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mobile.Mobile), {}, void 0, false, {
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menu.Menu), {}, void 0, false, {
             fileName: "src/App.jsx",
             lineNumber: 10,
             columnNumber: 14
         }, undefined)
     },
     {
-        path: "/mobile-home3",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mobile.Mobile), {}, void 0, false, {
+        path: "/menu",
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menu.Menu), {}, void 0, false, {
             fileName: "src/App.jsx",
             lineNumber: 14,
             columnNumber: 14
@@ -27201,8 +27201,8 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
         }, undefined)
     },
     {
-        path: "/menu",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menu.Menu), {}, void 0, false, {
+        path: "/mobile-home3",
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mobile.Mobile), {}, void 0, false, {
             fileName: "src/App.jsx",
             lineNumber: 22,
             columnNumber: 14
@@ -33899,6 +33899,13 @@ const Mobile = ()=>{
                             fileName: "src/screens/Mobile/Mobile.jsx",
                             lineNumber: 34,
                             columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logo1.Logo1), {
+                            className: "logo"
+                        }, void 0, false, {
+                            fileName: "src/screens/Mobile/Mobile.jsx",
+                            lineNumber: 35,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
@@ -33911,7 +33918,7 @@ const Mobile = ()=>{
                     children: "Arts Link is your gateway to a vibrant world where art meets community. Our platform is dedicated to bridging the gap between talented artists and passionate art lovers, creating a dynamic space for discovery, inspiration, and connection."
                 }, void 0, false, {
                     fileName: "src/screens/Mobile/Mobile.jsx",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -33920,19 +33927,12 @@ const Mobile = ()=>{
                     src: "/img/rooster-color-1.png"
                 }, void 0, false, {
                     fileName: "src/screens/Mobile/Mobile.jsx",
-                    lineNumber: 41,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     className: "text-wrapper-10",
                     children: "Juan Rubio, NY City Girl, digital photograph"
-                }, void 0, false, {
-                    fileName: "src/screens/Mobile/Mobile.jsx",
-                    lineNumber: 42,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logo1.Logo1), {
-                    className: "logo"
                 }, void 0, false, {
                     fileName: "src/screens/Mobile/Mobile.jsx",
                     lineNumber: 43,
@@ -33953,11 +33953,11 @@ const Mobile = ()=>{
                     }, void 0),
                     toolbarIconButtonIconSize: "large",
                     toolbarIconButtonSize: "large",
-                    toolbarMinHeightClassName: "app-bar-6",
-                    toolbarTypographyBodyClassName: "app-bar-7",
+                    toolbarMinHeightClassName: "app-bar-7",
+                    toolbarTypographyBodyClassName: "app-bar-8",
                     toolbarTypographyContent: "Arts Link",
                     toolbarTypographyVariant: "h-4",
-                    toolbarTypographyVariantGutterClassName: "app-bar-8"
+                    toolbarTypographyVariantGutterClassName: "app-bar-6"
                 }, void 0, false, {
                     fileName: "src/screens/Mobile/Mobile.jsx",
                     lineNumber: 44,
@@ -33975,20 +33975,20 @@ const Mobile = ()=>{
                             lineNumber: 61,
                             columnNumber: 55
                         }, void 0),
-                        iconOnlyFalseWrapperBottomNavigationIcon1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homefilled3.Homefilled3), {
-                            className: "icon-instance-node-3"
-                        }, void 0, false, {
-                            fileName: "src/screens/Mobile/Mobile.jsx",
-                            lineNumber: 62,
-                            columnNumber: 56
-                        }, void 0),
-                        iconOnlyFalseWrapperIconOnlyFalseClassName: "bottom-navigation-5",
-                        override: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peoplefilled.Peoplefilled), {
+                        iconOnlyFalseWrapperBottomNavigationIcon1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peoplefilled.Peoplefilled), {
                             className: "icon-instance-node-3",
                             color: "#173F56"
                         }, void 0, false, {
                             fileName: "src/screens/Mobile/Mobile.jsx",
-                            lineNumber: 64,
+                            lineNumber: 63,
+                            columnNumber: 15
+                        }, void 0),
+                        iconOnlyFalseWrapperIconOnlyFalseClassName: "bottom-navigation-5",
+                        override: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homefilled3.Homefilled3), {
+                            className: "icon-instance-node-3"
+                        }, void 0, false, {
+                            fileName: "src/screens/Mobile/Mobile.jsx",
+                            lineNumber: 66,
                             columnNumber: 23
                         }, void 0),
                         to1: "/search"
@@ -34052,14 +34052,14 @@ var _starsharp25 = require("../../icons/Starsharp25");
 var _iconButton = require("../IconButton");
 var _toolbar = require("../Toolbar");
 var _styleCss = require("./style.css");
-const AppBar = ({ color, className, toolbarIconButtonSize = "medium", toolbarTypographyContent = "Website", toolbarMinHeightClassName, toolbarHasMinHeight, toolbarIconButtonIconIcon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menufilled2.Menufilled2), {
+const AppBar = ({ color, className, toolbarIconButtonIconSize = "medium", toolbarIconButtonSize = "medium", toolbarTypographyVariantGutterClassName, toolbarMinHeightClassName, toolbarTypographyContent = "Website", toolbarTypographyVariant = "body-1", toolbarIconButtonIconIcon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menufilled2.Menufilled2), {
     className: "menu-filled",
     color: "white"
 }, void 0, false, {
     fileName: "src/components/AppBar/AppBar.jsx",
-    lineNumber: 21,
+    lineNumber: 23,
     columnNumber: 31
-}, undefined), toolbarTypographyVariant = "body-1", toolbarTypographyBodyClassName, toolbarIconButtonIconSize = "medium", toolbarTypographyVariantGutterClassName, to })=>{
+}, undefined), toolbarHasMinHeight, toolbarTypographyBodyClassName, to })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: `app-bar ${className}`,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34146,11 +34146,11 @@ AppBar.propTypes = {
         "inherit-white",
         "transparent"
     ]),
+    toolbarIconButtonIconSize: (0, _propTypesDefault.default).string,
     toolbarIconButtonSize: (0, _propTypesDefault.default).string,
     toolbarTypographyContent: (0, _propTypesDefault.default).string,
-    toolbarHasMinHeight: (0, _propTypesDefault.default).bool,
     toolbarTypographyVariant: (0, _propTypesDefault.default).string,
-    toolbarIconButtonIconSize: (0, _propTypesDefault.default).string,
+    toolbarHasMinHeight: (0, _propTypesDefault.default).bool,
     to: (0, _propTypesDefault.default).string
 };
 var _c;
@@ -36196,7 +36196,7 @@ const Toolbar = ({ menu = true, variant, smallScreen, className, iconButtonSize 
     fileName: "src/components/Toolbar/Toolbar.jsx",
     lineNumber: 21,
     columnNumber: 24
-}, undefined), iconButtonIconSize = "medium", typographyVariant = "body-1", typographyVariantGutterClassName, typographyContent = "Website", typographyBodyClassName, minHeightClassName, hasMinHeight = true, stack = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconButton.IconButton), {
+}, undefined), iconButtonIconSize = "medium", typographyVariant = "body-1", typographyBodyClassName, typographyContent = "Website", typographyVariantGutterClassName, minHeightClassName, hasMinHeight = true, stack = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconButton.IconButton), {
     className: "instance-node-3",
     color: "inherit-white",
     iconIcon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _starsharp25.Starsharp25), {
@@ -36628,35 +36628,35 @@ var _peoplefilled = require("../../icons/Peoplefilled");
 var _searchfilled = require("../../icons/Searchfilled");
 var _iconOnlyFalseWrapper = require("../IconOnlyFalseWrapper");
 var _styleCss = require("./style.css");
-const BottomNavigationWrapper = ({ className, iconOnlyFalseWrapperBottomNavigationIcon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchfilled.Searchfilled), {
-    className: "icon-instance-node",
-    color: "#173F56"
-}, void 0, false, {
-    fileName: "src/components/BottomNavigationWrapper/BottomNavigationWrapper.jsx",
-    lineNumber: 16,
-    columnNumber: 46
-}, undefined), override = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peoplefilled.Peoplefilled), {
+const BottomNavigationWrapper = ({ className, iconOnlyFalseWrapperIconOnlyFalseClassName, iconOnlyFalseWrapperBottomNavigationIcon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchfilled.Searchfilled), {
     className: "icon-instance-node",
     color: "#173F56"
 }, void 0, false, {
     fileName: "src/components/BottomNavigationWrapper/BottomNavigationWrapper.jsx",
     lineNumber: 17,
-    columnNumber: 14
-}, undefined), iconOnlyFalseWrapperBottomNavigationIcon1 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homefilled.Homefilled), {
+    columnNumber: 46
+}, undefined), override = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homefilled.Homefilled), {
     className: "icon-instance-node"
 }, void 0, false, {
     fileName: "src/components/BottomNavigationWrapper/BottomNavigationWrapper.jsx",
     lineNumber: 18,
+    columnNumber: 14
+}, undefined), iconOnlyFalseWrapperBottomNavigationIcon1 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peoplefilled.Peoplefilled), {
+    className: "icon-instance-node",
+    color: "#173F56"
+}, void 0, false, {
+    fileName: "src/components/BottomNavigationWrapper/BottomNavigationWrapper.jsx",
+    lineNumber: 19,
     columnNumber: 47
-}, undefined), iconOnlyFalseWrapperIconOnlyFalseClassName, to, to1 })=>{
+}, undefined), to, to1 })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: `bottom-navigation-wrapper ${className}`,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconOnlyFalseWrapper.IconOnlyFalseWrapper), {
             bottomNavigationActiveFalseLabelClassName: "bottom-navigation-instance",
             bottomNavigationActiveTrueLabelClassName: "bottom-navigation-instance",
             bottomNavigationActiveTrueLabelClassNameOverride: "bottom-navigation-instance",
-            bottomNavigationIcon: iconOnlyFalseWrapperBottomNavigationIcon1,
-            bottomNavigationIcon1: override,
+            bottomNavigationIcon: override,
+            bottomNavigationIcon1: iconOnlyFalseWrapperBottomNavigationIcon1,
             bottomNavigationLabelContent: "home",
             bottomNavigationLabelContent1: "browse",
             bottomNavigationLabelContent2: "join",
@@ -36723,10 +36723,10 @@ const Homefilled = ({ className })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
                 className: "g",
-                clipPath: "url(#clip0_521_133)",
+                clipPath: "url(#clip0_522_129)",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
                     className: "g",
-                    filter: "url(#filter0_d_521_133)",
+                    filter: "url(#filter0_d_522_129)",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                         className: "path",
                         d: "M10.5 20V14H14.5V20H19.5V12H22.5L12.5 3L2.5 12H5.5V20H10.5Z",
@@ -36754,7 +36754,7 @@ const Homefilled = ({ className })=>{
                         colorInterpolationFilters: "sRGB",
                         filterUnits: "userSpaceOnUse",
                         height: "25",
-                        id: "filter0_d_521_133",
+                        id: "filter0_d_522_129",
                         width: "28",
                         x: "-1.5",
                         y: "3",
@@ -36817,7 +36817,7 @@ const Homefilled = ({ className })=>{
                                 className: "fe-blend",
                                 in2: "BackgroundImageFix",
                                 mode: "normal",
-                                result: "effect1_dropShadow_521_133"
+                                result: "effect1_dropShadow_522_129"
                             }, void 0, false, {
                                 fileName: "src/icons/Homefilled/Homefilled.jsx",
                                 lineNumber: 50,
@@ -36826,7 +36826,7 @@ const Homefilled = ({ className })=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("feBlend", {
                                 className: "fe-blend",
                                 in: "SourceGraphic",
-                                in2: "effect1_dropShadow_521_133",
+                                in2: "effect1_dropShadow_522_129",
                                 mode: "normal",
                                 result: "shape"
                             }, void 0, false, {
@@ -36842,7 +36842,7 @@ const Homefilled = ({ className })=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("clipPath", {
                         className: "clip-path",
-                        id: "clip0_521_133",
+                        id: "clip0_522_129",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("rect", {
                             className: "rect",
                             fill: "white",
@@ -37031,31 +37031,31 @@ var _favoritefilled22 = require("../../icons/Favoritefilled22");
 var _favoritefilled7 = require("../../icons/Favoritefilled7");
 var _bottomNavigation = require("../BottomNavigation");
 var _styleCss = require("./style.css");
-const IconOnlyFalseWrapper = ({ iconOnly, items, className, bottomNavigationLabelContent = "Label", bottomNavigationIcon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoritefilled7.Favoritefilled7), {
+const IconOnlyFalseWrapper = ({ iconOnly, items, className, bottomNavigationActiveTrueLabelClassName, bottomNavigationLabelContent = "Label", bottomNavigationIcon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoritefilled7.Favoritefilled7), {
     className: "favorite-filled-3",
     color: "black",
     opacity: "0.6"
 }, void 0, false, {
     fileName: "src/components/IconOnlyFalseWrapper/IconOnlyFalseWrapper.jsx",
-    lineNumber: 18,
+    lineNumber: 19,
     columnNumber: 26
-}, undefined), bottomNavigationActiveTrueLabelClassName, bottomNavigationLabelContent1 = "Label", override = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoritefilled22.Favoritefilled22), {
+}, undefined), bottomNavigationActiveTrueLabelClassNameOverride, bottomNavigationLabelContent1 = "Label", override = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoritefilled22.Favoritefilled22), {
     className: "favorite-filled-3",
     color: "black",
     opacity: "0.6"
 }, void 0, false, {
     fileName: "src/components/IconOnlyFalseWrapper/IconOnlyFalseWrapper.jsx",
-    lineNumber: 21,
+    lineNumber: 22,
     columnNumber: 14
-}, undefined), bottomNavigationActiveTrueLabelClassNameOverride, bottomNavigationLabelContent2 = "Label", bottomNavigationIcon1 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoritefilled7.Favoritefilled7), {
+}, undefined), bottomNavigationActiveFalseLabelClassName, bottomNavigationLabelContent2 = "Label", bottomNavigationIcon1 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoritefilled7.Favoritefilled7), {
     className: "favorite-filled-3",
     color: "black",
     opacity: "0.38"
 }, void 0, false, {
     fileName: "src/components/IconOnlyFalseWrapper/IconOnlyFalseWrapper.jsx",
-    lineNumber: 24,
+    lineNumber: 25,
     columnNumber: 27
-}, undefined), bottomNavigationActiveFalseLabelClassName, to, to1 })=>{
+}, undefined), to, to1 })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: `icon-only-false-wrapper ${className}`,
         children: [
@@ -37891,7 +37891,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _checkbox = require("../Checkbox");
 var _formLabel = require("../FormLabel");
 var _styleCss = require("./style.css");
-const Formcontrollabel = ({ labelPlacement, disabled, className, formLabelDivClassName, formLabelValue = "Label" })=>{
+const Formcontrollabel = ({ labelPlacement, disabled, className, formLabelValue = "Label", formLabelDivClassName })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: `formcontrollabel ${labelPlacement} ${className}`,
         children: [
@@ -39353,10 +39353,10 @@ const Homefilled3 = ({ className })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
                 className: "g",
-                clipPath: "url(#clip0_521_305)",
+                clipPath: "url(#clip0_522_301)",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
                     className: "g",
-                    filter: "url(#filter0_d_521_305)",
+                    filter: "url(#filter0_d_522_301)",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                         className: "path",
                         d: "M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z",
@@ -39384,7 +39384,7 @@ const Homefilled3 = ({ className })=>{
                         colorInterpolationFilters: "sRGB",
                         filterUnits: "userSpaceOnUse",
                         height: "25",
-                        id: "filter0_d_521_305",
+                        id: "filter0_d_522_301",
                         width: "28",
                         x: "-2",
                         y: "3",
@@ -39447,7 +39447,7 @@ const Homefilled3 = ({ className })=>{
                                 className: "fe-blend",
                                 in2: "BackgroundImageFix",
                                 mode: "normal",
-                                result: "effect1_dropShadow_521_305"
+                                result: "effect1_dropShadow_522_301"
                             }, void 0, false, {
                                 fileName: "src/icons/Homefilled3/Homefilled3.jsx",
                                 lineNumber: 50,
@@ -39456,7 +39456,7 @@ const Homefilled3 = ({ className })=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("feBlend", {
                                 className: "fe-blend",
                                 in: "SourceGraphic",
-                                in2: "effect1_dropShadow_521_305",
+                                in2: "effect1_dropShadow_522_301",
                                 mode: "normal",
                                 result: "shape"
                             }, void 0, false, {
@@ -39472,7 +39472,7 @@ const Homefilled3 = ({ className })=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("clipPath", {
                         className: "clip-path",
-                        id: "clip0_521_305",
+                        id: "clip0_522_301",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("rect", {
                             className: "rect",
                             fill: "white",
@@ -53009,11 +53009,11 @@ const Search = ()=>{
                     }, void 0),
                     toolbarIconButtonIconSize: "large",
                     toolbarIconButtonSize: "large",
-                    toolbarMinHeightClassName: "app-bar-2",
-                    toolbarTypographyBodyClassName: "app-bar-3",
+                    toolbarMinHeightClassName: "app-bar-3",
+                    toolbarTypographyBodyClassName: "app-bar-4",
                     toolbarTypographyContent: "Arts Link",
                     toolbarTypographyVariant: "h-4",
-                    toolbarTypographyVariantGutterClassName: "app-bar-4"
+                    toolbarTypographyVariantGutterClassName: "app-bar-2"
                 }, void 0, false, {
                     fileName: "src/screens/Search/Search.jsx",
                     lineNumber: 71,
@@ -53029,17 +53029,17 @@ const Search = ()=>{
                         lineNumber: 87,
                         columnNumber: 53
                     }, void 0),
-                    iconOnlyFalseWrapperBottomNavigationIcon1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homefilled2.Homefilled2), {
-                        className: "icon-instance-node-2"
+                    iconOnlyFalseWrapperBottomNavigationIcon1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peoplefilled.Peoplefilled), {
+                        className: "icon-instance-node-2",
+                        color: "#173F56"
                     }, void 0, false, {
                         fileName: "src/screens/Search/Search.jsx",
                         lineNumber: 88,
                         columnNumber: 54
                     }, void 0),
                     iconOnlyFalseWrapperIconOnlyFalseClassName: "bottom-navigation-3",
-                    override: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peoplefilled.Peoplefilled), {
-                        className: "icon-instance-node-2",
-                        color: "#173F56"
+                    override: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homefilled2.Homefilled2), {
+                        className: "icon-instance-node-2"
                     }, void 0, false, {
                         fileName: "src/screens/Search/Search.jsx",
                         lineNumber: 90,
@@ -54090,10 +54090,10 @@ const Homefilled2 = ({ className })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
                 className: "g",
-                clipPath: "url(#clip0_521_149)",
+                clipPath: "url(#clip0_522_145)",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
                     className: "g",
-                    filter: "url(#filter0_d_521_149)",
+                    filter: "url(#filter0_d_522_145)",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                         className: "path",
                         d: "M10.5 20V14H14.5V20H19.5V12H22.5L12.5 3L2.5 12H5.5V20H10.5Z",
@@ -54121,7 +54121,7 @@ const Homefilled2 = ({ className })=>{
                         colorInterpolationFilters: "sRGB",
                         filterUnits: "userSpaceOnUse",
                         height: "25",
-                        id: "filter0_d_521_149",
+                        id: "filter0_d_522_145",
                         width: "28",
                         x: "-1.5",
                         y: "3",
@@ -54184,7 +54184,7 @@ const Homefilled2 = ({ className })=>{
                                 className: "fe-blend",
                                 in2: "BackgroundImageFix",
                                 mode: "normal",
-                                result: "effect1_dropShadow_521_149"
+                                result: "effect1_dropShadow_522_145"
                             }, void 0, false, {
                                 fileName: "src/icons/Homefilled2/Homefilled2.jsx",
                                 lineNumber: 50,
@@ -54193,7 +54193,7 @@ const Homefilled2 = ({ className })=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("feBlend", {
                                 className: "fe-blend",
                                 in: "SourceGraphic",
-                                in2: "effect1_dropShadow_521_149",
+                                in2: "effect1_dropShadow_522_145",
                                 mode: "normal",
                                 result: "shape"
                             }, void 0, false, {
@@ -54209,7 +54209,7 @@ const Homefilled2 = ({ className })=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("clipPath", {
                         className: "clip-path",
-                        id: "clip0_521_149",
+                        id: "clip0_522_145",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("rect", {
                             className: "rect",
                             fill: "white",
@@ -54357,11 +54357,24 @@ const Menu = ()=>{
                             disGutters: false,
                             smallScreen: false,
                             stateProp: "enabled",
-                            value: "Join",
+                            value: "Artists",
                             valueClassName: "menu-item-2"
                         }, void 0, false, {
                             fileName: "src/screens/Menu/Menu.jsx",
                             lineNumber: 36,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItem.MenuItem), {
+                            className: "menu-item-5",
+                            dense: false,
+                            disGutters: false,
+                            smallScreen: false,
+                            stateProp: "enabled",
+                            value: "Events",
+                            valueClassName: "menu-item-2"
+                        }, void 0, false, {
+                            fileName: "src/screens/Menu/Menu.jsx",
+                            lineNumber: 45,
                             columnNumber: 11
                         }, undefined)
                     ]
@@ -54379,7 +54392,7 @@ const Menu = ()=>{
                                 className: "rectangle-2"
                             }, void 0, false, {
                                 fileName: "src/screens/Menu/Menu.jsx",
-                                lineNumber: 48,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -54388,12 +54401,12 @@ const Menu = ()=>{
                                     style: "fill"
                                 }, void 0, false, {
                                     fileName: "src/screens/Menu/Menu.jsx",
-                                    lineNumber: 50,
+                                    lineNumber: 59,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Menu/Menu.jsx",
-                                lineNumber: 49,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -54401,18 +54414,18 @@ const Menu = ()=>{
                                 children: "Join Our Community"
                             }, void 0, false, {
                                 fileName: "src/screens/Menu/Menu.jsx",
-                                lineNumber: 52,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/Menu/Menu.jsx",
-                        lineNumber: 47,
+                        lineNumber: 56,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/screens/Menu/Menu.jsx",
-                    lineNumber: 46,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, undefined)
             ]

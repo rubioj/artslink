@@ -15,8 +15,8 @@ export const Homefilled2 = ({ className }) => {
       width="25"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g className="g" clipPath="url(#clip0_521_149)">
-        <g className="g" filter="url(#filter0_d_521_149)">
+      <g className="g" clipPath="url(#clip0_522_145)">
+        <g className="g" filter="url(#filter0_d_522_145)">
           <path className="path" d="M10.5 20V14H14.5V20H19.5V12H22.5L12.5 3L2.5 12H5.5V20H10.5Z" fill="#173F56" />
         </g>
       </g>
@@ -26,7 +26,7 @@ export const Homefilled2 = ({ className }) => {
           colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="25"
-          id="filter0_d_521_149"
+          id="filter0_d_522_145"
           width="28"
           x="-1.5"
           y="3"
@@ -47,16 +47,16 @@ export const Homefilled2 = ({ className }) => {
             type="matrix"
             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
           />
-          <feBlend className="fe-blend" in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_521_149" />
+          <feBlend className="fe-blend" in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_522_145" />
           <feBlend
             className="fe-blend"
             in="SourceGraphic"
-            in2="effect1_dropShadow_521_149"
+            in2="effect1_dropShadow_522_145"
             mode="normal"
             result="shape"
           />
         </filter>
-        <clipPath className="clip-path" id="clip0_521_149">
+        <clipPath className="clip-path" id="clip0_522_145">
           <rect className="rect" fill="white" height="24" transform="translate(0.5)" width="24" />
         </clipPath>
       </defs>

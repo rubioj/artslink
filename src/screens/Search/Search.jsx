@@ -76,18 +76,18 @@ export const Search = () => {
           toolbarIconButtonIconIcon={<Menufilled2 className="menufilled-2" color="#FDAC9C" />}
           toolbarIconButtonIconSize="large"
           toolbarIconButtonSize="large"
-          toolbarMinHeightClassName="app-bar-2"
-          toolbarTypographyBodyClassName="app-bar-3"
+          toolbarMinHeightClassName="app-bar-3"
+          toolbarTypographyBodyClassName="app-bar-4"
           toolbarTypographyContent="Arts Link"
           toolbarTypographyVariant="h-4"
-          toolbarTypographyVariantGutterClassName="app-bar-4"
+          toolbarTypographyVariantGutterClassName="app-bar-2"
         />
         <BottomNavigationWrapper
           className="bottom-navigation-2"
           iconOnlyFalseWrapperBottomNavigationIcon={<Searchfilled className="icon-instance-node-2" color="#173F56" />}
-          iconOnlyFalseWrapperBottomNavigationIcon1={<Homefilled2 className="icon-instance-node-2" />}
+          iconOnlyFalseWrapperBottomNavigationIcon1={<Peoplefilled className="icon-instance-node-2" color="#173F56" />}
           iconOnlyFalseWrapperIconOnlyFalseClassName="bottom-navigation-3"
-          override={<Peoplefilled className="icon-instance-node-2" color="#173F56" />}
+          override={<Homefilled2 className="icon-instance-node-2" />}
           to="/mobile-home3"
         />
       </div>

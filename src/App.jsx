@@ -1,25 +1,25 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Mobile } from "./screens/Mobile";
-import { Search } from "./screens/Search";
 import { Menu } from "./screens/Menu";
+import { Search } from "./screens/Search";
+import { Mobile } from "./screens/Mobile";
 
 const router = createBrowserRouter([
   {
     path: "/*",
-    element: <Mobile />,
+    element: <Menu />,
   },
   {
-    path: "/mobile-home3",
-    element: <Mobile />,
+    path: "/menu",
+    element: <Menu />,
   },
   {
     path: "/search",
     element: <Search />,
   },
   {
-    path: "/menu",
-    element: <Menu />,
+    path: "/mobile-home3",
+    element: <Mobile />,
   },
 ]);
 

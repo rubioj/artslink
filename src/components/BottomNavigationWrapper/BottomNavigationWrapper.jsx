@@ -13,10 +13,10 @@ import "./style.css";
 
 export const BottomNavigationWrapper = ({
   className,
-  iconOnlyFalseWrapperBottomNavigationIcon = <Searchfilled className="icon-instance-node" color="#173F56" />,
-  override = <Peoplefilled className="icon-instance-node" color="#173F56" />,
-  iconOnlyFalseWrapperBottomNavigationIcon1 = <Homefilled className="icon-instance-node" />,
   iconOnlyFalseWrapperIconOnlyFalseClassName,
+  iconOnlyFalseWrapperBottomNavigationIcon = <Searchfilled className="icon-instance-node" color="#173F56" />,
+  override = <Homefilled className="icon-instance-node" />,
+  iconOnlyFalseWrapperBottomNavigationIcon1 = <Peoplefilled className="icon-instance-node" color="#173F56" />,
   to,
   to1,
 }) => {
@@ -26,8 +26,8 @@ export const BottomNavigationWrapper = ({
         bottomNavigationActiveFalseLabelClassName="bottom-navigation-instance"
         bottomNavigationActiveTrueLabelClassName="bottom-navigation-instance"
         bottomNavigationActiveTrueLabelClassNameOverride="bottom-navigation-instance"
-        bottomNavigationIcon={iconOnlyFalseWrapperBottomNavigationIcon1}
-        bottomNavigationIcon1={override}
+        bottomNavigationIcon={override}
+        bottomNavigationIcon1={iconOnlyFalseWrapperBottomNavigationIcon1}
         bottomNavigationLabelContent="home"
         bottomNavigationLabelContent1="browse"
         bottomNavigationLabelContent2="join"

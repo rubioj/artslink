@@ -21,9 +21,9 @@ export const Toolbar = ({
   iconButtonIconIcon = <Menufilled2 className="starsharp-122" color="white" />,
   iconButtonIconSize = "medium",
   typographyVariant = "body-1",
-  typographyVariantGutterClassName,
-  typographyContent = "Website",
   typographyBodyClassName,
+  typographyContent = "Website",
+  typographyVariantGutterClassName,
   minHeightClassName,
   hasMinHeight = true,
   stack = (

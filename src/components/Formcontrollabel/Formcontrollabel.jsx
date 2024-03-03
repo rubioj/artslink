@@ -13,8 +13,8 @@ export const Formcontrollabel = ({
   labelPlacement,
   disabled,
   className,
-  formLabelDivClassName,
   formLabelValue = "Label",
+  formLabelDivClassName,
 }) => {
   return (
     <div className={`formcontrollabel ${labelPlacement} ${className}`}>

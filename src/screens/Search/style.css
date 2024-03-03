@@ -122,7 +122,7 @@
 .search .we-are-a-passionate {
   color: var(--palette-primary-main);
   font-family: var(--typography-body1-font-family) !important;
-  font-size: 20px;
+  font-size: 20px; 
   font-style: var(--typography-body1-font-style) !important;
   font-weight: var(--typography-body1-font-weight) !important;
   letter-spacing: var(--typography-body1-letter-spacing) !important;
@@ -225,6 +225,11 @@
 }
 
 .search .app-bar-2 {
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
+}
+
+.search .app-bar-3 {
   margin-right: -1px !important;
 }
 
@@ -234,14 +239,9 @@
   width: 35px !important;
 }
 
-.search .app-bar-3 {
+.search .app-bar-4 {
   color: var(--palette-primary-contrast) !important;
   text-align: center !important;
-}
-
-.search .app-bar-4 {
-  flex: 0 0 auto !important;
-  padding: 0px 30px !important;
 }
 
 .search .bottom-navigation-2 {
@@ -254,20 +254,22 @@
   padding: 10px;
   position: fixed;
   bottom: 0; /* Position it at the bottom of the viewport */
-  width: 100%; /*/* You might want to use 100% if you want it to be responsive across different device widths */
+  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
 }
 
+
+.search .bottom-navigation-3 {
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  margin-left: -30px !important;
+  margin-right: -23.5px !important;
+  width: 383px !important;
+}
 
 .search .icon-instance-node-2 {
   height: 24px !important;
   object-fit: cover !important;
   position: relative !important;
   width: 24px !important;
-}
-
-.search .bottom-navigation-3 {
-  box-shadow: var(--elevation-1) !important;
-  height: 54px !important;
-  margin-right: -36px !important;
-  width: 429px !important;
 }

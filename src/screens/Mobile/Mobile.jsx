@@ -32,6 +32,7 @@ export const Mobile = () => {
         <div className="overlap-5">
           <img className="brush-brown-4" alt="Brush brown" src="/img/brush-brown-1.png" />
           <p className="main-tagline">We are your connection to art</p>
+          <Logo1 className="logo" />
         </div>
         <p className="text-wrapper-9">
           Arts Link is your gateway to a vibrant world where art meets community. Our platform is dedicated to bridging
@@ -40,7 +41,6 @@ export const Mobile = () => {
         </p>
         <img className="NY-city-girl" alt="Ny city girl" src="/img/rooster-color-1.png" />
         <p className="text-wrapper-10">Juan Rubio, NY City Girl, digital photograph</p>
-        <Logo1 className="logo" />
         <AppBar
           className="app-bar-5"
           color="primary"
@@ -49,19 +49,21 @@ export const Mobile = () => {
           toolbarIconButtonIconIcon={<Menufilled2 className="menufilled-9" color="#FDAC9C" />}
           toolbarIconButtonIconSize="large"
           toolbarIconButtonSize="large"
-          toolbarMinHeightClassName="app-bar-6"
-          toolbarTypographyBodyClassName="app-bar-7"
+          toolbarMinHeightClassName="app-bar-7"
+          toolbarTypographyBodyClassName="app-bar-8"
           toolbarTypographyContent="Arts Link"
           toolbarTypographyVariant="h-4"
-          toolbarTypographyVariantGutterClassName="app-bar-8"
+          toolbarTypographyVariantGutterClassName="app-bar-6"
         />
         <div className="nav-bar-fixed">
           <BottomNavigationWrapper
             className="bottom-navigation-4"
             iconOnlyFalseWrapperBottomNavigationIcon={<Searchfilled className="icon-instance-node-3" color="#173F56" />}
-            iconOnlyFalseWrapperBottomNavigationIcon1={<Homefilled3 className="icon-instance-node-3" />}
+            iconOnlyFalseWrapperBottomNavigationIcon1={
+              <Peoplefilled className="icon-instance-node-3" color="#173F56" />
+            }
             iconOnlyFalseWrapperIconOnlyFalseClassName="bottom-navigation-5"
-            override={<Peoplefilled className="icon-instance-node-3" color="#173F56" />}
+            override={<Homefilled3 className="icon-instance-node-3" />}
             to1="/search"
           />
         </div>

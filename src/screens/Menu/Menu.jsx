@@ -39,7 +39,16 @@ export const Menu = () => {
             disGutters={false}
             smallScreen={false}
             stateProp="enabled"
-            value="Join"
+            value="Artists"
+            valueClassName="menu-item-2"
+          />
+          <MenuItem
+            className="menu-item-5"
+            dense={false}
+            disGutters={false}
+            smallScreen={false}
+            stateProp="enabled"
+            value="Events"
             valueClassName="menu-item-2"
           />
         </div>
