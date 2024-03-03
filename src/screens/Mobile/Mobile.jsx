@@ -42,15 +42,14 @@ export const Mobile = () => {
         <p className="text-wrapper-10">Juan Rubio, NY City Girl, digital photograph</p>
         <Logo1 className="logo" />
         <AppBar
-          className="app-bar-6"
+          className="app-bar-5"
           color="primary"
-          paperClassName="app-bar-5"
           to="/menu"
-          toolbarHasDiv={false}
+          toolbarHasMinHeight={false}
           toolbarIconButtonIconIcon={<Menufilled2 className="menufilled-9" color="#FDAC9C" />}
           toolbarIconButtonIconSize="large"
-          toolbarIconButtonSize="medium"
-          toolbarSmallScreen
+          toolbarIconButtonSize="large"
+          toolbarMinHeightClassName="app-bar-6"
           toolbarTypographyBodyClassName="app-bar-7"
           toolbarTypographyContent="Arts Link"
           toolbarTypographyVariant="h-4"

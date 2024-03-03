@@ -26,7 +26,6 @@ export const Toolbar = ({
   typographyBodyClassName,
   minHeightClassName,
   hasMinHeight = true,
-  hasDiv = true,
   stack = (
     <IconButton
       className="instance-node-3"
@@ -63,31 +62,25 @@ export const Toolbar = ({
           variant={typographyVariant}
         />
       </div>
-      {hasDiv && (
-        <>
-          <>
-            {variant === "regular" && !smallScreen && <div className={`min-height-4 ${minHeightClassName}`} />}
+      {variant === "regular" && !smallScreen && <div className={`min-height-4 ${minHeightClassName}`} />}
 
-            {(smallScreen || variant === "dense") && (
-              <Stack
-                className="instance-node-3"
-                direction="row"
-                instances="one"
-                override={
-                  <IconButton
-                    className="instance-node-3"
-                    color="inherit-white"
-                    iconIcon={<Starsharp25 className="starsharp-122" color="white" />}
-                    iconSize="medium"
-                    size="medium"
-                    stateProp="enabled"
-                  />
-                }
-                spacing="zero"
-              />
-            )}
-          </>
-        </>
+      {(smallScreen || variant === "dense") && (
+        <Stack
+          className="instance-node-3"
+          direction="row"
+          instances="one"
+          override={
+            <IconButton
+              className="instance-node-3"
+              color="inherit-white"
+              iconIcon={<Starsharp25 className="starsharp-122" color="white" />}
+              iconSize="medium"
+              size="medium"
+              stateProp="enabled"
+            />
+          }
+          spacing="zero"
+        />
       )}
 
       {hasMinHeight && (
@@ -114,7 +107,6 @@ Toolbar.propTypes = {
   typographyVariant: PropTypes.string,
   typographyContent: PropTypes.string,
   hasMinHeight: PropTypes.bool,
-  hasDiv: PropTypes.bool,
   iconButtonColor: PropTypes.string,
   to: PropTypes.string,
 };

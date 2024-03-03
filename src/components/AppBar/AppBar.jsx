@@ -15,32 +15,28 @@ export const AppBar = ({
   color,
   className,
   toolbarIconButtonSize = "medium",
-  toolbarTypographyBodyClassName,
-  toolbarHasMinHeight,
-  toolbarTypographyVariant = "body-1",
-  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
-  toolbarTypographyVariantGutterClassName,
-  toolbarMinHeightClassName,
-  toolbarIconButtonIconSize = "medium",
   toolbarTypographyContent = "Website",
-  paperClassName,
-  toolbarSmallScreen = false,
-  toolbarHasDiv,
+  toolbarMinHeightClassName,
+  toolbarHasMinHeight,
+  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
+  toolbarTypographyVariant = "body-1",
+  toolbarTypographyBodyClassName,
+  toolbarIconButtonIconSize = "medium",
+  toolbarTypographyVariantGutterClassName,
   to,
 }) => {
   return (
     <div className={`app-bar ${className}`}>
-      <div className={`paper color-25-${color} ${paperClassName}`}>
+      <div className={`paper color-25-${color}`}>
         <Toolbar
           className="toolbar-instance"
-          hasDiv={toolbarHasDiv}
           hasMinHeight={toolbarHasMinHeight}
           iconButtonColor={["default", "inherit-white", "transparent"].includes(color) ? "inherit" : undefined}
           iconButtonIconIcon={toolbarIconButtonIconIcon}
           iconButtonIconSize={toolbarIconButtonIconSize}
           iconButtonSize={toolbarIconButtonSize}
           minHeightClassName={toolbarMinHeightClassName}
-          smallScreen={toolbarSmallScreen}
+          smallScreen={false}
           stack={
             <IconButton
               className="icon-button-instance"
@@ -84,11 +80,9 @@ export const AppBar = ({
 AppBar.propTypes = {
   color: PropTypes.oneOf(["default", "secondary", "primary", "inherit-white", "transparent"]),
   toolbarIconButtonSize: PropTypes.string,
+  toolbarTypographyContent: PropTypes.string,
   toolbarHasMinHeight: PropTypes.bool,
   toolbarTypographyVariant: PropTypes.string,
   toolbarIconButtonIconSize: PropTypes.string,
-  toolbarTypographyContent: PropTypes.string,
-  toolbarSmallScreen: PropTypes.bool,
-  toolbarHasDiv: PropTypes.bool,
   to: PropTypes.string,
 };

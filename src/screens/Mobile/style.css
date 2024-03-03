@@ -57,13 +57,12 @@
 
 .mobile .here-every-piece {
   color: #000000;
-  font-family: var(--typography-body1-font-family) !important;
-  font-size: var(--typography-body1-font-size) !important;
-  font-style: var(--typography-body1-font-style) !important;
-  font-weight: var(--typography-body1-font-weight) !important;
-  letter-spacing: var(--typography-body1-letter-spacing) !important;
-  line-height: var(--typography-body1-line-height) !important;
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
   left: 43px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
   position: absolute;
   top: 651px;
   width: 306px;
@@ -124,12 +123,12 @@
 .mobile .main-tagline {
   color: var(--palette-primary-main);
   font-family: "Ofelia Text-Semibold", Helvetica;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 400;
   height: 328px;
   left: 7px;
   letter-spacing: -0.5px;
-  line-height: 72px;
+  line-height: 54px;
   position: absolute;
   text-align: center;
   top: 0;
@@ -138,13 +137,12 @@
 
 .mobile .text-wrapper-9 {
   color: #000000;
-  font-family: var(--typography-body1-font-family) !important;
-  font-size: var(--typography-body1-font-size) !important;
-  font-style: var(--typography-body1-font-style) !important;
-  font-weight: var(--typography-body1-font-weight) !important;
-  letter-spacing: var(--typography-body1-letter-spacing) !important;
-  line-height: var(--typography-body1-line-height) !important;
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
   left: 43px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
   position: absolute;
   top: 1453px;
   width: 306px;
@@ -181,23 +179,14 @@
 }
 
 .mobile .app-bar-5 {
-  margin-bottom: -2px !important;
-}
-
-.mobile .app-bar-6 {
-  box-shadow: 0px 4px 4px #00000040 !important;
-  height: 54px !important;
   left: 0 !important;
   position: absolute !important;
   top: 0 !important;
   width: 393px !important;
 }
 
-.mobile .app-bar-7 {
-  color: var(--palette-primary-contrast) !important;
-  text-align: center !important;
-  white-space: unset !important;
-  width: 179px !important;
+.mobile .app-bar-6 {
+  margin-right: -1px !important;
 }
 
 .mobile .menufilled-9 {
@@ -206,22 +195,25 @@
   width: 35px !important;
 }
 
+.mobile .app-bar-7 {
+  color: var(--palette-primary-contrast) !important;
+}
+
 .mobile .app-bar-8 {
   flex: 0 0 auto !important;
-  padding: 0px 11px !important;
+  padding: 0px 30px !important;
 }
 
 .mobile .nav-bar-fixed {
   align-items: center;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 10px;
   left: 0;
   padding: 10px;
   position: fixed;
-  bottom: 0; /* Position it at the bottom of the viewport */
-  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
+  top: 789px;
+  width: 392px;
 }
 
 .mobile .bottom-navigation-4 {

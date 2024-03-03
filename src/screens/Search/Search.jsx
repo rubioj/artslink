@@ -57,7 +57,6 @@ export const Search = () => {
             className="custom-forms-email-password"
             formcontrollabelFormLabelDivClassName="custom-forms-email-instance"
           />
-          <img className="snoqualmie-2" alt="Snoqualmie" src="/img/snoqualmie-2.png" />
         </div>
         <div className="button-subscribe">
           <div className="overlap-4">
@@ -68,18 +67,20 @@ export const Search = () => {
             <div className="text-wrapper-6">Join Our Community</div>
           </div>
         </div>
+        <img className="snoqualmie-2" alt="Snoqualmie" src="/img/snoqualmie-2.png" />
         <AppBar
           className="app-bar-instance"
           color="primary"
+          to="/menu"
           toolbarHasMinHeight={false}
           toolbarIconButtonIconIcon={<Menufilled2 className="menufilled-2" color="#FDAC9C" />}
           toolbarIconButtonIconSize="large"
           toolbarIconButtonSize="large"
-          toolbarMinHeightClassName="app-bar-4"
-          toolbarTypographyBodyClassName="app-bar-2"
+          toolbarMinHeightClassName="app-bar-2"
+          toolbarTypographyBodyClassName="app-bar-3"
           toolbarTypographyContent="Arts Link"
           toolbarTypographyVariant="h-4"
-          toolbarTypographyVariantGutterClassName="app-bar-3"
+          toolbarTypographyVariantGutterClassName="app-bar-4"
         />
         <BottomNavigationWrapper
           className="bottom-navigation-2"

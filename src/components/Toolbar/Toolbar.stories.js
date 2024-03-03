@@ -25,7 +25,6 @@ export const Default = {
     typographyBodyClassName: {},
     minHeightClassName: {},
     hasMinHeight: true,
-    hasDiv: true,
     iconButtonColor: "inherit-white",
   },
 };

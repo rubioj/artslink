@@ -15,7 +15,7 @@
 }
 
 .search .overlap-2 {
-  height: 639px;
+  height: 677px;
   left: 0;
   position: absolute;
   top: 146px;
@@ -86,71 +86,70 @@
 
 .search .snoqualmie {
   height: 208px;
-  left: 2px;
+  left: 4px;
   object-fit: cover;
   position: absolute;
-  top: 431px;
+  top: 469px;
   width: 389px;
 }
 
 .search .overlap-3 {
-  height: 1500px;
-  left: -2px;
+  height: 1288px;
+  left: 0;
   position: absolute;
-  top: 945px;
-  width: 397px;
+  top: 1157px;
+  width: 393px;
 }
 
 .search .blue-brush {
   height: 605px;
-  left: 2px;
+  left: 0;
   object-fit: cover;
   position: absolute;
-  top: 212px;
+  top: 0;
   width: 393px;
 }
 
 .search .brush-brown-2 {
   height: 561px;
-  left: 2px;
+  left: 0;
   object-fit: cover;
   position: absolute;
-  top: 817px;
+  top: 605px;
   width: 393px;
 }
 
 .search .we-are-a-passionate {
   color: #000000;
-  font-family: var(--typography-body1-font-family) !important;
-  font-size: var(--typography-body1-font-size) !important;
-  font-style: var(--typography-body1-font-style) !important;
-  font-weight: var(--typography-body1-font-weight) !important;
-  letter-spacing: var(--typography-body1-letter-spacing) !important;
-  line-height: var(--typography-body1-line-height) !important;
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
   left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
   position: absolute;
-  top: 296px;
+  top: 60px;
   width: 306px;
 }
 
 .search .p {
   color: #000000;
   font-family: "Tisa Sans Pro-Light", Helvetica;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 300;
-  left: 21px;
+  left: 61px;
   letter-spacing: 0;
-  line-height: 56px;
+  line-height: 49px;
   position: absolute;
-  top: 984px;
-  width: 376px;
+  top: 730px;
+  width: 273px;
 }
 
 .search .custom-forms-email-password {
   height: 260px !important;
-  left: 21px !important;
+  left: 19px !important;
   position: absolute !important;
-  top: 1240px !important;
+  top: 1028px !important;
   width: 352px !important;
 }
 
@@ -159,15 +158,6 @@
   font-size: 14px !important;
   letter-spacing: 0.17px !important;
   line-height: 20px !important;
-}
-
-.search .snoqualmie-2 {
-  height: 274px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 393px;
 }
 
 .search .button-subscribe {
@@ -217,6 +207,15 @@
   width: 350px;
 }
 
+.search .snoqualmie-2 {
+  height: 274px;
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: 883px;
+  width: 393px;
+}
+
 .search .app-bar-instance {
   left: 0 !important;
   position: absolute !important;
@@ -225,8 +224,7 @@
 }
 
 .search .app-bar-2 {
-  color: var(--palette-primary-contrast) !important;
-  text-align: center !important;
+  margin-right: -1px !important;
 }
 
 .search .menufilled-2 {
@@ -236,25 +234,22 @@
 }
 
 .search .app-bar-3 {
+  color: var(--palette-primary-contrast) !important;
+  text-align: center !important;
+}
+
+.search .app-bar-4 {
   flex: 0 0 auto !important;
   padding: 0px 30px !important;
 }
 
-.search .app-bar-4 {
-  margin-right: -1px !important;
-}
-
 .search .bottom-navigation-2 {
-  align-items: center;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  left: 0;
-  padding: 0px;
-  position: fixed;
-  bottom: 0; /* Position it at the bottom of the viewport */
-  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
+  background-color: #ffffff !important;
+  display: flex !important;
+  left: -2px !important;
+  position: fixed !important;
+  top: 798px !important;
+  width: 393px !important;
 }
 
 .search .icon-instance-node-2 {

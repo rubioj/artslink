@@ -51,29 +51,29 @@
 .menu .text-wrapper-11 {
   color: #000000;
   font-family: "Tisa Sans Pro-Light", Helvetica;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 300;
-  left: 16px;
+  left: 60px;
   letter-spacing: 0;
-  line-height: 56px;
+  line-height: 42px;
   position: absolute;
-  top: 693px;
-  width: 376px;
+  top: 704px;
+  width: 263px;
 }
 
 .menu .creativity-meets {
   color: var(--palette-primary-main);
   font-family: "Ofelia Text-Light", Helvetica;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 300;
-  height: 217px;
-  left: 1px;
+  height: 203px;
+  left: 30px;
   letter-spacing: -0.5px;
-  line-height: 72px;
+  line-height: 60px;
   position: absolute;
   text-align: center;
-  top: 395px;
-  width: 392px;
+  top: 393px;
+  width: 334px;
 }
 
 .menu .menu-item-instance {
