@@ -3879,6 +3879,7 @@
 }
 
 .search .links-logo {
+  background-color: #fff;
   width: 66px;
   height: 80px;
   position: absolute;
@@ -3887,6 +3888,7 @@
 }
 
 .search .overlap-2 {
+  background-color: #fff;
   width: 432px;
   height: 817px;
   position: absolute;
@@ -4077,6 +4079,7 @@
 }
 
 .search .app-bar-instance {
+  background-color: #fff;
   width: 427px !important;
   height: 54px !important;
   position: absolute !important;
@@ -4086,6 +4089,7 @@
 }
 
 .search .app-bar-2 {
+  background-color: #fff;
   margin-bottom: -2px !important;
 }
 
@@ -4097,16 +4101,23 @@
 }
 
 .search .menufilled-9 {
+  background-color: #fff;
   width: 35px !important;
   height: 35px !important;
   position: relative !important;
 }
 
 .search .bottom-navigation-2 {
-  background-color: #f0f !important;
-  position: fixed !important;
-  top: 800px !important;
-  left: -1px !important;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .search .icon-instance-node-2 {
