@@ -57,12 +57,13 @@
 
 .mobile .here-every-piece {
   color: #000000;
-  font-family: "Ofelia Text-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: var(--typography-body1-font-family) !important;
+  font-size: var(--typography-body1-font-size) !important;
+  font-style: var(--typography-body1-font-style) !important;
+  font-weight: var(--typography-body1-font-weight) !important;
+  letter-spacing: var(--typography-body1-letter-spacing) !important;
+  line-height: var(--typography-body1-line-height) !important;
   left: 43px;
-  letter-spacing: 0.15px;
-  line-height: 30px;
   position: absolute;
   top: 651px;
   width: 306px;
@@ -137,12 +138,13 @@
 
 .mobile .text-wrapper-9 {
   color: #000000;
-  font-family: "Ofelia Text-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: var(--typography-body1-font-family) !important;
+  font-size: var(--typography-body1-font-size) !important;
+  font-style: var(--typography-body1-font-style) !important;
+  font-weight: var(--typography-body1-font-weight) !important;
+  letter-spacing: var(--typography-body1-letter-spacing) !important;
+  line-height: var(--typography-body1-line-height) !important;
   left: 43px;
-  letter-spacing: 0.15px;
-  line-height: 30px;
   position: absolute;
   top: 1453px;
   width: 306px;
