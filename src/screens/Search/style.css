@@ -244,12 +244,16 @@
 }
 
 .search .bottom-navigation-2 {
-  background-color: #ffffff !important;
-  display: flex !important;
-  left: -2px !important;
-  position: fixed !important;
-  top: 798px !important;
-  width: 393px !important;
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 0px;
+  position: fixed;
+  bottom: 0; /* Position it at the bottom of the viewport */
+  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
 }
 
 .search .icon-instance-node-2 {
