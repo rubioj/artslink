@@ -7,7 +7,7 @@ import { Mobile } from "./screens/Mobile";
 const router = createBrowserRouter([
   {
     path: "/*",
-    element: <Menu />,
+    element: <Mobile />,
   },
   {
     path: "/menu",
