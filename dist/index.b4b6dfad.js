@@ -27178,7 +27178,7 @@ var _mobile = require("./screens/Mobile");
 const router = (0, _reactRouterDom.createBrowserRouter)([
     {
         path: "/*",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menu.Menu), {}, void 0, false, {
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mobile.Mobile), {}, void 0, false, {
             fileName: "src/App.jsx",
             lineNumber: 10,
             columnNumber: 14
@@ -54562,6 +54562,6 @@ $RefreshReg$(_c, "MenuItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","react-router-dom":"9xmpe","./style.css":"9FbIb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9FbIb":[function() {},{}],"dP4lQ":[function() {},{}]},["gjUm6","1xC6H","d8Dch"], "d8Dch", "parcelRequireb8e7")
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","react-router-dom":"9xmpe","./style.css":"9FbIb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9FbIb":[function() {},{}],"dP4lQ":[function() {},{}]},["gjUm6","1xC6H","d8Dch"], "d8Dch", "parcelRequirea096")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
