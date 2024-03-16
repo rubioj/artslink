@@ -14,7 +14,7 @@
   width: 393px;
 }
 
-.mobile .overlap-group-4 {
+.mobile .overlap-group-6 {
   height: 1630px;
   left: 0;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 429px;
 }
 
-.mobile .custom-forms-email-password-instance {
+.mobile .custom-forms-email-password {
   height: 260px !important;
   left: 27px !important;
   position: absolute !important;
@@ -30,14 +30,14 @@
   width: 352px !important;
 }
 
-.mobile .custom-forms-email-2 {
+.mobile .custom-forms-email-instance {
   font-family: "Roboto", Helvetica !important;
   font-size: 14px !important;
   letter-spacing: 0.17px !important;
   line-height: 20px !important;
 }
 
-.mobile .blue-brush-2 {
+.mobile .blue-brush {
   height: 614px;
   left: 0;
   object-fit: cover;
@@ -46,7 +46,7 @@
   width: 393px;
 }
 
-.mobile .brush-brown-3 {
+.mobile .brush-brown-2 {
   height: 561px;
   left: 0;
   object-fit: cover;
@@ -56,20 +56,19 @@
 }
 
 .mobile .here-every-piece {
-  color: var(--palette-primary-main);
-  font-family: var(--typography-body1-font-family) !important;
-  font-size: 20px; 
-  font-style: var(--typography-body1-font-style) !important;
-  font-weight: var(--typography-body1-font-weight) !important;
-  letter-spacing: var(--typography-body1-letter-spacing) !important;
-  line-height: var(--typography-body1-line-height) !important;
+  color: #000000;
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
   left: 43px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
   position: absolute;
   top: 651px;
   width: 306px;
 }
 
-.mobile .text-wrapper-7 {
+.mobile .p {
   color: #000000;
   font-family: "Roboto", Helvetica;
   font-size: 12px;
@@ -91,7 +90,7 @@
   width: 429px;
 }
 
-.mobile .text-wrapper-8 {
+.mobile .text-wrapper-7 {
   color: #000000;
   font-family: "Roboto", Helvetica;
   font-size: 48px;
@@ -104,55 +103,89 @@
   width: 330px;
 }
 
-.mobile .overlap-5 {
-  height: 661px;
+.mobile .overlap-3 {
+  height: 733px;
   left: 0;
   position: absolute;
-  top: 142px;
+  top: 130px;
   width: 393px;
 }
 
-.mobile .brush-brown-4 {
+.mobile .brush-brown-3 {
   height: 359px;
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 302px;
+  top: 314px;
   width: 393px;
 }
 
 .mobile .main-tagline {
   color: var(--palette-primary-main);
-  font-family: "Ofelia Text-Semibold", Helvetica;
-  font-size: 45px;
-  font-weight: 400;
-  height: 328px;
-  left: 7px;
-  letter-spacing: -0.5px;
-  line-height: 54px;
+  font-family: "Roboto", Helvetica;
+  font-size: 80px;
+  font-weight: 300;
+  height: 348px;
+  left: 6px;
+  letter-spacing: -1.5px;
+  line-height: 93.4px;
   position: absolute;
   text-align: center;
-  top: 159px;
-  width: 381px;
+  top: 161px;
+  width: 383px;
+}
+
+.mobile .bottom-navigation-instance-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 659px;
+  width: 392px;
+}
+
+.mobile .bottom-navigation-4 {
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  margin-left: -23.5px !important;
+  margin-right: -23.5px !important;
+  width: 419px !important;
+}
+
+.mobile .icon-instance-node-3 {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.mobile .bottom-navigation-5 {
+  box-shadow: var(--elevation-1) !important;
+  height: 54px !important;
+  margin-right: -10px !important;
+  width: 429px !important;
 }
 
 .mobile .logo {
-  height: 172px !important;
-  left: 126px !important;
+  height: 168px !important;
+  left: 123px !important;
   position: absolute !important;
   top: 0 !important;
-  width: 142px !important;
+  width: 138px !important;
 }
 
-.mobile .text-wrapper-9 {
-  color: var(--palette-primary-main);
-  font-family: var(--typography-body1-font-family) !important;
-  font-size: 20px; 
-  font-style: var(--typography-body1-font-style) !important;
-  font-weight: var(--typography-body1-font-weight) !important;
-  letter-spacing: var(--typography-body1-letter-spacing) !important;
-  line-height: var(--typography-body1-line-height) !important;
+.mobile .text-wrapper-8 {
+  color: #000000;
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
   left: 43px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
   position: absolute;
   top: 1453px;
   width: 306px;
@@ -167,7 +200,7 @@
   width: 523px;
 }
 
-.mobile .text-wrapper-10 {
+.mobile .text-wrapper-9 {
   color: #000000;
   font-family: "Roboto", Helvetica;
   font-size: 12px;
@@ -192,51 +225,16 @@
   padding: 0px 30px !important;
 }
 
-.mobile .app-bar-7 {
-  margin-right: -1px !important;
-}
-
 .mobile .menufilled-9 {
   height: 35px !important;
   position: relative !important;
   width: 35px !important;
 }
 
-.mobile .app-bar-8 {
+.mobile .app-bar-7 {
   color: var(--palette-primary-contrast) !important;
 }
 
-.mobile .nav-bar-fixed {
-  align-items: center;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  left: 0;
-  padding: 10px;
-  position: fixed;
-  bottom: 0; /* Position it at the bottom of the viewport */
-  width: 100%; /* You might want to use 100% if you want it to be responsive across different device widths */
-}
-
-.mobile .bottom-navigation-4 {
-  background-color: #ffffff !important;
-  display: flex !important;
-  flex: 0 0 auto !important;
-  margin-left: -30px !important;
-  margin-right: -23.5px !important;
-  width: 383px !important;
-}
-
-.mobile .bottom-navigation-5 {
-  height: 54px !important;
-  margin-right: -10px !important;
-  width: 429px !important;
-}
-
-.mobile .icon-instance-node-3 {
-  height: 24px !important;
-  object-fit: cover !important;
-  position: relative !important;
-  width: 24px !important;
+.mobile .app-bar-8 {
+  margin-right: -1px !important;
 }

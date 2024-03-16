@@ -14,15 +14,7 @@
   width: 393px;
 }
 
-.menu .links-logo-2 {
-  height: 80px;
-  left: 163px;
-  position: absolute;
-  top: 70px;
-  width: 66px;
-}
-
-.menu .overlap-6 {
+.menu .overlap-5 {
   height: 1039px;
   left: 0;
   position: absolute;
@@ -30,7 +22,7 @@
   width: 393px;
 }
 
-.menu .blue-brush-3 {
+.menu .blue-brush-2 {
   height: 605px;
   left: 0;
   object-fit: cover;
@@ -84,12 +76,12 @@
 
 .menu .menu-item-2 {
   color: var(--palette-text-primary) !important;
-  font-family: var(--typography-h2-font-family) !important;
-  font-size: var(--typography-h2-font-size) !important;
-  font-style: var(--typography-h2-font-style) !important;
-  font-weight: var(--typography-h2-font-weight) !important;
-  letter-spacing: var(--typography-h2-letter-spacing) !important;
-  line-height: var(--typography-h2-line-height) !important;
+  font-family: "Roboto", Helvetica !important;
+  font-size: 60px !important;
+  font-style: unset !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.5px !important;
+  line-height: 72px !important;
 }
 
 .menu .menu-item-3 {
@@ -111,7 +103,7 @@
   top: 297px !important;
 }
 
-.menu .button-subscribe-2 {
+.menu .button-subscribe-3 {
   height: 57px;
   left: 18px;
   position: absolute;
@@ -119,12 +111,12 @@
   width: 350px;
 }
 
-.menu .overlap-group-5 {
+.menu .overlap-group-8 {
   height: 56px;
   position: relative;
 }
 
-.menu .rectangle-2 {
+.menu .rectangle-3 {
   background-color: #d3c1a5;
   border: 1px solid;
   border-color: #000000;
@@ -136,7 +128,7 @@
   width: 294px;
 }
 
-.menu .arrow-redo-wrapper {
+.menu .arrow-redo-instance-wrapper {
   height: 29px;
   left: 277px;
   position: absolute;
@@ -156,4 +148,12 @@
   text-align: center;
   top: 7px;
   width: 350px;
+}
+
+.menu .logo-2 {
+  height: 80px !important;
+  left: 158px !important;
+  position: absolute !important;
+  top: 70px !important;
+  width: 66px !important;
 }

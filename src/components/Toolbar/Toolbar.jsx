@@ -18,17 +18,17 @@ export const Toolbar = ({
   smallScreen,
   className,
   iconButtonSize = "medium",
-  iconButtonIconIcon = <Menufilled2 className="starsharp-122" color="white" />,
   iconButtonIconSize = "medium",
+  iconButtonIconIcon = <Menufilled2 className="starsharp-122" color="white" />,
   typographyVariant = "body-1",
-  typographyBodyClassName,
   typographyContent = "Website",
   typographyVariantGutterClassName,
+  typographyBodyClassName,
   minHeightClassName,
   hasMinHeight = true,
   stack = (
     <IconButton
-      className="instance-node-3"
+      className="instance-node"
       color="inherit-white"
       iconIcon={<Starsharp25 className="starsharp-122" color="white" />}
       iconSize="medium"
@@ -44,7 +44,7 @@ export const Toolbar = ({
       <div className="left-side">
         {menu && (
           <IconButton
-            className="instance-node-3"
+            className="instance-node"
             color={iconButtonColor}
             iconIcon={iconButtonIconIcon}
             iconSize={iconButtonIconSize}
@@ -62,16 +62,16 @@ export const Toolbar = ({
           variant={typographyVariant}
         />
       </div>
-      {variant === "regular" && !smallScreen && <div className={`min-height-4 ${minHeightClassName}`} />}
+      {variant === "regular" && !smallScreen && <div className={`min-height ${minHeightClassName}`} />}
 
       {(smallScreen || variant === "dense") && (
         <Stack
-          className="instance-node-3"
+          className="instance-node"
           direction="row"
           instances="one"
           override={
             <IconButton
-              className="instance-node-3"
+              className="instance-node"
               color="inherit-white"
               iconIcon={<Starsharp25 className="starsharp-122" color="white" />}
               iconSize="medium"
@@ -87,10 +87,10 @@ export const Toolbar = ({
         <>
           <>
             {variant === "regular" && !smallScreen && (
-              <Stack className="instance-node-3" direction="row" instances="one" override={stack} spacing="zero" />
+              <Stack className="instance-node" direction="row" instances="one" override={stack} spacing="zero" />
             )}
 
-            {(smallScreen || variant === "dense") && <div className={`min-height-5 ${variant}`} />}
+            {(smallScreen || variant === "dense") && <div className={`div ${variant}`} />}
           </>
         </>
       )}

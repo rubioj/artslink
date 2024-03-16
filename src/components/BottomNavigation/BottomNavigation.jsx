@@ -27,7 +27,7 @@ export const BottomNavigation = ({
       {label && (
         <>
           {icon}
-          <div className="tab-one-wrapper">
+          <div className="text-wrapper">
             <div className="tab-one">{labelContent}</div>
           </div>
         </>

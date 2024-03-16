@@ -859,10 +859,10 @@
   --typography-h1-font-weight: 300;
   --typography-h1-letter-spacing: -1.5px;
   --typography-h1-line-height: 116.7%;
-  --typography-h2-font-family: "Roboto", Helvetica;
-  --typography-h2-font-size: 60px;
+  --typography-h2-font-family: "Ofelia Text", Helvetica;
+  --typography-h2-font-size: 45px;
   --typography-h2-font-style: normal;
-  --typography-h2-font-weight: 300;
+  --typography-h2-font-weight: 400;
   --typography-h2-letter-spacing: -.5px;
   --typography-h2-line-height: 120%;
   --typography-h3-font-family: "Roboto", Helvetica;

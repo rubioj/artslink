@@ -1,0 +1,163 @@
+.search-active-screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-active-screen .search-active-2 {
+  background-color: #ffffff;
+  height: 887px;
+  overflow: hidden;
+  position: relative;
+  width: 393px;
+}
+
+.search-active-screen .overlap-4 {
+  height: 601px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 393px;
+}
+
+.search-active-screen .links-logo-2 {
+  height: 80px;
+  left: 163px;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.search-active-screen .brush-brown-4 {
+  height: 561px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 40px;
+  width: 393px;
+}
+
+.search-active-screen .snoqualmie-2 {
+  display: block;
+  height: 193px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 128px;
+  width: 392px;
+}
+
+.search-active-screen .button-subscribe-2 {
+  height: 57px;
+  left: 18px;
+  position: absolute;
+  top: 3153px;
+  width: 350px;
+}
+
+.search-active-screen .overlap-group-7 {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.search-active-screen .rectangle-2 {
+  background-color: #d3c1a5;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 25px;
+  height: 39px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 294px;
+}
+
+.search-active-screen .text-wrapper-10 {
+  color: #574a3e;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 350px;
+}
+
+.search-active-screen .arrow-redo-instance {
+  background-image: url(../../../static/img/arrow-redo-4.png) !important;
+  height: 29px !important;
+  left: -371px !important;
+  position: absolute !important;
+  top: -4138px !important;
+  width: 31px !important;
+}
+
+.search-active-screen .app-bar-9 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 393px !important;
+}
+
+.search-active-screen .app-bar-10 {
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
+}
+
+.search-active-screen .menufilled {
+  height: 35px !important;
+  position: relative !important;
+  width: 35px !important;
+}
+
+.search-active-screen .app-bar-11 {
+  color: var(--palette-primary-contrast) !important;
+  text-align: center !important;
+}
+
+.search-active-screen .app-bar-12 {
+  margin-right: -1px !important;
+}
+
+.search-active-screen .nav-bar-fixed-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 789px;
+  width: 392px;
+}
+
+.search-active-screen .bottom-navigation-6 {
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  margin-left: -23.5px !important;
+  margin-right: -23.5px !important;
+  width: 419px !important;
+}
+
+.search-active-screen .icon-instance-node-4 {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.search-active-screen .bottom-navigation-7 {
+  box-shadow: var(--elevation-1) !important;
+  height: 54px !important;
+  margin-right: -10px !important;
+  width: 429px !important;
+}

@@ -1,0 +1,162 @@
+.search-active {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-active .div-2 {
+  background-color: #ffffff;
+  height: 887px;
+  overflow: hidden;
+  position: relative;
+  width: 393px;
+}
+
+.search-active .overlap-2 {
+  height: 601px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 393px;
+}
+
+.search-active .links-logo {
+  height: 80px;
+  left: 163px;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.search-active .brush-brown {
+  height: 561px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 40px;
+  width: 393px;
+}
+
+.search-active .snoqualmie {
+  height: 266px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 121px;
+  width: 392px;
+}
+
+.search-active .button-subscribe {
+  height: 57px;
+  left: 18px;
+  position: absolute;
+  top: 3153px;
+  width: 350px;
+}
+
+.search-active .overlap-group-5 {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.search-active .rectangle {
+  background-color: #d3c1a5;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 25px;
+  height: 39px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 294px;
+}
+
+.search-active .text-wrapper-6 {
+  color: #574a3e;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 350px;
+}
+
+.search-active .arrow-redo {
+  background-image: url(../../../static/img/arrow-redo-4.png) !important;
+  height: 29px !important;
+  left: 140px !important;
+  position: absolute !important;
+  top: -4108px !important;
+  width: 31px !important;
+}
+
+.search-active .app-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 393px !important;
+}
+
+.search-active .app-bar-2 {
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
+}
+
+.search-active .menufilled-2 {
+  height: 35px !important;
+  position: relative !important;
+  width: 35px !important;
+}
+
+.search-active .app-bar-3 {
+  color: var(--palette-primary-contrast) !important;
+  text-align: center !important;
+}
+
+.search-active .app-bar-4 {
+  margin-right: -1px !important;
+}
+
+.search-active .nav-bar-fixed {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 789px;
+  width: 392px;
+}
+
+.search-active .bottom-navigation-2 {
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  margin-left: -23.5px !important;
+  margin-right: -23.5px !important;
+  width: 419px !important;
+}
+
+.search-active .icon-instance-node-2 {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.search-active .bottom-navigation-3 {
+  box-shadow: var(--elevation-1) !important;
+  height: 54px !important;
+  margin-right: -10px !important;
+  width: 429px !important;
+}

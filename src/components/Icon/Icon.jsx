@@ -13,7 +13,7 @@ export const Icon = ({
   className,
   icon = <Starsharp25 className="star-sharp" color="black" opacity="0.56" />,
 }) => {
-  return <div className={`icon size-33-${size} ${className}`}>{icon}</div>;
+  return <div className={`icon ${size} ${className}`}>{icon}</div>;
 };
 
 Icon.propTypes = {

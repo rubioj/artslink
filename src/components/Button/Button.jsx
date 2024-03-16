@@ -30,7 +30,7 @@ export const Button = ({
 
   return (
     <button
-      className={`button variant-${state.variant} state-21-${state.state} size-28-${state.size} color-21-${state.color} ${className}`}
+      className={`button variant-${state.variant} state-14-${state.state} size-6-${state.size} color-2-${state.color} ${className}`}
       onMouseLeave={() => {
         dispatch("mouse_leave");
       }}
@@ -49,7 +49,7 @@ export const Button = ({
               <>
                 {loadingStart && (
                   <ProgressCircular1
-                    className={`${state.variant === "contained" && state.size === "large" ? "class-41" : "class-42"}`}
+                    className={`${state.variant === "contained" && state.size === "large" ? "class" : "class-2"}`}
                   />
                 )}
               </>

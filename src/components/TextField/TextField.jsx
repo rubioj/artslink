@@ -61,15 +61,15 @@ export const TextField = ({
         (state.size === "small" && state.state === "error" && state.variant === "standard") ||
         (state.size === "small" && state.state === "focused" && state.variant === "filled") ||
         (state.size === "small" && state.state === "focused" && state.variant === "standard")) && (
-        <div className={`input ${state.variant} state-0-${state.state} size-22-${state.size}`}>
+        <div className={`input ${state.variant} state-1-${state.state} size-0-${state.size}`}>
           {state.variant === "standard" && (
             <>
-              <div className={`temp-label state-9-${state.state} has-value-${state.hasValue}`}>
+              <div className={`temp-label state-2-${state.state} has-value-${state.hasValue}`}>
                 {!state.hasValue && <>Label</>}
 
                 {state.hasValue && <>{label}</>}
               </div>
-              <div className={`label has-value-0-${state.hasValue} state-10-${state.state}`}>
+              <div className={`label has-value-0-${state.hasValue} state-3-${state.state}`}>
                 {!state.hasValue && <>{label}</>}
 
                 {state.hasValue && (
@@ -126,20 +126,20 @@ export const TextField = ({
 
           {state.variant === "filled" && (
             <>
-              <div className={`input-2 size-23-${state.size} has-value-1-${state.hasValue}`}>
-                {!state.hasValue && <div className="text-wrapper">{label}</div>}
+              <div className={`input-2 size-1-${state.size} has-value-1-${state.hasValue}`}>
+                {!state.hasValue && <div className="label-2">{label}</div>}
 
                 {state.hasValue && (
                   <>
-                    <div className="label-2">{label}</div>
+                    <div className="label-3">{label}</div>
                     <div className="content">
                       {["disabled", "enabled", "error", "hovered"].includes(state.state) && (
-                        <div className="min-height" />
+                        <div className="min-height-2" />
                       )}
 
                       {value1 && <div className="value-2">{value}</div>}
 
-                      <div className="min-height-2" />
+                      <div className="min-height-3" />
                       {state.state === "focused" && <div className="min-width" />}
                     </div>
                   </>
@@ -173,7 +173,7 @@ export const TextField = ({
             <>
               <div className="content-3">{value1 && <div className="value-3">{value}</div>}</div>
               <div className="label-container">
-                <div className="label-3">{label}</div>
+                <div className="label-4">{label}</div>
               </div>
             </>
           )}
@@ -186,7 +186,7 @@ export const TextField = ({
             <div className="content-4">{value1 && <div className="value-4">{value}</div>}</div>
           </div>
           <div className="label-container">
-            <div className="label-4">{label}</div>
+            <div className="label-5">{label}</div>
           </div>
         </>
       )}

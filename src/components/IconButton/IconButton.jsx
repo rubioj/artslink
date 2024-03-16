@@ -28,7 +28,7 @@ export const IconButton = ({
 
   return (
     <Link
-      className={`icon-button size-34-${state.size} color-24-${state.color} state-23-${state.state} ${className}`}
+      className={`icon-button size-${state.size} color-${state.color} ${state.state} ${className}`}
       to={to}
       onMouseLeave={() => {
         dispatch("mouse_leave");

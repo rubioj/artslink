@@ -24,13 +24,13 @@ export const Slider = ({
   sliderRailSizeSmallColorClassName,
 }) => {
   return (
-    <div className={`slider orientation-0-${orientation} ${state} ${variant} size-2-${size} ${className}`}>
+    <div className={`slider orientation-0-${orientation} state-13-${state} ${variant} size-15-${size} ${className}`}>
       <div className="overlap-group-wrapper">
         <div className={`overlap-group ${overlapGroupClassName}`}>
           {orientation === "vertical" && variant === "continuous" && ["disabled", "enabled"].includes(state) && (
             <>
               <SliderThumb
-                className={`${size === "medium" ? "class" : "class-2"}`}
+                className={`${size === "medium" ? "class-3" : "class-4"}`}
                 color={
                   color === "secondary" && state === "enabled" ? "secondary" : state === "disabled" ? "none" : "primary"
                 }
@@ -38,7 +38,7 @@ export const Slider = ({
                 size={size === "medium" ? "medium" : "small"}
               />
               <SliderTrack
-                className={`${size === "medium" ? "class-3" : "class-4"}`}
+                className={`${size === "medium" ? "class-5" : "class-6"}`}
                 color={
                   color === "secondary" && state === "enabled" ? "secondary" : state === "disabled" ? "none" : "primary"
                 }
@@ -57,14 +57,14 @@ export const Slider = ({
             <SliderRail
               className={`${
                 orientation === "horizontal" && size === "medium" && ["marks", "range"].includes(variant)
-                  ? "class-5"
-                  : orientation === "vertical" && size === "small"
-                  ? "class-6"
-                  : orientation === "vertical" && size === "medium"
                   ? "class-7"
+                  : orientation === "vertical" && size === "small"
+                  ? "class-8"
+                  : orientation === "vertical" && size === "medium"
+                  ? "class-9"
                   : variant === "continuous" && orientation === "horizontal"
                   ? sliderRailSizeSmallColorClassName
-                  : "class-8"
+                  : "class-10"
               }`}
               color={
                 color === "secondary" && ["enabled", "hover"].includes(state)
@@ -80,8 +80,8 @@ export const Slider = ({
           )}
 
           {orientation === "vertical" && variant === "continuous" && state === "hover" && (
-            <div className={`div-wrapper color-2-${color} size-5-${size}`}>
-              <div className="div">
+            <div className={`slider-thumb-2 color-9-${color} size-18-${size}`}>
+              <div className="overlap-group-2">
                 <div className="overlay" />
                 <div className="color-2" />
               </div>
@@ -98,19 +98,19 @@ export const Slider = ({
             <SliderTrack
               className={`${
                 orientation === "horizontal" && size === "small" && ["continuous", "marks"].includes(variant)
-                  ? "class-9"
-                  : color === "primary" && variant === "continuous" && size === "medium" && state === "enabled"
-                  ? "class-10"
-                  : variant === "continuous" && state === "disabled" && size === "medium"
                   ? "class-11"
-                  : color === "secondary" && variant === "continuous" && size === "medium" && state === "enabled"
+                  : color === "primary" && variant === "continuous" && size === "medium" && state === "enabled"
                   ? "class-12"
+                  : variant === "continuous" && state === "disabled" && size === "medium"
+                  ? "class-13"
+                  : color === "secondary" && variant === "continuous" && size === "medium" && state === "enabled"
+                  ? "class-14"
                   : size === "medium" &&
                     variant === "marks" &&
                     color === "primary" &&
                     orientation === "horizontal" &&
                     state === "enabled"
-                  ? "class-13"
+                  ? "class-15"
                   : (color === "secondary" &&
                       orientation === "horizontal" &&
                       size === "medium" &&
@@ -121,69 +121,69 @@ export const Slider = ({
                       size === "medium" &&
                       state === "hover" &&
                       variant === "continuous")
-                  ? "class-14"
+                  ? "class-16"
                   : (color === "primary" &&
                       orientation === "horizontal" &&
                       size === "medium" &&
                       state === "hover" &&
                       variant === "marks") ||
                     (orientation === "horizontal" && size === "medium" && state === "disabled" && variant === "marks")
-                  ? "class-15"
+                  ? "class-17"
                   : orientation === "vertical" && size === "medium" && ["continuous", "marks"].includes(variant)
-                  ? "class-3"
+                  ? "class-5"
                   : size === "medium" &&
                     color === "secondary" &&
                     variant === "marks" &&
                     orientation === "horizontal" &&
                     state === "hover"
-                  ? "class-16"
+                  ? "class-18"
                   : orientation === "vertical" && size === "small" && variant === "marks" && state === "hover"
-                  ? "class-17"
+                  ? "class-19"
                   : variant === "range" &&
                     size === "medium" &&
                     color === "primary" &&
                     orientation === "horizontal" &&
                     state === "hover"
-                  ? "class-18"
+                  ? "class-20"
                   : size === "medium" &&
                     color === "primary" &&
                     variant === "continuous" &&
                     orientation === "horizontal" &&
                     state === "hover"
-                  ? "class-19"
+                  ? "class-21"
                   : (orientation === "horizontal" && size === "small" && state === "enabled" && variant === "range") ||
                     (orientation === "horizontal" && size === "small" && state === "hover" && variant === "range")
-                  ? "class-20"
+                  ? "class-22"
                   : variant === "range" &&
                     size === "medium" &&
                     color === "secondary" &&
                     orientation === "horizontal" &&
                     state === "hover"
-                  ? "class-21"
-                  : orientation === "vertical" && size === "small" && variant === "range" && state === "hover"
-                  ? "class-22"
-                  : orientation === "vertical" && variant === "range" && size === "medium"
                   ? "class-23"
-                  : size === "small" && orientation === "horizontal" && state === "disabled" && variant === "range"
+                  : orientation === "vertical" && size === "small" && variant === "range" && state === "hover"
                   ? "class-24"
+                  : orientation === "vertical" && variant === "range" && size === "medium"
+                  ? "class-25"
+                  : size === "small" && orientation === "horizontal" && state === "disabled" && variant === "range"
+                  ? "class-26"
                   : variant === "range" &&
                     size === "medium" &&
                     color === "primary" &&
                     orientation === "horizontal" &&
                     state === "enabled"
-                  ? "class-25"
+                  ? "class-27"
                   : variant === "range" &&
                     size === "medium" &&
                     color === "secondary" &&
                     orientation === "horizontal" &&
                     state === "enabled"
-                  ? "class-26"
+                  ? "class-28"
                   : orientation === "horizontal" && state === "disabled" && variant === "range" && size === "medium"
-                  ? "class-27"
+                  ? "class-29"
                   : (orientation === "vertical" && size === "small" && state === "disabled" && variant === "range") ||
                     (orientation === "vertical" && size === "small" && state === "enabled" && variant === "range")
-                  ? "class-28"
-                  : "class-4"
+                  ? "class-30"
+                  : "class-6"
               }`}
               color={
                 color === "secondary" && ["enabled", "hover"].includes(state)
@@ -200,7 +200,7 @@ export const Slider = ({
 
           {orientation === "vertical" && variant === "continuous" && state === "hover" && (
             <SliderRail
-              className={`${size === "medium" ? "class-7" : "class-6"}`}
+              className={`${size === "medium" ? "class-9" : "class-8"}`}
               color={color === "secondary" ? "secondary" : "primary"}
               disabled={false}
               orientation="vertical"
@@ -219,14 +219,14 @@ export const Slider = ({
             (state === "enabled" && variant === "range") ||
             variant === "marks") && (
             <div className="marks-2">
-              <div className={`slider-mark variant-1-${variant} state-1-${state} color-5-${color}`}>
+              <div className={`slider-mark variant-1-${variant} state-18-${state} color-12-${color}`}>
                 {variant === "marks" && <div className="rec" />}
               </div>
-              <div className={`slider-mark-2 variant-2-${variant} state-2-${state} color-6-${color}`}>
+              <div className={`slider-mark-2 variant-2-${variant} state-19-${state} color-13-${color}`}>
                 {variant === "marks" && <div className="rec" />}
               </div>
               <div
-                className={`slider-mark-3 state-3-${state} color-7-${color} variant-3-${variant} size-10-${size} orientation-4-${orientation}`}
+                className={`slider-mark-3 state-20-${state} color-14-${color} variant-3-${variant} size-23-${size} orientation-4-${orientation}`}
               >
                 {((color === "primary" && size === "small" && state === "hover" && variant === "marks") ||
                   (color === "secondary" &&
@@ -238,7 +238,7 @@ export const Slider = ({
                   (size === "small" && state === "disabled" && variant === "range")) && <div className="rec" />}
               </div>
               <div
-                className={`slider-mark-4 state-4-${state} variant-4-${variant} color-8-${color} size-11-${size} orientation-5-${orientation}`}
+                className={`slider-mark-4 state-21-${state} variant-4-${variant} color-15-${color} size-24-${size} orientation-5-${orientation}`}
               >
                 {((color === "primary" && orientation === "horizontal" && size === "small" && state === "hover") ||
                   (color === "secondary" && orientation === "horizontal" && state === "hover" && variant === "range") ||
@@ -249,11 +249,11 @@ export const Slider = ({
                   (orientation === "vertical" && size === "small" && state === "hover" && variant === "marks") ||
                   (orientation === "vertical" && size === "small" && variant === "range")) && <div className="rec" />}
               </div>
-              <div className={`slider-mark-5 state-5-${state} color-9-${color} variant-1-${variant} size-12-${size}`}>
+              <div className={`slider-mark-5 state-22-${state} color-16-${color} variant-1-${variant} size-25-${size}`}>
                 {state === "disabled" && size === "small" && variant === "range" && <div className="rec" />}
               </div>
-              <div className={`slider-mark-6 state-6-${state} color-10-${color}`} />
-              <div className={`slider-mark-7 state-7-${state} color-11-${color}`} />
+              <div className={`slider-mark-6 state-23-${state} color-17-${color}`} />
+              <div className={`slider-mark-7 state-24-${state} color-18-${color}`} />
             </div>
           )}
 
@@ -266,22 +266,22 @@ export const Slider = ({
             <SliderThumb
               className={`${
                 variant === "continuous" || (orientation === "horizontal" && variant === "marks")
-                  ? "class-29"
+                  ? "class-31"
                   : orientation === "vertical" && size === "small" && variant === "marks"
-                  ? "class-2"
+                  ? "class-4"
                   : orientation === "vertical" && variant === "marks" && size === "medium" && state === "enabled"
-                  ? "class"
+                  ? "class-3"
                   : orientation === "vertical" && state === "disabled" && size === "medium" && variant === "marks"
-                  ? "class-30"
+                  ? "class-32"
                   : orientation === "horizontal" && variant === "range" && size === "medium" && state === "enabled"
                   ? "slider-thumb-instance"
                   : orientation === "vertical" && size === "small" && variant === "range"
-                  ? "class-31"
-                  : orientation === "vertical" && variant === "range" && size === "medium" && state === "enabled"
-                  ? "class-32"
-                  : orientation === "vertical" && state === "disabled" && variant === "range" && size === "medium"
                   ? "class-33"
-                  : "class-34"
+                  : orientation === "vertical" && variant === "range" && size === "medium" && state === "enabled"
+                  ? "class-34"
+                  : orientation === "vertical" && state === "disabled" && variant === "range" && size === "medium"
+                  ? "class-35"
+                  : "class-36"
               }`}
               color={
                 color === "secondary" && state === "enabled" ? "secondary" : state === "disabled" ? "none" : "primary"
@@ -306,9 +306,9 @@ export const Slider = ({
             (orientation === "vertical" && state === "hover" && variant === "marks") ||
             (orientation === "vertical" && state === "hover" && variant === "range")) && (
             <div
-              className={`slider-thumb-2 color-12-${color} size-13-${size} orientation-6-${orientation} variant-5-${variant}`}
+              className={`slider-thumb-3 color-19-${color} size-26-${size} orientation-6-${orientation} variant-5-${variant}`}
             >
-              <div className="overlap-group-2">
+              <div className="overlap-group-3">
                 <div className="overlay-2" />
                 <div className="color-3" />
               </div>
@@ -319,14 +319,14 @@ export const Slider = ({
             <SliderThumb
               className={`${
                 orientation === "horizontal" && state === "enabled"
-                  ? "class-35"
-                  : state === "disabled" && orientation === "horizontal"
-                  ? "class-36"
-                  : orientation === "vertical" && size === "small"
                   ? "class-37"
-                  : orientation === "vertical" && state === "disabled" && size === "medium"
+                  : state === "disabled" && orientation === "horizontal"
                   ? "class-38"
-                  : "class-2"
+                  : orientation === "vertical" && size === "small"
+                  ? "class-39"
+                  : orientation === "vertical" && state === "disabled" && size === "medium"
+                  ? "class-40"
+                  : "class-4"
               }`}
               color={
                 color === "secondary" && state === "enabled" ? "secondary" : state === "disabled" ? "none" : "primary"
@@ -343,7 +343,7 @@ export const Slider = ({
             variant === "range") ||
             (color === "secondary" && size === "medium" && state === "hover" && variant === "range") ||
             (size === "small" && state === "hover" && variant === "range")) && (
-            <div className={`overlap-wrapper color-15-${color} size-17-${size} orientation-7-${orientation}`}>
+            <div className={`overlap-wrapper color-22-${color} size-30-${size} orientation-7-${orientation}`}>
               <div className="overlap">
                 <div className="overlay-3" />
                 <div className="color-4" />
@@ -369,8 +369,8 @@ export const Slider = ({
                   <div className="slider-mark-8" />
                 </div>
                 <SliderThumb className="slider-thumb-instance" color="primary" disabled={false} size="medium" />
-                <div className="slider-thumb-3">
-                  <div className="overlap-group-3">
+                <div className="slider-thumb-4">
+                  <div className="overlap-group-4">
                     <div className="overlay-4" />
                     <div className="color-5" />
                   </div>
@@ -381,11 +381,11 @@ export const Slider = ({
       </div>
       {values && (
         <div
-          className={`values variant-6-${variant} state-8-${state} size-21-${size} orientation-8-${orientation} color-18-${color}`}
+          className={`values variant-6-${variant} state-25-${state} size-34-${size} orientation-8-${orientation} color-25-${color}`}
         >
           <SlidervalueLabel
             active={false}
-            className={`${orientation === "vertical" ? "class-39" : "class-40"}`}
+            className={`${orientation === "vertical" ? "class-41" : "class-42"}`}
             label={orientation === "vertical" ? "12" : "0"}
           />
           <SlidervalueLabel active={false} className="slidervalue-label-instance" label="12" />

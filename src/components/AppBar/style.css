@@ -33,22 +33,22 @@
   width: 24px !important;
 }
 
-.app-bar .color-25-secondary {
+.app-bar .secondary {
   background-color: var(--palette-secondary-main);
 }
 
-.app-bar .color-25-primary {
+.app-bar .primary {
   background-color: var(--palette-primary-main);
 }
 
-.app-bar .color-25-inherit-white {
+.app-bar .inherit-white {
   background-color: var(--palette-background-paper-elevation-4);
 }
 
-.app-bar .color-25-transparent {
+.app-bar .transparent {
   background-color: #ffffff00;
 }
 
-.app-bar .color-25-default {
+.app-bar .default {
   background-color: var(--palette-components-appbar-defaultfill);
 }

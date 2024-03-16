@@ -59,11 +59,11 @@
   padding: 4px 0px;
 }
 
-.menu-item .state-25-selected {
+.menu-item .state-16-selected {
   color: var(--palette-text-primary-duplicate);
 }
 
-.menu-item .state-25-hovered {
+.menu-item .state-16-hovered {
   color: var(--palette-text-primary-duplicate);
 }
 
@@ -76,7 +76,7 @@
   line-height: var(--menu-itemdefault-line-height);
 }
 
-.menu-item .state-25-disabled {
+.menu-item .state-16-disabled {
   color: var(--palette-text-disabled-duplicate);
 }
 
@@ -89,6 +89,6 @@
   line-height: var(--menu-itemdense-line-height);
 }
 
-.menu-item .state-25-enabled {
+.menu-item .state-16-enabled {
   color: var(--palette-text-primary-duplicate);
 }

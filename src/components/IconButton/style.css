@@ -18,130 +18,130 @@
   width: 24px !important;
 }
 
-.icon-button.size-34-small {
+.icon-button.size-small {
   padding: 5px;
 }
 
-.icon-button.size-34-medium {
+.icon-button.size-medium {
   padding: 8px;
 }
 
-.icon-button.color-24-inherit.size-34-large {
+.icon-button.color-inherit.size-large {
   padding: 12px;
 }
 
-.icon-button.state-23-focused.color-24-inherit {
+.icon-button.focused.color-inherit {
   background-color: var(--palette-action-focus);
 }
 
-.icon-button.state-23-focused.color-24-success {
+.icon-button.focused.color-success {
   background-color: var(--palette-success-focusvisible);
 }
 
-.icon-button.color-24-primary.state-23-hovered {
+.icon-button.color-primary.hovered {
   background-color: var(--palette-primary-hover);
 }
 
-.icon-button.state-23-focused.color-24-secondary {
+.icon-button.focused.color-secondary {
   background-color: var(--palette-secondary-focusvisible);
 }
 
-.icon-button.color-24-secondary.size-34-large {
+.icon-button.color-secondary.size-large {
   padding: 12px;
 }
 
-.icon-button.size-34-large.color-24-warning {
+.icon-button.size-large.color-warning {
   padding: 12px;
 }
 
-.icon-button.size-34-large.state-23-disabled {
+.icon-button.size-large.disabled {
   padding: 12px;
 }
 
-.icon-button.state-23-hovered.color-24-inherit {
+.icon-button.hovered.color-inherit {
   background-color: var(--palette-action-hover);
 }
 
-.icon-button.size-34-large.color-24-info {
+.icon-button.size-large.color-info {
   padding: 12px;
 }
 
-.icon-button.state-23-hovered.size-34-large {
+.icon-button.hovered.size-large {
   padding: 12px;
 }
 
-.icon-button.color-24-default.size-34-large {
+.icon-button.color-default.size-large {
   padding: 12px;
 }
 
-.icon-button.state-23-focused.color-24-info {
+.icon-button.focused.color-info {
   background-color: var(--palette-info-focusvisible);
 }
 
-.icon-button.state-23-focused.color-24-inherit-white {
+.icon-button.focused.color-inherit-white {
   background-color: var(--palette-common-white-focus);
 }
 
-.icon-button.color-24-error.size-34-large {
+.icon-button.color-error.size-large {
   padding: 12px;
 }
 
-.icon-button.color-24-error.state-23-focused {
+.icon-button.color-error.focused {
   background-color: var(--palette-error-focusvisible);
 }
 
-.icon-button.state-23-enabled.size-34-large {
+.icon-button.enabled.size-large {
   padding: 12px;
 }
 
-.icon-button.state-23-hovered.color-24-info {
+.icon-button.hovered.color-info {
   background-color: var(--palette-info-hover);
 }
 
-.icon-button.state-23-hovered.color-24-inherit-white {
+.icon-button.hovered.color-inherit-white {
   background-color: var(--palette-common-white-hover);
 }
 
-.icon-button.state-23-hovered.color-24-default {
+.icon-button.hovered.color-default {
   background-color: var(--palette-action-hover);
 }
 
-.icon-button.color-24-success.size-34-large {
+.icon-button.color-success.size-large {
   padding: 12px;
 }
 
-.icon-button.color-24-error.state-23-hovered {
+.icon-button.color-error.hovered {
   background-color: var(--palette-error-hover);
 }
 
-.icon-button.state-23-focused.color-24-warning {
+.icon-button.focused.color-warning {
   background-color: var(--palette-warning-focusvisible);
 }
 
-.icon-button.state-23-focused.color-24-default {
+.icon-button.focused.color-default {
   background-color: var(--palette-action-focus);
 }
 
-.icon-button.color-24-primary.size-34-large {
+.icon-button.color-primary.size-large {
   padding: 12px;
 }
 
-.icon-button.color-24-success.state-23-hovered {
+.icon-button.color-success.hovered {
   background-color: var(--palette-success-hover);
 }
 
-.icon-button.state-23-focused.color-24-primary {
+.icon-button.focused.color-primary {
   background-color: var(--palette-primary-focusvisible);
 }
 
-.icon-button.color-24-secondary.state-23-hovered {
+.icon-button.color-secondary.hovered {
   background-color: var(--palette-secondary-hover);
 }
 
-.icon-button.state-23-hovered.color-24-warning {
+.icon-button.hovered.color-warning {
   background-color: var(--palette-warning-hover);
 }
 
-.icon-button.state-23-focused.size-34-large.color-24-inherit-white {
+.icon-button.focused.size-large.color-inherit-white {
   padding: 8px;
 }

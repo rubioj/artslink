@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.form-label .label-5 {
+.form-label .label-6 {
   font-family: "Ofelia Text-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
@@ -17,58 +17,58 @@
   width: fit-content;
 }
 
-.form-label .color-20-error {
+.form-label .color-1-error {
   color: var(--palette-error-main);
 }
 
-.form-label .state-20-error {
+.form-label .state-error {
   color: var(--palette-error-main);
 }
 
-.form-label .state-20-enabled.color-20-info {
+.form-label .state-enabled.color-1-info {
   color: var(--palette-info-main);
 }
 
-.form-label .color-20-success.state-20-enabled {
+.form-label .color-1-success.state-enabled {
   color: var(--palette-success-main);
 }
 
-.form-label .color-20-one.state-20-disabled {
+.form-label .color-1-one.state-disabled {
   color: var(--palette-text-disabled);
 }
 
-.form-label .color-20-primary.state-20-enabled {
+.form-label .color-1-primary.state-enabled {
   color: var(--palette-primary-main);
 }
 
-.form-label .color-20-secondary.state-20-enabled {
+.form-label .color-1-secondary.state-enabled {
   color: var(--palette-secondary-main);
 }
 
-.form-label .state-20-disabled.color-20-warning {
+.form-label .state-disabled.color-1-warning {
   color: var(--palette-warning-main);
 }
 
-.form-label .color-20-secondary.state-20-disabled {
+.form-label .color-1-secondary.state-disabled {
   color: var(--palette-secondary-main);
 }
 
-.form-label .color-20-primary.state-20-disabled {
+.form-label .color-1-primary.state-disabled {
   color: var(--palette-primary-main);
 }
 
-.form-label .color-20-one.state-20-enabled {
+.form-label .color-1-one.state-enabled {
   color: var(--palette-text-primary);
 }
 
-.form-label .color-20-success.state-20-disabled {
+.form-label .color-1-success.state-disabled {
   color: var(--palette-success-main);
 }
 
-.form-label .state-20-disabled.color-20-info {
+.form-label .state-disabled.color-1-info {
   color: var(--palette-info-main);
 }
 
-.form-label .state-20-enabled.color-20-warning {
+.form-label .state-enabled.color-1-warning {
   color: var(--palette-warning-main);
 }

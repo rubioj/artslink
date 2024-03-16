@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.spacing-vertical .min-height-3 {
+.spacing-vertical .min-height-4 {
   position: relative;
   width: 1px;
 }
@@ -83,34 +83,34 @@
   width: 16px;
 }
 
-.spacing-vertical.one .min-height-3 {
+.spacing-vertical.one .min-height-4 {
   height: 8px;
 }
 
-.spacing-vertical.seven .min-height-3 {
+.spacing-vertical.seven .min-height-4 {
   height: 56px;
 }
 
-.spacing-vertical.six .min-height-3 {
+.spacing-vertical.six .min-height-4 {
   height: 48px;
 }
 
-.spacing-vertical.eight .min-height-3 {
+.spacing-vertical.eight .min-height-4 {
   height: 64px;
 }
 
-.spacing-vertical.three .min-height-3 {
+.spacing-vertical.three .min-height-4 {
   height: 24px;
 }
 
-.spacing-vertical.four .min-height-3 {
+.spacing-vertical.four .min-height-4 {
   height: 32px;
 }
 
-.spacing-vertical.five .min-height-3 {
+.spacing-vertical.five .min-height-4 {
   height: 40px;
 }
 
-.spacing-vertical.two .min-height-3 {
+.spacing-vertical.two .min-height-4 {
   height: 16px;
 }

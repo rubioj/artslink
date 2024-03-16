@@ -13,11 +13,11 @@
   position: relative;
 }
 
-.toolbar .instance-node-3 {
+.toolbar .instance-node {
   flex: 0 0 auto !important;
 }
 
-.toolbar .min-height-4 {
+.toolbar .min-height {
   height: 64px;
   position: relative;
   width: 1px;
@@ -29,7 +29,7 @@
   width: 24px !important;
 }
 
-.toolbar .min-height-5 {
+.toolbar .div {
   margin-right: -1px;
   position: relative;
   width: 1px;

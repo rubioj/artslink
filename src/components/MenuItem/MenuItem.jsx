@@ -44,7 +44,7 @@ export const MenuItem = ({
         className={`container dis-gutters-${state.disGutters} small-screen-1-${state.smallScreen} dense-${state.dense}`}
       >
         <div className="value-wrapper">
-          <div className={`value-5 state-25-${state.state} dense-0-${state.dense} ${valueClassName}`}>{value}</div>
+          <div className={`value-5 state-16-${state.state} dense-0-${state.dense} ${valueClassName}`}>{value}</div>
         </div>
       </div>
     </Link>

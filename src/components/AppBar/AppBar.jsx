@@ -17,17 +17,17 @@ export const AppBar = ({
   toolbarIconButtonIconSize = "medium",
   toolbarIconButtonSize = "medium",
   toolbarTypographyVariantGutterClassName,
+  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
+  toolbarTypographyVariant = "body-1",
+  toolbarTypographyBodyClassName,
+  toolbarHasMinHeight,
   toolbarMinHeightClassName,
   toolbarTypographyContent = "Website",
-  toolbarTypographyVariant = "body-1",
-  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
-  toolbarHasMinHeight,
-  toolbarTypographyBodyClassName,
   to,
 }) => {
   return (
     <div className={`app-bar ${className}`}>
-      <div className={`paper color-25-${color}`}>
+      <div className={`paper ${color}`}>
         <Toolbar
           className="toolbar-instance"
           hasMinHeight={toolbarHasMinHeight}
@@ -81,8 +81,8 @@ AppBar.propTypes = {
   color: PropTypes.oneOf(["default", "secondary", "primary", "inherit-white", "transparent"]),
   toolbarIconButtonIconSize: PropTypes.string,
   toolbarIconButtonSize: PropTypes.string,
-  toolbarTypographyContent: PropTypes.string,
   toolbarTypographyVariant: PropTypes.string,
   toolbarHasMinHeight: PropTypes.bool,
+  toolbarTypographyContent: PropTypes.string,
   to: PropTypes.string,
 };

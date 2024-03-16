@@ -18,10 +18,10 @@ export const Default = {
     toolbarIconButtonIconSize: "medium",
     toolbarIconButtonSize: "medium",
     toolbarTypographyVariantGutterClassName: {},
+    toolbarTypographyVariant: "body-1",
+    toolbarTypographyBodyClassName: {},
+    toolbarHasMinHeight: true,
     toolbarMinHeightClassName: {},
     toolbarTypographyContent: "Website",
-    toolbarTypographyVariant: "body-1",
-    toolbarHasMinHeight: true,
-    toolbarTypographyBodyClassName: {},
   },
 };

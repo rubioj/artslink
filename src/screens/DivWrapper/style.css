@@ -1,0 +1,189 @@
+.div-wrapper {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-wrapper .search-active-3 {
+  background-color: #ffffff;
+  height: 884px;
+  overflow: hidden;
+  position: relative;
+  width: 393px;
+}
+
+.div-wrapper .overlap-9 {
+  height: 624px;
+  left: 0;
+  position: absolute;
+  top: 123px;
+  width: 393px;
+}
+
+.div-wrapper .brush-brown-8 {
+  height: 561px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 63px;
+  width: 393px;
+}
+
+.div-wrapper .slider-5 {
+  height: 64px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 410px !important;
+  width: 95px !important;
+}
+
+.div-wrapper .slider-6 {
+  width: 95px !important;
+}
+
+.div-wrapper .slider-7 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 95px !important;
+}
+
+.div-wrapper .slider-8 {
+  height: 64px !important;
+  left: 284px !important;
+  position: absolute !important;
+  top: 410px !important;
+  width: 95px !important;
+}
+
+.div-wrapper .hpim-2 {
+  height: 461px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 154px;
+  width: 389px;
+}
+
+.div-wrapper .logo-3 {
+  height: 80px !important;
+  left: 164px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 66px !important;
+}
+
+.div-wrapper .button-subscribe-5 {
+  height: 57px;
+  left: 18px;
+  position: absolute;
+  top: 3153px;
+  width: 350px;
+}
+
+.div-wrapper .overlap-10 {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.div-wrapper .rectangle-5 {
+  background-color: #d3c1a5;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 25px;
+  height: 39px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 294px;
+}
+
+.div-wrapper .text-wrapper-15 {
+  color: #574a3e;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 350px;
+}
+
+.div-wrapper .arrow-redo-3 {
+  background-image: url(../../../static/img/arrow-redo-4.png) !important;
+  height: 29px !important;
+  left: -371px !important;
+  position: absolute !important;
+  top: -3111px !important;
+  width: 31px !important;
+}
+
+.div-wrapper .app-bar-17 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 393px !important;
+}
+
+.div-wrapper .app-bar-18 {
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
+}
+
+.div-wrapper .menufilled-9-instance {
+  height: 35px !important;
+  position: relative !important;
+  width: 35px !important;
+}
+
+.div-wrapper .app-bar-19 {
+  color: var(--palette-primary-contrast) !important;
+  text-align: center !important;
+}
+
+.div-wrapper .app-bar-20 {
+  margin-right: -1px !important;
+}
+
+.div-wrapper .nav-bar-fixed-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 789px;
+  width: 392px;
+}
+
+.div-wrapper .bottom-navigation-10 {
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  margin-left: -23.5px !important;
+  margin-right: -23.5px !important;
+  width: 419px !important;
+}
+
+.div-wrapper .icon-instance-node-6 {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.div-wrapper .bottom-navigation-11 {
+  box-shadow: var(--elevation-1) !important;
+  height: 54px !important;
+  margin-right: -10px !important;
+  width: 429px !important;
+}

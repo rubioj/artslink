@@ -13,18 +13,18 @@ export const Formcontrollabel = ({
   labelPlacement,
   disabled,
   className,
-  formLabelValue = "Label",
   formLabelDivClassName,
+  formLabelValue = "Label",
 }) => {
   return (
     <div className={`formcontrollabel ${labelPlacement} ${className}`}>
       {["start", "top"].includes(labelPlacement) && (
-        <FormLabel className="instance-node" color="one" state={disabled ? "disabled" : "enabled"} value="Label" />
+        <FormLabel className="instance-node-2" color="one" state={disabled ? "disabled" : "enabled"} value="Label" />
       )}
 
       <Checkbox
         checked={false}
-        className="instance-node"
+        className="instance-node-2"
         color={disabled ? "default" : "primary"}
         indeterminate={false}
         size="medium"
@@ -32,7 +32,7 @@ export const Formcontrollabel = ({
       />
       {["bottom", "end"].includes(labelPlacement) && (
         <FormLabel
-          className="instance-node"
+          className="instance-node-2"
           color="one"
           divClassName={formLabelDivClassName}
           state={disabled ? "disabled" : "enabled"}

@@ -10,7 +10,7 @@ import "./style.css";
 export const FormLabel = ({ value = "Label", color, state, className, divClassName }) => {
   return (
     <div className={`form-label ${className}`}>
-      <div className={`label-5 color-20-${color} state-20-${state} ${divClassName}`}>{value}</div>
+      <div className={`label-6 color-1-${color} state-${state} ${divClassName}`}>{value}</div>
     </div>
   );
 };
