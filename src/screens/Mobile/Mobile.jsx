@@ -51,7 +51,13 @@ export const Mobile = () => {
               to="/search"
             />
           </div>
-          <Logo1 className="logo" />
+         <div className="logo-container">
+          <div className="logo-wrapper">
+            <Logo1 className="logo-image"></Logo1>
+          </div>
+         </div>
+        
+          
         </div>
         <p className="text-wrapper-8">
           Arts Link is your gateway to a vibrant world where art meets community. Our platform is dedicated to bridging
