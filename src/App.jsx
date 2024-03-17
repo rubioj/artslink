@@ -4,8 +4,8 @@ import { Mobile } from "./screens/Mobile";
 import { SearchActive } from "./screens/SearchActive";
 import { SearchActiveScreen } from "./screens/SearchActiveScreen";
 import { Menu } from "./screens/Menu";
-import { Search } from "./screens/Search";
 import { DivWrapper } from "./screens/DivWrapper";
+import { Search } from "./screens/Search";
 
 const router = createBrowserRouter([
   {
@@ -29,12 +29,12 @@ const router = createBrowserRouter([
     element: <Menu />,
   },
   {
-    path: "/search",
-    element: <Search />,
-  },
-  {
     path: "/search-active-3",
     element: <DivWrapper />,
+  },
+  {
+    path: "/search",
+    element: <Search />,
   },
 ]);
 

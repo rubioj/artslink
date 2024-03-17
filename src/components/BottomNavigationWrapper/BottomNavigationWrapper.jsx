@@ -13,8 +13,8 @@ import "./style.css";
 
 export const BottomNavigationWrapper = ({
   className,
-  iconOnlyFalseWrapperBottomNavigationIcon = <Peoplefilled className="icon-instance-node" color="#173F56" />,
-  override = <Homefilled className="icon-instance-node" />,
+  iconOnlyFalseWrapperBottomNavigationIcon = <Homefilled className="icon-instance-node" />,
+  override = <Peoplefilled className="icon-instance-node" color="#173F56" />,
   iconOnlyFalseWrapperIconOnlyFalseClassName,
   iconOnlyFalseWrapperBottomNavigationIcon1 = <Searchfilled3 className="icon-instance-node" color="#173F56" />,
   to,
@@ -26,8 +26,8 @@ export const BottomNavigationWrapper = ({
         bottomNavigationActiveFalseLabelClassName="bottom-navigation-instance"
         bottomNavigationActiveTrueLabelClassName="bottom-navigation-instance"
         bottomNavigationActiveTrueLabelClassNameOverride="bottom-navigation-instance"
-        bottomNavigationIcon={override}
-        bottomNavigationIcon1={iconOnlyFalseWrapperBottomNavigationIcon}
+        bottomNavigationIcon={iconOnlyFalseWrapperBottomNavigationIcon}
+        bottomNavigationIcon1={override}
         bottomNavigationLabelContent="home"
         bottomNavigationLabelContent1="browse"
         bottomNavigationLabelContent2="join"
@@ -35,8 +35,8 @@ export const BottomNavigationWrapper = ({
         iconOnly={false}
         items="three"
         override={iconOnlyFalseWrapperBottomNavigationIcon1}
-        to={to1}
-        to1={to}
+        to={to}
+        to1={to1}
       />
     </div>
   );

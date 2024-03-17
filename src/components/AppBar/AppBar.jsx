@@ -15,14 +15,14 @@ export const AppBar = ({
   color,
   className,
   toolbarIconButtonIconSize = "medium",
-  toolbarIconButtonSize = "medium",
-  toolbarTypographyVariantGutterClassName,
-  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
-  toolbarTypographyVariant = "body-1",
-  toolbarTypographyBodyClassName,
-  toolbarHasMinHeight,
   toolbarMinHeightClassName,
+  toolbarHasMinHeight,
+  toolbarIconButtonIconIcon = <Menufilled2 className="menu-filled" color="white" />,
   toolbarTypographyContent = "Website",
+  toolbarTypographyBodyClassName,
+  toolbarTypographyVariant = "body-1",
+  toolbarTypographyVariantGutterClassName,
+  toolbarIconButtonSize = "medium",
   to,
 }) => {
   return (
@@ -80,9 +80,9 @@ export const AppBar = ({
 AppBar.propTypes = {
   color: PropTypes.oneOf(["default", "secondary", "primary", "inherit-white", "transparent"]),
   toolbarIconButtonIconSize: PropTypes.string,
-  toolbarIconButtonSize: PropTypes.string,
-  toolbarTypographyVariant: PropTypes.string,
   toolbarHasMinHeight: PropTypes.bool,
   toolbarTypographyContent: PropTypes.string,
+  toolbarTypographyVariant: PropTypes.string,
+  toolbarIconButtonSize: PropTypes.string,
   to: PropTypes.string,
 };

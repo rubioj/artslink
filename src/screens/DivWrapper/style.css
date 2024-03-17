@@ -14,7 +14,7 @@
   width: 393px;
 }
 
-.div-wrapper .overlap-9 {
+.div-wrapper .overlap-6 {
   height: 624px;
   left: 0;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 393px;
 }
 
-.div-wrapper .brush-brown-8 {
+.div-wrapper .brush-brown-6 {
   height: 561px;
   left: 0;
   object-fit: cover;
@@ -31,7 +31,7 @@
   width: 393px;
 }
 
-.div-wrapper .slider-5 {
+.div-wrapper .slider-instance {
   height: 64px !important;
   left: 2px !important;
   position: absolute !important;
@@ -39,18 +39,18 @@
   width: 95px !important;
 }
 
-.div-wrapper .slider-6 {
+.div-wrapper .slider-2 {
   width: 95px !important;
 }
 
-.div-wrapper .slider-7 {
+.div-wrapper .slider-3 {
   left: 0 !important;
   position: absolute !important;
   top: 5px !important;
   width: 95px !important;
 }
 
-.div-wrapper .slider-8 {
+.div-wrapper .slider-4 {
   height: 64px !important;
   left: 284px !important;
   position: absolute !important;
@@ -58,7 +58,7 @@
   width: 95px !important;
 }
 
-.div-wrapper .hpim-2 {
+.div-wrapper .hpim {
   height: 461px;
   left: 3px;
   object-fit: cover;
@@ -67,7 +67,7 @@
   width: 389px;
 }
 
-.div-wrapper .logo-3 {
+.div-wrapper .logo-1-instance {
   height: 80px !important;
   left: 164px !important;
   position: absolute !important;
@@ -75,7 +75,7 @@
   width: 66px !important;
 }
 
-.div-wrapper .button-subscribe-5 {
+.div-wrapper .button-subscribe-4 {
   height: 57px;
   left: 18px;
   position: absolute;
@@ -83,7 +83,7 @@
   width: 350px;
 }
 
-.div-wrapper .overlap-10 {
+.div-wrapper .overlap-7 {
   height: 56px;
   left: 0;
   position: absolute;
@@ -91,7 +91,7 @@
   width: 350px;
 }
 
-.div-wrapper .rectangle-5 {
+.div-wrapper .rectangle-4 {
   background-color: #d3c1a5;
   border: 1px solid;
   border-color: #000000;
@@ -103,7 +103,7 @@
   width: 294px;
 }
 
-.div-wrapper .text-wrapper-15 {
+.div-wrapper .text-wrapper-13 {
   color: #574a3e;
   font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
   font-size: 16px;
@@ -117,7 +117,7 @@
   width: 350px;
 }
 
-.div-wrapper .arrow-redo-3 {
+.div-wrapper .arrow-redo-2 {
   background-image: url(../../../static/img/arrow-redo-4.png) !important;
   height: 29px !important;
   left: -371px !important;
@@ -126,34 +126,34 @@
   width: 31px !important;
 }
 
-.div-wrapper .app-bar-17 {
+.div-wrapper .app-bar-13 {
   left: 0 !important;
   position: absolute !important;
   top: 0 !important;
   width: 393px !important;
 }
 
-.div-wrapper .app-bar-18 {
-  flex: 0 0 auto !important;
-  padding: 0px 30px !important;
+.div-wrapper .app-bar-14 {
+  margin-right: -1px !important;
 }
 
-.div-wrapper .menufilled-9-instance {
+.div-wrapper .menufilled-2-instance {
   height: 35px !important;
   position: relative !important;
   width: 35px !important;
 }
 
-.div-wrapper .app-bar-19 {
+.div-wrapper .app-bar-15 {
   color: var(--palette-primary-contrast) !important;
   text-align: center !important;
 }
 
-.div-wrapper .app-bar-20 {
-  margin-right: -1px !important;
+.div-wrapper .app-bar-16 {
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
 }
 
-.div-wrapper .nav-bar-fixed-4 {
+.div-wrapper .nav-bar-fixed-3 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@
   width: 392px;
 }
 
-.div-wrapper .bottom-navigation-10 {
+.div-wrapper .bottom-navigation-8 {
   background-color: #ffffff !important;
   display: flex !important;
   flex: 0 0 auto !important;
@@ -174,14 +174,14 @@
   width: 419px !important;
 }
 
-.div-wrapper .icon-instance-node-6 {
+.div-wrapper .icon-instance-node-5 {
   height: 24px !important;
   object-fit: cover !important;
   position: relative !important;
   width: 24px !important;
 }
 
-.div-wrapper .bottom-navigation-11 {
+.div-wrapper .bottom-navigation-9 {
   box-shadow: var(--elevation-1) !important;
   height: 54px !important;
   margin-right: -10px !important;

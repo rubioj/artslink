@@ -32,23 +32,23 @@ export const SearchActive = () => {
           toolbarIconButtonIconIcon={<Menufilled2 className="menufilled-2" color="#FDAC9C" />}
           toolbarIconButtonIconSize="large"
           toolbarIconButtonSize="large"
-          toolbarMinHeightClassName="app-bar-4"
+          toolbarMinHeightClassName="app-bar-2"
           toolbarTypographyBodyClassName="app-bar-3"
           toolbarTypographyContent="Arts Link"
           toolbarTypographyVariant="h-4"
-          toolbarTypographyVariantGutterClassName="app-bar-2"
+          toolbarTypographyVariantGutterClassName="app-bar-4"
         />
         <div className="nav-bar-fixed">
           <BottomNavigationWrapper
             className="bottom-navigation-2"
-            iconOnlyFalseWrapperBottomNavigationIcon={<Peoplefilled className="icon-instance-node-2" color="#173F56" />}
+            iconOnlyFalseWrapperBottomNavigationIcon={<Homefilled2 className="icon-instance-node-2" />}
             iconOnlyFalseWrapperBottomNavigationIcon1={
               <Searchfilled3 className="icon-instance-node-2" color="#173F56" />
             }
             iconOnlyFalseWrapperIconOnlyFalseClassName="bottom-navigation-3"
-            override={<Homefilled2 className="icon-instance-node-2" />}
-            to="/search-active-1"
-            to1="/mobile-home3"
+            override={<Peoplefilled className="icon-instance-node-2" color="#173F56" />}
+            to="/mobile-home3"
+            to1="/search-active-1"
           />
         </div>
       </div>

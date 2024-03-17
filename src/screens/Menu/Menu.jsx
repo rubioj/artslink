@@ -1,7 +1,7 @@
 import React from "react";
 import { ConcreteComponentNode } from "../../components/ConcreteComponentNode";
 import { MenuItem } from "../../components/MenuItem";
-import { Logo2 } from "../../icons/Logo2";
+import { Logo1 } from "../../icons/Logo1";
 import "./style.css";
 
 export const Menu = () => {
@@ -61,7 +61,7 @@ export const Menu = () => {
             <div className="text-wrapper-12">Join Our Community</div>
           </div>
         </div>
-        <Logo2 className="logo-2" />
+        <Logo1 className="logo-1" />
       </div>
     </div>
   );

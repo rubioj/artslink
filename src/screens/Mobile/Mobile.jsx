@@ -3,7 +3,6 @@ import { AppBar } from "../../components/AppBar";
 import { BottomNavigationWrapper } from "../../components/BottomNavigationWrapper";
 import { CustomFormsEmail } from "../../components/CustomFormsEmail";
 import { Homefilled3 } from "../../icons/Homefilled3";
-import { Logo1 } from "../../icons/Logo1";
 import { Menufilled2 } from "../../icons/Menufilled2";
 import { Peoplefilled } from "../../icons/Peoplefilled";
 import { Searchfilled3 } from "../../icons/Searchfilled3";
@@ -40,24 +39,16 @@ export const Mobile = () => {
           <div className="bottom-navigation-instance-wrapper">
             <BottomNavigationWrapper
               className="bottom-navigation-4"
-              iconOnlyFalseWrapperBottomNavigationIcon={
-                <Peoplefilled className="icon-instance-node-3" color="#173F56" />
-              }
+              iconOnlyFalseWrapperBottomNavigationIcon={<Homefilled3 className="icon-instance-node-3" />}
               iconOnlyFalseWrapperBottomNavigationIcon1={
                 <Searchfilled3 className="icon-instance-node-3" color="#173F56" />
               }
               iconOnlyFalseWrapperIconOnlyFalseClassName="bottom-navigation-5"
-              override={<Homefilled3 className="icon-instance-node-3" />}
-              to="/search"
+              override={<Peoplefilled className="icon-instance-node-3" color="#173F56" />}
+              to1="/search"
             />
           </div>
-         <div className="logo-container">
-          <div className="logo-wrapper">
-            <Logo1 className="logo-image"></Logo1>
-          </div>
-         </div>
-        
-          
+          <div className="logo" />
         </div>
         <p className="text-wrapper-8">
           Arts Link is your gateway to a vibrant world where art meets community. Our platform is dedicated to bridging
@@ -74,11 +65,11 @@ export const Mobile = () => {
           toolbarIconButtonIconIcon={<Menufilled2 className="menufilled-9" color="#FDAC9C" />}
           toolbarIconButtonIconSize="large"
           toolbarIconButtonSize="large"
-          toolbarMinHeightClassName="app-bar-8"
+          toolbarMinHeightClassName="app-bar-6"
           toolbarTypographyBodyClassName="app-bar-7"
           toolbarTypographyContent="Arts Link"
           toolbarTypographyVariant="h-4"
-          toolbarTypographyVariantGutterClassName="app-bar-6"
+          toolbarTypographyVariantGutterClassName="app-bar-8"
         />
       </div>
     </div>

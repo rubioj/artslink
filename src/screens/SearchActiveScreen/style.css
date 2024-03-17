@@ -108,8 +108,7 @@
 }
 
 .search-active-screen .app-bar-10 {
-  flex: 0 0 auto !important;
-  padding: 0px 30px !important;
+  margin-right: -1px !important;
 }
 
 .search-active-screen .menufilled {
@@ -124,7 +123,8 @@
 }
 
 .search-active-screen .app-bar-12 {
-  margin-right: -1px !important;
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
 }
 
 .search-active-screen .nav-bar-fixed-2 {

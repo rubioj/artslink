@@ -104,10 +104,10 @@
 }
 
 .mobile .overlap-3 {
-  height: 733px;
+  height: 748px;
   left: 0;
   position: absolute;
-  top: 130px;
+  top: 115px;
   width: 393px;
 }
 
@@ -116,7 +116,7 @@
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 314px;
+  top: 329px;
   width: 393px;
 }
 
@@ -131,7 +131,7 @@
   line-height: 93.4px;
   position: absolute;
   text-align: center;
-  top: 161px;
+  top: 176px;
   width: 383px;
 }
 
@@ -143,7 +143,7 @@
   left: 0;
   padding: 10px;
   position: absolute;
-  top: 659px;
+  top: 674px;
   width: 392px;
 }
 
@@ -170,35 +170,14 @@
   width: 429px !important;
 }
 
-.logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  perspective: 800px;
-}
-
-.logo-wrapper {
-  width: 150px;
-  height: 150px;
-  position: relative;
-  transform-style: preserve-3d;
-  animation: rotate3d 2s linear infinite;
-}
-
-.logo-image {
-  width: 100%;
-  height: 100%;
+.mobile .logo {
+  background-image: url(../../../static/img/rectangle.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 114px;
   position: absolute;
-  backface-visibility: hidden;
-}
-
-@keyframes rotate3d {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
+  top: 0;
+  width: 150px;
 }
 
 .mobile .text-wrapper-8 {
@@ -244,8 +223,7 @@
 }
 
 .mobile .app-bar-6 {
-  flex: 0 0 auto !important;
-  padding: 0px 30px !important;
+  margin-right: -1px !important;
 }
 
 .mobile .menufilled-9 {
@@ -259,5 +237,6 @@
 }
 
 .mobile .app-bar-8 {
-  margin-right: -1px !important;
+  flex: 0 0 auto !important;
+  padding: 0px 30px !important;
 }

@@ -2458,9 +2458,9 @@
 
 .mobile .overlap-3 {
   width: 393px;
-  height: 733px;
+  height: 748px;
   position: absolute;
-  top: 130px;
+  top: 115px;
   left: 0;
 }
 
@@ -2469,7 +2469,7 @@
   width: 393px;
   height: 359px;
   position: absolute;
-  top: 314px;
+  top: 329px;
   left: 0;
 }
 
@@ -2484,7 +2484,7 @@
   font-weight: 300;
   line-height: 93.4px;
   position: absolute;
-  top: 161px;
+  top: 176px;
   left: 6px;
 }
 
@@ -2496,7 +2496,7 @@
   padding: 10px;
   display: flex;
   position: absolute;
-  top: 659px;
+  top: 674px;
   left: 0;
 }
 
@@ -2523,36 +2523,14 @@
   margin-right: -10px !important;
 }
 
-.logo-container {
-  perspective: 800px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.logo-wrapper {
-  transform-style: preserve-3d;
+.mobile .logo {
+  background-image: url("rectangle.53072a1f.png");
+  background-size: 100% 100%;
   width: 150px;
-  height: 150px;
-  animation: 2s linear infinite rotate3d;
-  position: relative;
-}
-
-.logo-image {
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
+  height: 200px;
   position: absolute;
-}
-
-@keyframes rotate3d {
-  0% {
-    transform: rotateY(0);
-  }
-
-  100% {
-    transform: rotateY(360deg);
-  }
+  top: 0;
+  left: 114px;
 }
 
 .mobile .text-wrapper-8 {
@@ -2598,8 +2576,7 @@
 }
 
 .mobile .app-bar-6 {
-  flex: none !important;
-  padding: 0 30px !important;
+  margin-right: -1px !important;
 }
 
 .mobile .menufilled-9 {
@@ -2613,7 +2590,8 @@
 }
 
 .mobile .app-bar-8 {
-  margin-right: -1px !important;
+  flex: none !important;
+  padding: 0 30px !important;
 }
 
 .arrow-redo-wrapper {
@@ -2731,8 +2709,7 @@
 }
 
 .search-active .app-bar-2 {
-  flex: none !important;
-  padding: 0 30px !important;
+  margin-right: -1px !important;
 }
 
 .search-active .menufilled-2 {
@@ -2747,7 +2724,8 @@
 }
 
 .search-active .app-bar-4 {
-  margin-right: -1px !important;
+  flex: none !important;
+  padding: 0 30px !important;
 }
 
 .search-active .nav-bar-fixed {
@@ -2894,8 +2872,7 @@
 }
 
 .search-active-screen .app-bar-10 {
-  flex: none !important;
-  padding: 0 30px !important;
+  margin-right: -1px !important;
 }
 
 .search-active-screen .menufilled {
@@ -2910,7 +2887,8 @@
 }
 
 .search-active-screen .app-bar-12 {
-  margin-right: -1px !important;
+  flex: none !important;
+  padding: 0 30px !important;
 }
 
 .search-active-screen .nav-bar-fixed-2 {
@@ -3191,7 +3169,7 @@
   left: 0;
 }
 
-.menu .logo-2 {
+.menu .logo-1 {
   width: 66px !important;
   height: 80px !important;
   position: absolute !important;
@@ -4439,7 +4417,7 @@
   overflow: hidden;
 }
 
-.search .overlap-6 {
+.search .overlap-8 {
   width: 393px;
   height: 1288px;
   position: absolute;
@@ -4456,7 +4434,7 @@
   left: 0;
 }
 
-.search .brush-brown-6 {
+.search .brush-brown-7 {
   object-fit: cover;
   width: 393px;
   height: 561px;
@@ -4478,7 +4456,7 @@
   left: 45px;
 }
 
-.search .text-wrapper-13 {
+.search .text-wrapper-14 {
   color: #000;
   letter-spacing: 0;
   width: 273px;
@@ -4506,7 +4484,7 @@
   line-height: 20px !important;
 }
 
-.search .overlap-7 {
+.search .overlap-9 {
   width: 395px;
   height: 624px;
   position: absolute;
@@ -4514,7 +4492,7 @@
   left: -2px;
 }
 
-.search .brush-brown-7 {
+.search .brush-brown-8 {
   object-fit: cover;
   width: 393px;
   height: 561px;
@@ -4523,7 +4501,7 @@
   left: 2px;
 }
 
-.search .slider-instance {
+.search .slider-5 {
   width: 95px !important;
   height: 64px !important;
   position: absolute !important;
@@ -4531,11 +4509,11 @@
   left: 4px !important;
 }
 
-.search .slider-2 {
+.search .slider-6 {
   width: 95px !important;
 }
 
-.search .slider-3 {
+.search .slider-7 {
   width: 95px !important;
   position: absolute !important;
   top: 5px !important;
@@ -4551,7 +4529,7 @@
   left: 4px;
 }
 
-.search .hpim {
+.search .hpim-2 {
   object-fit: cover;
   width: 175px;
   height: 240px;
@@ -4561,7 +4539,7 @@
   left: 218px;
 }
 
-.search .slider-4 {
+.search .slider-8 {
   width: 95px !important;
   height: 64px !important;
   position: absolute !important;
@@ -4589,7 +4567,7 @@
   left: 193px;
 }
 
-.search .logo-2-instance {
+.search .logo-2 {
   width: 66px !important;
   height: 80px !important;
   position: absolute !important;
@@ -4597,7 +4575,7 @@
   left: 166px !important;
 }
 
-.search .button-subscribe-4 {
+.search .button-subscribe-5 {
   width: 350px;
   height: 57px;
   position: absolute;
@@ -4605,12 +4583,12 @@
   left: 18px;
 }
 
-.search .overlap-8 {
+.search .overlap-10 {
   height: 56px;
   position: relative;
 }
 
-.search .rectangle-4 {
+.search .rectangle-5 {
   background-color: #d3c1a5;
   border: 1px solid #000;
   border-radius: 25px;
@@ -4621,7 +4599,7 @@
   left: 35px;
 }
 
-.search .arrow-redo-2 {
+.search .arrow-redo-3 {
   width: 31px;
   height: 29px;
   position: absolute;
@@ -4629,7 +4607,7 @@
   left: 277px;
 }
 
-.search .text-wrapper-14 {
+.search .text-wrapper-15 {
   color: #574a3e;
   letter-spacing: 0;
   text-align: center;
@@ -4643,34 +4621,34 @@
   left: 0;
 }
 
-.search .app-bar-13 {
+.search .app-bar-17 {
   width: 393px !important;
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
 }
 
-.search .app-bar-14 {
-  flex: none !important;
-  padding: 0 30px !important;
+.search .app-bar-18 {
+  margin-right: -1px !important;
 }
 
-.search .menufilled-2-instance {
+.search .menufilled-9-instance {
   width: 35px !important;
   height: 35px !important;
   position: relative !important;
 }
 
-.search .app-bar-15 {
+.search .app-bar-19 {
   color: var(--palette-primary-contrast) !important;
   text-align: center !important;
 }
 
-.search .app-bar-16 {
-  margin-right: -1px !important;
+.search .app-bar-20 {
+  flex: none !important;
+  padding: 0 30px !important;
 }
 
-.search .nav-bar-fixed-3 {
+.search .nav-bar-fixed-4 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -4682,7 +4660,7 @@
   left: 0;
 }
 
-.search .bottom-navigation-8 {
+.search .bottom-navigation-10 {
   background-color: #fff !important;
   flex: none !important;
   width: 419px !important;
@@ -4691,14 +4669,14 @@
   display: flex !important;
 }
 
-.search .icon-instance-node-5 {
+.search .icon-instance-node-6 {
   object-fit: cover !important;
   width: 24px !important;
   height: 24px !important;
   position: relative !important;
 }
 
-.search .bottom-navigation-9 {
+.search .bottom-navigation-11 {
   box-shadow: var(--elevation-1) !important;
   width: 429px !important;
   height: 54px !important;
@@ -4721,7 +4699,7 @@
   overflow: hidden;
 }
 
-.div-wrapper .overlap-9 {
+.div-wrapper .overlap-6 {
   width: 393px;
   height: 624px;
   position: absolute;
@@ -4729,7 +4707,7 @@
   left: 0;
 }
 
-.div-wrapper .brush-brown-8 {
+.div-wrapper .brush-brown-6 {
   object-fit: cover;
   width: 393px;
   height: 561px;
@@ -4738,7 +4716,7 @@
   left: 0;
 }
 
-.div-wrapper .slider-5 {
+.div-wrapper .slider-instance {
   width: 95px !important;
   height: 64px !important;
   position: absolute !important;
@@ -4746,18 +4724,18 @@
   left: 2px !important;
 }
 
-.div-wrapper .slider-6 {
+.div-wrapper .slider-2 {
   width: 95px !important;
 }
 
-.div-wrapper .slider-7 {
+.div-wrapper .slider-3 {
   width: 95px !important;
   position: absolute !important;
   top: 5px !important;
   left: 0 !important;
 }
 
-.div-wrapper .slider-8 {
+.div-wrapper .slider-4 {
   width: 95px !important;
   height: 64px !important;
   position: absolute !important;
@@ -4765,7 +4743,7 @@
   left: 284px !important;
 }
 
-.div-wrapper .hpim-2 {
+.div-wrapper .hpim {
   object-fit: cover;
   width: 389px;
   height: 461px;
@@ -4774,7 +4752,7 @@
   left: 3px;
 }
 
-.div-wrapper .logo-3 {
+.div-wrapper .logo-1-instance {
   width: 66px !important;
   height: 80px !important;
   position: absolute !important;
@@ -4782,7 +4760,7 @@
   left: 164px !important;
 }
 
-.div-wrapper .button-subscribe-5 {
+.div-wrapper .button-subscribe-4 {
   width: 350px;
   height: 57px;
   position: absolute;
@@ -4790,7 +4768,7 @@
   left: 18px;
 }
 
-.div-wrapper .overlap-10 {
+.div-wrapper .overlap-7 {
   width: 350px;
   height: 56px;
   position: absolute;
@@ -4798,7 +4776,7 @@
   left: 0;
 }
 
-.div-wrapper .rectangle-5 {
+.div-wrapper .rectangle-4 {
   background-color: #d3c1a5;
   border: 1px solid #000;
   border-radius: 25px;
@@ -4809,7 +4787,7 @@
   left: 35px;
 }
 
-.div-wrapper .text-wrapper-15 {
+.div-wrapper .text-wrapper-13 {
   color: #574a3e;
   letter-spacing: 0;
   text-align: center;
@@ -4823,7 +4801,7 @@
   left: 0;
 }
 
-.div-wrapper .arrow-redo-3 {
+.div-wrapper .arrow-redo-2 {
   background-image: url("arrow-redo-4.6967b542.png") !important;
   width: 31px !important;
   height: 29px !important;
@@ -4832,34 +4810,34 @@
   left: -371px !important;
 }
 
-.div-wrapper .app-bar-17 {
+.div-wrapper .app-bar-13 {
   width: 393px !important;
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
 }
 
-.div-wrapper .app-bar-18 {
-  flex: none !important;
-  padding: 0 30px !important;
+.div-wrapper .app-bar-14 {
+  margin-right: -1px !important;
 }
 
-.div-wrapper .menufilled-9-instance {
+.div-wrapper .menufilled-2-instance {
   width: 35px !important;
   height: 35px !important;
   position: relative !important;
 }
 
-.div-wrapper .app-bar-19 {
+.div-wrapper .app-bar-15 {
   color: var(--palette-primary-contrast) !important;
   text-align: center !important;
 }
 
-.div-wrapper .app-bar-20 {
-  margin-right: -1px !important;
+.div-wrapper .app-bar-16 {
+  flex: none !important;
+  padding: 0 30px !important;
 }
 
-.div-wrapper .nav-bar-fixed-4 {
+.div-wrapper .nav-bar-fixed-3 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -4871,7 +4849,7 @@
   left: 0;
 }
 
-.div-wrapper .bottom-navigation-10 {
+.div-wrapper .bottom-navigation-8 {
   background-color: #fff !important;
   flex: none !important;
   width: 419px !important;
@@ -4880,14 +4858,14 @@
   display: flex !important;
 }
 
-.div-wrapper .icon-instance-node-6 {
+.div-wrapper .icon-instance-node-5 {
   object-fit: cover !important;
   width: 24px !important;
   height: 24px !important;
   position: relative !important;
 }
 
-.div-wrapper .bottom-navigation-11 {
+.div-wrapper .bottom-navigation-9 {
   box-shadow: var(--elevation-1) !important;
   width: 429px !important;
   height: 54px !important;
